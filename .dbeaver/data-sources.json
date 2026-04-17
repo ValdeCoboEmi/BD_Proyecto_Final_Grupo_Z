@@ -1,0 +1,43 @@
+{
+	"folders": {},
+	"connections": {
+		"postgres-jdbc-19d9995d011-64968bc442f65ee7": {
+			"provider": "postgresql",
+			"driver": "postgres-jdbc",
+			"name": "postgres",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "5433",
+				"database": "postgres",
+				"url": "jdbc:postgresql://localhost:5433/postgres",
+				"configurationType": "MANUAL",
+				"home": "postgresql_client",
+				"type": "dev",
+				"closeIdleConnection": true,
+				"provider-properties": {
+					"@dbeaver-show-non-default-db@": "true",
+					"@dbeaver-chosen-role@": ""
+				},
+				"auth-model": "native"
+			}
+		}
+	},
+	"virtual-models": {"postgres-jdbc-19d9995d011-64968bc442f65ee7":{"db_cursos2":{"public":{"@properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202604091228\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"postgres-jdbc-19d22f6b8a9-5eaab4e6d6f89f2d\"\u003e\u003centity id\u003d\"1\" name\u003d\"tb_estudiante\" fq-name\u003d\"public.tb_estudiante\" order\u003d\"0\" x\u003d\"364\" y\u003d\"43\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"db_cursos2\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"tb_grupo\" fq-name\u003d\"public.tb_grupo\" order\u003d\"1\" x\u003d\"364\" y\u003d\"207\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"db_cursos2\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"tb_inscripcion\" fq-name\u003d\"public.tb_inscripcion\" order\u003d\"2\" x\u003d\"149\" y\u003d\"125\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"db_cursos2\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"tb_materia\" fq-name\u003d\"public.tb_materia\" order\u003d\"3\" x\u003d\"564\" y\u003d\"391\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"db_cursos2\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"tb_prerequisito\" fq-name\u003d\"public.tb_prerequisito\" order\u003d\"4\" x\u003d\"364\" y\u003d\"411\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"db_cursos2\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"6\" name\u003d\"tb_profesor\" fq-name\u003d\"public.tb_profesor\" order\u003d\"5\" x\u003d\"564\" y\u003d\"227\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"db_cursos2\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"fk_estudiante\" fq-name\u003d\"public.tb_inscripcion.fk_estudiante\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"fk_grupo\" fq-name\u003d\"public.tb_inscripcion.fk_grupo\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"fk_materia\" fq-name\u003d\"public.tb_grupo.fk_materia\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"2\"/\u003e\u003crelation name\u003d\"fk_codigo_mat1\" fq-name\u003d\"public.tb_prerequisito.fk_codigo_mat1\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"5\"/\u003e\u003crelation name\u003d\"fk_codigo_mat2\" fq-name\u003d\"public.tb_prerequisito.fk_codigo_mat2\" type\u003d\"fk\" pk-ref\u003d\"4\" fk-ref\u003d\"5\"/\u003e\u003crelation name\u003d\"fk_profesor\" fq-name\u003d\"public.tb_grupo.fk_profesor\" type\u003d\"fk\" pk-ref\u003d\"6\" fk-ref\u003d\"2\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}}},"parcial1":{"public":{"@properties":{"erd.diagram.state":{"serialized":"\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202604141153\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"postgres-jdbc-19d22f6b8a9-5eaab4e6d6f89f2d\"\u003e\u003centity id\u003d\"1\" name\u003d\"tb_cliente\" fq-name\u003d\"public.tb_cliente\" order\u003d\"0\" x\u003d\"595\" y\u003d\"80\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"parcial1\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"tb_pago\" fq-name\u003d\"public.tb_pago\" order\u003d\"1\" x\u003d\"122\" y\u003d\"97\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"parcial1\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"tb_pedido\" fq-name\u003d\"public.tb_pedido\" order\u003d\"2\" x\u003d\"339\" y\u003d\"127\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"parcial1\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"4\" name\u003d\"tb_pedido_detalle\" fq-name\u003d\"public.tb_pedido_detalle\" order\u003d\"3\" x\u003d\"401\" y\u003d\"307\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"parcial1\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"5\" name\u003d\"tb_producto\" fq-name\u003d\"public.tb_producto\" order\u003d\"4\" x\u003d\"180\" y\u003d\"308\"\u003e\u003cpath name\u003d\"public\"/\u003e\u003cpath name\u003d\"parcial1\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"fk_cliente\" fq-name\u003d\"public.tb_pedido.fk_cliente\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"3\"/\u003e\u003crelation name\u003d\"fk_pedido\" fq-name\u003d\"public.tb_pago.fk_pedido\" type\u003d\"fk\" pk-ref\u003d\"3\" fk-ref\u003d\"2\"/\u003e\u003crelation name\u003d\"fk_pedido\" fq-name\u003d\"public.tb_pedido_detalle.fk_pedido\" type\u003d\"fk\" pk-ref\u003d\"3\" fk-ref\u003d\"4\"/\u003e\u003crelation name\u003d\"fk_producto\" fq-name\u003d\"public.tb_pedido_detalle.fk_producto\" type\u003d\"fk\" pk-ref\u003d\"5\" fk-ref\u003d\"4\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"}}}}}},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"smart-commit": false,
+			"smart-commit-recover": true,
+			"auto-close-transactions": true,
+			"close-transactions-period": 1800,
+			"auto-close-connections": true,
+			"close-connections-period": 14400
+		}
+	}
+}
