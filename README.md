@@ -6,7 +6,7 @@ Este proyecto consiste en el diseño e implementación de una base de datos rela
 ## 👥 Equipo de Desarrollo
 * **Integrante 1:** Josué Abdel Ortiz Deodanes - 00017125
 * **Integrante 2:** Osmar Alejandro Rodas Rodriguez - 00068125
-* **Integrante 3:** Osmar Alejandro Rodas Rodriguez - 00068125
+* **Integrante 3:** Kevin Vladimir Rodriguez Alvarado - 00039425
 * **Integrante 4:** Eduardo Josué Guerra Sagastizado - 00043625
 * **Integrante 5:** Josué Emiliano Valdés Jacobo - 00003525
 
