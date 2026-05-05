@@ -1,0 +1,11 @@
+porcentaje_aumento,fecha_inicio,fecha_fin,nombre_temporada,activado
+10.00,2026-12-15,2027-01-05,"Navidad 2026",true
+15.00,2026-03-25,2026-04-05,"Semana Santa 2026",true
+5.00,2026-08-01,2026-08-07,"Agostinas 2026",true
+20.00,2027-12-15,2028-01-05,"Navidad 2027",false
+15.00,2027-03-20,2027-03-30,"Semana Santa 2027",false
+5.00,2027-08-01,2027-08-07,"Agostinas 2027",false
+8.00,2026-11-01,2026-11-03,"Día de Muertos 2026",true
+12.00,2026-09-14,2026-09-16,"Independencia 2026",true
+10.00,2026-05-01,2026-05-03,"Día del Trabajo 2026",true
+25.00,2026-12-30,2027-01-02,"Fin de Año 2026",true
