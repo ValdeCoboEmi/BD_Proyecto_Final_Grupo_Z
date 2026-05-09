@@ -1,0 +1,1001 @@
+id_estadia,id_huesped,calificacion,comentario
+1,594,3.8,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+2,315,1.8,Pellentesque eget nunc.
+3,344,1.6,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+4,112,2.9,Integer non velit.
+5,58,1.7,Maecenas rhoncus aliquam lacus.
+6,412,3.2,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+7,877,3.6,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+8,305,4.6,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+9,685,2.7,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+10,807,2.5,Curabitur gravida nisi at nibh.
+11,53,2.0,Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+12,308,3.0,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+13,290,3.9,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.
+14,551,4.5,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+15,684,3.7,Suspendisse potenti.
+16,730,1.4,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+17,861,1.9,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.
+18,50,1.4,Praesent blandit.
+19,861,3.5,Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.
+20,139,3.2,Donec quis orci eget orci vehicula condimentum.
+21,849,4.6,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+22,773,4.0,Nunc rhoncus dui vel sem.
+23,547,2.0,Proin risus. Praesent lectus.
+24,981,2.0,Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.
+25,979,1.9,Quisque ut erat.
+26,593,3.9,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+27,220,3.4,Maecenas rhoncus aliquam lacus.
+28,766,3.6,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+29,186,3.1,Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.
+30,281,3.8,Morbi vel lectus in quam fringilla rhoncus.
+31,561,2.9,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+32,622,3.9,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+33,71,3.6,Etiam pretium iaculis justo.
+34,332,4.7,Pellentesque eget nunc.
+35,995,1.8,Morbi quis tortor id nulla ultrices aliquet.
+36,713,4.0,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+37,165,4.3,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+38,759,3.3,"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+39,784,2.8,Nulla ut erat id mauris vulputate elementum.
+40,869,1.3,Aenean lectus. Pellentesque eget nunc.
+41,438,3.1,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+42,321,1.2,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus."
+43,563,3.9,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+44,768,3.5,Phasellus in felis.
+45,556,4.6,Duis consequat dui nec nisi volutpat eleifend.
+46,928,4.2,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+47,811,4.2,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+48,811,2.9,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+49,502,2.6,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+50,965,1.9,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+51,466,2.2,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est."
+52,965,3.5,Pellentesque ultrices mattis odio.
+53,514,3.1,In quis justo. Maecenas rhoncus aliquam lacus.
+54,761,4.3,Nulla justo.
+55,61,3.9,Mauris lacinia sapien quis libero.
+56,303,2.3,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+57,615,4.0,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+58,840,5.0,Proin at turpis a pede posuere nonummy. Integer non velit.
+59,416,3.6,Nunc purus. Phasellus in felis.
+60,386,2.6,Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+61,700,4.7,Etiam vel augue. Vestibulum rutrum rutrum neque.
+62,652,2.1,Cras in purus eu magna vulputate luctus.
+63,420,3.8,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+64,187,4.1,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+65,570,1.2,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+66,214,1.8,In sagittis dui vel nisl. Duis ac nibh.
+67,754,1.2,Aliquam quis turpis eget elit sodales scelerisque.
+68,543,3.7,Suspendisse accumsan tortor quis turpis.
+69,72,2.8,Praesent blandit. Nam nulla.
+70,892,2.0,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+71,594,2.2,Integer tincidunt ante vel ipsum.
+72,225,3.6,Donec posuere metus vitae ipsum. Aliquam non mauris.
+73,681,1.9,Etiam pretium iaculis justo. In hac habitasse platea dictumst.
+74,301,2.5,Vestibulum ac est lacinia nisi venenatis tristique.
+75,12,1.5,Vestibulum ac est lacinia nisi venenatis tristique.
+76,560,3.3,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+77,656,3.0,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.
+78,423,3.4,Proin risus.
+79,18,3.4,Etiam faucibus cursus urna.
+80,190,2.8,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+81,153,5.0,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+82,118,4.9,Donec semper sapien a libero.
+83,53,2.6,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+84,16,2.4,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc."
+85,72,1.3,Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.
+86,615,4.6,Nulla mollis molestie lorem.
+87,997,3.3,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+88,336,4.0,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+89,531,4.6,Vestibulum ac est lacinia nisi venenatis tristique.
+90,759,3.8,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+91,359,3.3,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+92,257,4.7,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+93,96,1.3,Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.
+94,337,1.8,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+95,690,2.5,Proin at turpis a pede posuere nonummy.
+96,446,2.0,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+97,913,3.6,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+98,317,3.1,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+99,214,2.0,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+100,1,1.9,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+101,313,3.5,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+102,300,4.6,Phasellus sit amet erat.
+103,17,1.8,Duis bibendum. Morbi non quam nec dui luctus rutrum.
+104,623,2.6,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+105,421,2.8,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+106,560,1.5,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+107,983,4.6,Nulla ut erat id mauris vulputate elementum.
+108,460,2.2,Donec ut mauris eget massa tempor convallis.
+109,104,1.1,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.
+110,117,1.3,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+111,957,3.0,Etiam justo. Etiam pretium iaculis justo.
+112,200,4.0,Nulla suscipit ligula in lacus.
+113,948,1.2,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+114,32,3.1,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+115,156,2.8,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+116,261,1.7,"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+117,581,4.3,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+118,915,4.6,In quis justo.
+119,234,3.8,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.
+120,256,3.0,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+121,266,3.8,Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.
+122,810,3.8,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+123,642,3.8,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+124,814,2.0,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+125,72,2.9,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+126,491,4.9,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+127,461,4.8,Praesent blandit lacinia erat.
+128,119,2.2,Morbi non quam nec dui luctus rutrum. Nulla tellus.
+129,475,1.1,"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+130,364,2.8,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+131,706,3.9,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti."
+132,872,4.6,Quisque porta volutpat erat.
+133,897,2.7,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.
+134,640,2.4,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+135,90,1.3,Morbi vel lectus in quam fringilla rhoncus.
+136,905,2.0,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+137,722,4.4,Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+138,564,4.1,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+139,464,3.1,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+140,576,1.1,In blandit ultrices enim.
+141,512,4.2,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy."
+142,35,3.1,Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.
+143,780,5.0,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+144,219,2.7,Etiam vel augue. Vestibulum rutrum rutrum neque.
+145,21,4.6,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+146,97,4.9,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
+147,691,4.9,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+148,179,1.2,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+149,148,2.6,In blandit ultrices enim.
+150,389,2.6,"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+151,260,1.7,Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+152,398,3.6,"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+153,473,4.0,Morbi quis tortor id nulla ultrices aliquet.
+154,627,5.0,Proin at turpis a pede posuere nonummy. Integer non velit.
+155,82,3.9,Proin eu mi.
+156,162,1.8,Fusce consequat.
+157,941,2.0,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+158,387,1.9,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+159,684,4.1,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.
+160,985,1.8,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+161,357,2.1,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+162,678,1.3,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+163,32,3.7,Integer ac leo.
+164,316,4.0,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis."
+165,402,1.6,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+166,603,3.7,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis."
+167,710,4.0,In sagittis dui vel nisl. Duis ac nibh.
+168,75,2.5,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+169,35,1.3,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+170,855,4.8,Aliquam erat volutpat. In congue. Etiam justo.
+171,410,3.9,Morbi non quam nec dui luctus rutrum.
+172,568,1.8,Praesent blandit. Nam nulla.
+173,150,4.5,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+174,443,1.6,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+175,911,4.1,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+176,281,4.7,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis."
+177,55,1.7,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+178,553,1.1,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+179,474,4.9,Aenean fermentum.
+180,385,1.5,Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+181,477,2.9,In congue. Etiam justo. Etiam pretium iaculis justo.
+182,672,1.9,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+183,637,2.6,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+184,2,4.9,Morbi non quam nec dui luctus rutrum.
+185,422,3.8,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+186,464,3.6,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+187,664,2.2,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti."
+188,882,4.2,Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.
+189,846,1.9,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+190,465,2.8,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+191,876,4.5,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+192,712,4.5,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+193,609,2.3,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum."
+194,20,4.3,"In est risus, auctor sed, tristique in, tempus sit amet, sem."
+195,648,4.3,Morbi non quam nec dui luctus rutrum.
+196,629,2.9,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+197,298,2.1,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+198,336,3.7,Nullam molestie nibh in lectus.
+199,362,3.3,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+200,550,4.9,In eleifend quam a odio. In hac habitasse platea dictumst.
+201,245,1.9,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+202,776,1.2,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+203,91,2.0,"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+204,578,2.3,Nulla nisl. Nunc nisl.
+205,617,3.8,Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+206,609,3.7,Curabitur convallis.
+207,856,4.0,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+208,913,1.8,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+209,31,3.7,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+210,316,4.7,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+211,346,2.5,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+212,230,3.3,Integer a nibh. In quis justo.
+213,268,1.8,"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+214,54,3.2,Maecenas ut massa quis augue luctus tincidunt.
+215,114,4.4,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+216,438,4.3,Nunc rhoncus dui vel sem.
+217,398,2.8,Sed ante.
+218,276,3.3,Curabitur at ipsum ac tellus semper interdum.
+219,687,3.6,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+220,117,3.8,Integer a nibh.
+221,8,4.8,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+222,509,2.3,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+223,660,2.7,Proin risus.
+224,900,4.3,Praesent blandit lacinia erat.
+225,74,3.6,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+226,787,2.4,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+227,560,2.2,Nulla ut erat id mauris vulputate elementum. Nullam varius.
+228,492,4.8,Maecenas pulvinar lobortis est. Phasellus sit amet erat.
+229,140,1.8,Nullam sit amet turpis elementum ligula vehicula consequat.
+230,978,3.6,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+231,758,3.7,Integer tincidunt ante vel ipsum.
+232,670,2.9,Vivamus in felis eu sapien cursus vestibulum.
+233,968,1.9,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+234,749,3.9,Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.
+235,971,4.9,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+236,934,3.9,Phasellus in felis.
+237,468,3.0,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+238,892,3.3,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+239,835,1.6,Nullam sit amet turpis elementum ligula vehicula consequat.
+240,273,1.0,"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+241,378,3.5,"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+242,685,4.7,Vivamus tortor.
+243,295,2.7,Aenean fermentum.
+244,407,3.1,Curabitur in libero ut massa volutpat convallis.
+245,879,4.9,Pellentesque ultrices mattis odio.
+246,3,3.4,Maecenas rhoncus aliquam lacus.
+247,830,3.9,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque."
+248,40,2.4,Nulla ut erat id mauris vulputate elementum.
+249,665,3.7,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+250,346,1.5,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum."
+251,225,3.4,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+252,374,4.5,Pellentesque at nulla.
+253,892,2.6,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+254,805,2.1,Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.
+255,362,3.2,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+256,226,2.6,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+257,298,4.8,Fusce consequat.
+258,41,2.4,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+259,312,4.2,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+260,174,4.5,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus."
+261,635,3.7,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+262,153,4.4,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+263,644,3.1,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+264,904,1.9,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+265,821,3.3,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est."
+266,519,3.8,Aliquam erat volutpat. In congue. Etiam justo.
+267,932,2.1,Pellentesque eget nunc.
+268,448,1.4,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+269,677,2.8,Nam dui.
+270,643,3.8,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+271,598,2.6,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+272,463,3.6,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+273,963,1.5,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+274,419,4.0,Suspendisse accumsan tortor quis turpis.
+275,383,4.1,In hac habitasse platea dictumst.
+276,430,5.0,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.
+277,796,2.9,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+278,562,3.2,Aenean lectus.
+279,329,4.5,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+280,170,3.4,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+281,190,4.3,Suspendisse potenti. Nullam porttitor lacus at turpis.
+282,770,3.5,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+283,11,3.6,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+284,256,1.5,Proin risus. Praesent lectus.
+285,170,4.5,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+286,360,3.0,Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.
+287,417,3.7,Aliquam non mauris. Morbi non lectus.
+288,887,2.3,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+289,905,2.0,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+290,943,1.8,"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+291,401,1.9,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+292,110,4.1,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+293,104,3.0,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+294,920,4.5,Fusce consequat. Nulla nisl. Nunc nisl.
+295,726,3.0,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+296,290,1.2,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+297,959,3.9,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+298,765,1.2,Proin interdum mauris non ligula pellentesque ultrices.
+299,493,2.2,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.
+300,215,4.1,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+301,375,2.5,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+302,113,2.3,In congue.
+303,140,4.0,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+304,613,2.0,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+305,895,1.5,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+306,551,3.2,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+307,206,1.5,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+308,978,4.1,Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.
+309,76,2.3,Aenean auctor gravida sem.
+310,533,2.4,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+311,607,3.5,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+312,460,1.1,Praesent blandit. Nam nulla.
+313,652,3.9,Aliquam erat volutpat. In congue. Etiam justo.
+314,443,1.3,Maecenas pulvinar lobortis est. Phasellus sit amet erat.
+315,993,4.7,Integer tincidunt ante vel ipsum.
+316,907,2.1,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+317,334,4.6,Morbi vel lectus in quam fringilla rhoncus.
+318,285,1.0,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+319,449,4.9,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+320,213,1.8,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+321,228,3.5,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+322,579,3.8,Donec quis orci eget orci vehicula condimentum.
+323,740,4.5,Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+324,404,4.7,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+325,370,4.8,In eleifend quam a odio.
+326,841,1.9,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+327,705,1.8,Aliquam erat volutpat. In congue.
+328,990,4.3,"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+329,599,4.8,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+330,431,5.0,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+331,155,1.4,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+332,211,1.5,Morbi a ipsum. Integer a nibh. In quis justo.
+333,732,4.3,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+334,402,4.9,In quis justo. Maecenas rhoncus aliquam lacus.
+335,573,2.3,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+336,528,4.3,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+337,246,2.9,Nunc nisl.
+338,271,3.6,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+339,352,3.6,Suspendisse ornare consequat lectus.
+340,985,1.8,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+341,912,1.2,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus."
+342,50,3.4,Mauris lacinia sapien quis libero.
+343,634,3.7,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+344,134,4.6,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+345,496,2.8,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc."
+346,611,3.5,Nullam molestie nibh in lectus.
+347,955,3.5,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+348,59,3.6,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+349,447,4.6,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+350,858,1.9,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+351,381,3.6,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+352,211,2.2,Mauris sit amet eros.
+353,60,2.7,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+354,228,3.6,Suspendisse potenti.
+355,886,4.8,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+356,551,1.8,"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+357,891,1.4,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+358,698,4.6,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+359,402,1.8,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+360,160,1.8,"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+361,219,4.2,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+362,582,3.1,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+363,804,4.8,Quisque ut erat.
+364,8,1.7,Donec dapibus.
+365,994,1.8,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+366,394,3.4,Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.
+367,111,1.3,Praesent blandit.
+368,117,2.4,Suspendisse potenti.
+369,495,4.7,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+370,414,3.7,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+371,126,2.7,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+372,877,2.9,"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+373,71,2.5,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+374,424,1.9,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+375,462,4.2,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+376,187,3.5,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+377,240,2.1,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+378,296,4.4,Ut at dolor quis odio consequat varius.
+379,816,3.3,Suspendisse potenti.
+380,406,3.0,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+381,769,2.7,Maecenas rhoncus aliquam lacus.
+382,655,4.6,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+383,493,2.5,Donec posuere metus vitae ipsum.
+384,666,3.8,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+385,338,1.7,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+386,49,3.5,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+387,107,2.2,Quisque ut erat. Curabitur gravida nisi at nibh.
+388,86,4.0,Nullam molestie nibh in lectus. Pellentesque at nulla.
+389,926,1.1,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+390,151,1.2,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+391,189,3.2,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+392,798,1.5,Vivamus in felis eu sapien cursus vestibulum.
+393,869,1.5,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque."
+394,670,3.2,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+395,423,1.7,Fusce consequat. Nulla nisl. Nunc nisl.
+396,701,1.9,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+397,56,4.1,Fusce consequat. Nulla nisl. Nunc nisl.
+398,285,2.6,Morbi ut odio.
+399,432,2.8,Donec dapibus.
+400,571,2.4,Vivamus tortor.
+401,75,1.9,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+402,208,3.3,Aliquam erat volutpat.
+403,223,2.8,Proin eu mi. Nulla ac enim.
+404,515,2.4,Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+405,804,1.0,Aliquam quis turpis eget elit sodales scelerisque.
+406,494,3.2,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+407,196,4.8,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+408,186,3.1,Quisque porta volutpat erat.
+409,578,3.3,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus."
+410,255,1.5,Aenean fermentum. Donec ut mauris eget massa tempor convallis.
+411,263,1.2,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+412,533,3.6,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+413,28,4.1,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+414,304,2.5,Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.
+415,19,1.1,In quis justo.
+416,606,2.2,"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+417,887,2.6,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+418,260,5.0,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+419,425,4.4,Maecenas tincidunt lacus at velit.
+420,919,1.1,Integer ac neque. Duis bibendum.
+421,871,2.0,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+422,913,4.3,Integer ac leo. Pellentesque ultrices mattis odio.
+423,629,2.2,Mauris lacinia sapien quis libero.
+424,754,4.5,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+425,895,4.5,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.
+426,25,4.3,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
+427,802,1.4,"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+428,601,3.9,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+429,547,2.6,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+430,316,1.0,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+431,921,2.8,Nunc rhoncus dui vel sem. Sed sagittis.
+432,963,2.1,Nulla justo.
+433,544,4.5,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis."
+434,855,3.4,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+435,555,2.7,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+436,124,5.0,Quisque ut erat.
+437,93,2.2,Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.
+438,514,1.4,Vivamus vestibulum sagittis sapien.
+439,540,3.1,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+440,139,2.5,Nam nulla.
+441,357,1.5,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+442,562,3.7,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+443,716,4.0,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus."
+444,688,4.2,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+445,405,2.9,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+446,95,1.6,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus."
+447,549,4.1,Integer ac leo.
+448,79,1.9,Nullam varius. Nulla facilisi.
+449,213,5.0,Aenean sit amet justo.
+450,506,3.5,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+451,350,1.9,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+452,502,1.6,Cras non velit nec nisi vulputate nonummy.
+453,145,1.2,Nunc purus.
+454,84,3.0,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+455,890,4.3,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.
+456,497,4.2,Cras in purus eu magna vulputate luctus.
+457,143,4.6,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+458,235,1.7,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+459,978,3.3,"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+460,794,1.9,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+461,681,2.7,Duis mattis egestas metus.
+462,655,3.3,Integer a nibh.
+463,357,2.6,Nulla ut erat id mauris vulputate elementum.
+464,118,4.7,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+465,387,3.3,Donec dapibus.
+466,368,2.2,Morbi non quam nec dui luctus rutrum. Nulla tellus.
+467,839,4.5,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+468,914,4.1,Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.
+469,529,3.5,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+470,420,4.9,"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+471,596,4.1,Praesent blandit.
+472,508,3.7,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum."
+473,668,3.8,Nam dui.
+474,7,1.7,Quisque porta volutpat erat.
+475,33,4.4,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+476,278,2.7,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.
+477,551,4.7,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+478,545,2.4,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.
+479,882,3.0,Phasellus sit amet erat.
+480,896,2.9,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.
+481,411,3.5,Maecenas pulvinar lobortis est.
+482,679,3.7,Cras non velit nec nisi vulputate nonummy.
+483,535,1.6,Aenean fermentum.
+484,439,4.0,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+485,717,3.6,Aliquam sit amet diam in magna bibendum imperdiet.
+486,244,2.2,"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+487,114,3.2,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+488,5,2.3,Ut at dolor quis odio consequat varius. Integer ac leo.
+489,248,3.3,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+490,444,3.5,Proin interdum mauris non ligula pellentesque ultrices.
+491,40,1.6,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+492,172,3.1,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+493,443,2.6,Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.
+494,497,4.8,Proin eu mi. Nulla ac enim.
+495,82,1.5,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+496,758,1.3,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+497,97,1.6,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+498,572,4.4,Nunc purus.
+499,276,4.8,Quisque ut erat.
+500,21,1.2,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+501,795,5.0,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+502,890,4.0,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices."
+503,969,2.1,In hac habitasse platea dictumst.
+504,305,2.6,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+505,560,4.1,Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.
+506,316,2.8,In congue.
+507,766,3.0,Nam dui.
+508,42,3.8,Fusce consequat. Nulla nisl.
+509,13,3.0,Morbi non lectus.
+510,431,3.0,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+511,617,3.5,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+512,273,3.7,Duis ac nibh.
+513,44,1.6,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+514,115,1.6,Pellentesque ultrices mattis odio.
+515,68,4.6,Donec ut mauris eget massa tempor convallis.
+516,17,1.1,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+517,239,4.6,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque."
+518,677,2.6,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+519,730,3.7,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum."
+520,75,3.8,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+521,837,4.5,Donec vitae nisi.
+522,88,3.2,Praesent blandit.
+523,446,4.4,Integer non velit.
+524,346,3.0,Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+525,607,3.1,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+526,216,3.2,Etiam justo.
+527,937,4.4,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum."
+528,658,3.1,Suspendisse accumsan tortor quis turpis.
+529,43,4.0,Vivamus tortor. Duis mattis egestas metus.
+530,505,2.3,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+531,771,1.1,Nullam molestie nibh in lectus.
+532,948,2.8,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+533,106,1.6,Nulla ac enim.
+534,670,1.7,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+535,591,1.6,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+536,926,1.4,Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.
+537,164,5.0,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
+538,952,2.3,Fusce consequat. Nulla nisl. Nunc nisl.
+539,3,3.9,Donec semper sapien a libero.
+540,973,1.7,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+541,842,1.6,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+542,296,1.6,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
+543,969,3.2,Aliquam erat volutpat. In congue.
+544,783,4.1,Nulla facilisi.
+545,556,3.2,Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.
+546,932,4.7,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.
+547,304,4.3,Praesent id massa id nisl venenatis lacinia.
+548,324,3.9,Pellentesque at nulla. Suspendisse potenti.
+549,85,3.3,Fusce consequat. Nulla nisl. Nunc nisl.
+550,243,2.1,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+551,411,2.5,In eleifend quam a odio.
+552,173,3.3,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque."
+553,469,4.5,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+554,514,4.5,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+555,203,1.7,Aliquam non mauris.
+556,18,2.6,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.
+557,230,2.8,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+558,84,2.9,Integer tincidunt ante vel ipsum.
+559,872,4.9,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+560,854,2.9,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+561,946,3.1,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+562,256,1.6,Ut at dolor quis odio consequat varius. Integer ac leo.
+563,287,1.5,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+564,395,1.7,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti."
+565,412,3.8,Aenean sit amet justo.
+566,749,1.1,Aliquam erat volutpat.
+567,348,3.8,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+568,906,2.8,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+569,216,1.8,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+570,217,2.4,Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+571,167,1.4,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+572,450,3.3,In quis justo. Maecenas rhoncus aliquam lacus.
+573,519,2.1,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+574,336,1.5,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+575,496,2.7,Aenean lectus.
+576,933,1.4,In congue. Etiam justo.
+577,900,4.3,Proin at turpis a pede posuere nonummy.
+578,633,1.8,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+579,81,3.8,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+580,446,2.1,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+581,192,4.6,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+582,904,4.8,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+583,131,2.4,Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.
+584,934,1.6,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+585,765,3.5,Praesent id massa id nisl venenatis lacinia.
+586,909,1.0,Nulla nisl.
+587,79,2.7,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+588,951,4.0,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+589,798,3.5,Vivamus in felis eu sapien cursus vestibulum.
+590,929,3.2,Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+591,772,1.9,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+592,830,2.3,"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+593,752,3.3,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+594,829,1.0,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
+595,219,4.0,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+596,118,3.3,"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+597,632,3.5,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+598,633,3.6,Vivamus tortor.
+599,369,1.8,Integer ac neque. Duis bibendum.
+600,804,3.7,Integer ac neque.
+601,940,3.1,Aliquam erat volutpat. In congue.
+602,102,4.4,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+603,438,3.3,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+604,728,3.2,Duis aliquam convallis nunc.
+605,640,4.7,Mauris sit amet eros.
+606,102,2.0,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+607,910,4.0,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+608,432,2.4,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.
+609,961,4.9,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+610,429,2.2,Nullam molestie nibh in lectus. Pellentesque at nulla.
+611,303,1.4,Donec semper sapien a libero. Nam dui.
+612,348,2.4,Cras non velit nec nisi vulputate nonummy.
+613,931,4.5,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+614,583,2.2,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+615,119,2.4,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+616,684,4.6,Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.
+617,31,2.7,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+618,243,3.7,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+619,317,1.3,Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.
+620,525,1.1,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+621,668,5.0,Curabitur in libero ut massa volutpat convallis.
+622,345,4.7,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue."
+623,521,3.8,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+624,511,4.9,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.
+625,863,3.0,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+626,150,4.7,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.
+627,672,3.5,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+628,76,2.0,Nam dui.
+629,919,4.1,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+630,783,4.7,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+631,746,4.0,"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+632,999,3.3,Curabitur at ipsum ac tellus semper interdum.
+633,35,4.6,Fusce consequat. Nulla nisl.
+634,341,4.5,Donec ut dolor.
+635,953,1.7,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+636,688,4.0,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+637,655,2.1,Praesent id massa id nisl venenatis lacinia.
+638,353,2.8,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti."
+639,174,2.2,Fusce consequat.
+640,374,1.4,In congue. Etiam justo.
+641,995,2.0,"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+642,80,1.3,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+643,146,1.2,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.
+644,384,2.7,In quis justo. Maecenas rhoncus aliquam lacus.
+645,232,1.1,"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+646,899,1.0,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+647,911,1.1,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+648,929,3.1,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+649,594,2.2,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+650,787,3.8,Donec dapibus.
+651,639,1.3,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.
+652,393,2.8,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+653,709,3.1,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+654,826,3.1,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio."
+655,303,3.8,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+656,589,1.0,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+657,72,2.1,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+658,346,1.1,Vivamus vestibulum sagittis sapien.
+659,720,4.6,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+660,504,4.3,"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+661,947,1.3,Curabitur in libero ut massa volutpat convallis.
+662,192,3.0,Nunc rhoncus dui vel sem.
+663,823,3.9,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+664,388,1.5,Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.
+665,476,1.5,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+666,292,4.9,Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.
+667,872,3.4,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+668,578,2.8,Aliquam sit amet diam in magna bibendum imperdiet.
+669,555,2.0,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+670,411,4.4,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+671,475,4.8,"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+672,764,3.3,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+673,916,3.6,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+674,917,2.9,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+675,291,4.9,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+676,726,2.9,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+677,917,3.5,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+678,925,2.3,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+679,12,5.0,"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+680,419,2.5,Vestibulum sed magna at nunc commodo placerat.
+681,180,3.6,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+682,350,1.6,Quisque ut erat.
+683,131,1.9,Suspendisse accumsan tortor quis turpis.
+684,89,2.8,Duis consequat dui nec nisi volutpat eleifend.
+685,435,2.2,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+686,521,3.0,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+687,813,3.8,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+688,466,2.8,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.
+689,433,1.9,Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.
+690,544,3.8,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+691,46,3.0,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+692,415,2.6,Ut tellus.
+693,972,1.2,Sed ante. Vivamus tortor.
+694,902,4.0,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+695,639,1.9,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+696,994,3.6,In blandit ultrices enim.
+697,871,4.7,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy."
+698,625,2.6,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+699,277,4.7,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius."
+700,31,4.5,Sed ante.
+701,952,1.3,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+702,304,1.4,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+703,740,3.5,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+704,476,4.4,Aliquam erat volutpat. In congue. Etiam justo.
+705,826,2.0,In eleifend quam a odio.
+706,925,2.9,Suspendisse potenti.
+707,193,1.2,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+708,645,2.8,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.
+709,21,4.6,Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.
+710,530,1.4,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+711,348,2.2,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+712,634,1.6,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+713,328,1.8,Pellentesque at nulla. Suspendisse potenti.
+714,152,4.8,Duis ac nibh.
+715,100,2.8,Curabitur in libero ut massa volutpat convallis.
+716,905,1.6,Praesent blandit. Nam nulla.
+717,717,3.5,"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+718,744,1.1,Cras in purus eu magna vulputate luctus.
+719,357,3.8,Pellentesque eget nunc.
+720,676,3.6,Etiam vel augue. Vestibulum rutrum rutrum neque.
+721,979,2.8,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis."
+722,274,3.8,Proin eu mi.
+723,5,1.2,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+724,194,4.5,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+725,361,4.1,"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+726,287,2.6,Proin eu mi.
+727,731,4.3,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+728,867,1.8,Maecenas tincidunt lacus at velit.
+729,227,4.1,Nullam sit amet turpis elementum ligula vehicula consequat.
+730,294,4.2,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+731,734,4.4,Praesent lectus.
+732,682,2.0,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+733,706,2.0,Pellentesque at nulla. Suspendisse potenti.
+734,590,2.0,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+735,137,1.9,Etiam faucibus cursus urna. Ut tellus.
+736,748,3.5,Maecenas pulvinar lobortis est.
+737,19,4.0,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+738,886,1.2,Cras non velit nec nisi vulputate nonummy.
+739,930,4.6,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+740,485,2.3,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+741,252,1.2,Curabitur gravida nisi at nibh.
+742,738,4.0,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis."
+743,312,2.4,Maecenas rhoncus aliquam lacus.
+744,641,1.5,In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+745,86,3.4,Nunc purus. Phasellus in felis. Donec semper sapien a libero.
+746,618,4.1,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+747,492,5.0,Proin risus. Praesent lectus.
+748,277,3.7,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+749,657,1.2,Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.
+750,755,3.6,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+751,376,4.6,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+752,61,3.7,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+753,120,3.0,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+754,292,1.2,Nullam molestie nibh in lectus.
+755,227,2.3,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.
+756,462,3.9,Aliquam sit amet diam in magna bibendum imperdiet.
+757,382,1.9,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+758,350,2.5,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+759,236,4.9,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+760,737,4.6,Morbi a ipsum. Integer a nibh.
+761,460,1.9,Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.
+762,348,3.8,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+763,669,2.6,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+764,786,2.7,Suspendisse ornare consequat lectus.
+765,46,3.7,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+766,733,3.3,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum."
+767,36,1.4,Proin eu mi. Nulla ac enim.
+768,153,4.8,Etiam faucibus cursus urna. Ut tellus.
+769,209,3.7,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+770,697,1.8,Nulla nisl. Nunc nisl.
+771,385,3.4,Fusce consequat. Nulla nisl. Nunc nisl.
+772,46,1.4,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+773,552,1.5,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+774,860,4.0,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus."
+775,129,3.6,Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.
+776,18,1.6,"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+777,559,4.0,In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+778,768,3.0,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+779,678,2.1,Aliquam non mauris. Morbi non lectus.
+780,540,1.8,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat."
+781,1000,4.7,Nunc nisl.
+782,521,4.4,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+783,228,3.2,Pellentesque viverra pede ac diam.
+784,832,2.0,Fusce consequat. Nulla nisl. Nunc nisl.
+785,421,2.5,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+786,571,3.5,"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+787,330,4.1,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.
+788,347,3.7,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+789,295,4.9,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+790,394,3.7,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+791,354,2.1,Donec quis orci eget orci vehicula condimentum.
+792,151,3.2,Cras in purus eu magna vulputate luctus.
+793,576,4.9,Morbi ut odio.
+794,943,1.1,Pellentesque viverra pede ac diam.
+795,89,2.7,Integer a nibh. In quis justo.
+796,329,3.9,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+797,702,1.9,Phasellus in felis. Donec semper sapien a libero.
+798,746,2.5,Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.
+799,735,1.8,Duis mattis egestas metus. Aenean fermentum.
+800,913,3.6,Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+801,978,3.8,Phasellus sit amet erat. Nulla tempus.
+802,385,1.9,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+803,314,2.6,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+804,666,5.0,Aenean auctor gravida sem.
+805,710,4.8,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+806,637,2.4,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus."
+807,802,1.3,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+808,607,1.9,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+809,871,3.1,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+810,146,2.9,Etiam vel augue.
+811,512,1.4,Aliquam sit amet diam in magna bibendum imperdiet.
+812,351,2.9,Nam tristique tortor eu pede.
+813,978,2.9,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+814,190,4.7,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+815,554,3.0,Aliquam quis turpis eget elit sodales scelerisque.
+816,844,1.5,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+817,436,3.5,"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+818,921,3.6,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices."
+819,183,3.1,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+820,280,4.9,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+821,802,2.1,Etiam faucibus cursus urna.
+822,803,4.0,Vestibulum rutrum rutrum neque.
+823,210,2.9,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+824,583,3.0,Vestibulum rutrum rutrum neque.
+825,270,3.2,Ut at dolor quis odio consequat varius.
+826,796,3.8,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+827,172,2.5,Quisque ut erat.
+828,627,4.2,Pellentesque at nulla. Suspendisse potenti.
+829,38,4.8,Morbi non quam nec dui luctus rutrum.
+830,455,1.1,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+831,712,1.5,Nunc purus. Phasellus in felis.
+832,894,3.8,"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+833,619,1.5,Proin risus. Praesent lectus.
+834,957,5.0,Donec ut mauris eget massa tempor convallis.
+835,363,2.2,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+836,749,3.4,"In est risus, auctor sed, tristique in, tempus sit amet, sem."
+837,9,2.0,Donec quis orci eget orci vehicula condimentum.
+838,561,4.2,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+839,594,1.4,Phasellus sit amet erat.
+840,45,4.8,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+841,328,3.9,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+842,277,5.0,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+843,737,2.4,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+844,354,4.5,In hac habitasse platea dictumst.
+845,91,1.8,Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.
+846,716,4.0,Nunc rhoncus dui vel sem. Sed sagittis.
+847,347,1.7,Integer a nibh. In quis justo.
+848,341,4.1,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+849,677,4.6,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+850,254,4.0,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc."
+851,322,1.8,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+852,652,4.1,Vivamus tortor.
+853,224,3.7,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+854,591,4.3,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+855,743,4.2,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.
+856,868,2.5,Proin risus.
+857,339,1.6,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+858,394,3.6,Quisque ut erat. Curabitur gravida nisi at nibh.
+859,414,2.1,Integer ac neque. Duis bibendum.
+860,652,1.9,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est."
+861,468,4.1,Duis bibendum.
+862,746,2.5,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+863,247,3.4,Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.
+864,965,1.6,Duis aliquam convallis nunc.
+865,395,1.4,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+866,753,2.8,In hac habitasse platea dictumst.
+867,477,3.0,Suspendisse potenti.
+868,324,1.3,"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+869,449,4.1,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+870,987,1.0,Vestibulum sed magna at nunc commodo placerat.
+871,821,4.4,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+872,162,2.9,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+873,458,2.6,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+874,181,4.6,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+875,616,3.7,Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+876,467,2.4,Curabitur convallis.
+877,379,1.3,Nulla tellus.
+878,650,3.7,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+879,659,2.0,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+880,850,1.1,Aliquam non mauris. Morbi non lectus.
+881,258,2.1,"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+882,894,3.4,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis."
+883,264,1.3,In hac habitasse platea dictumst.
+884,435,3.7,Integer ac leo.
+885,506,4.5,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+886,500,2.2,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+887,28,4.2,Donec ut mauris eget massa tempor convallis.
+888,489,3.4,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+889,242,4.1,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+890,98,1.1,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+891,157,1.9,Phasellus in felis. Donec semper sapien a libero. Nam dui.
+892,165,3.4,Integer ac neque.
+893,453,1.3,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+894,550,5.0,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+895,483,4.4,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+896,560,3.0,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+897,975,1.9,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+898,139,1.9,Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+899,709,2.8,Sed ante. Vivamus tortor. Duis mattis egestas metus.
+900,469,2.7,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.
+901,314,2.1,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+902,891,4.9,Praesent id massa id nisl venenatis lacinia.
+903,319,4.1,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+904,388,1.6,"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+905,403,4.2,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+906,952,4.4,Suspendisse potenti.
+907,42,1.7,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+908,837,1.4,Nulla mollis molestie lorem.
+909,591,1.7,Ut tellus.
+910,32,2.5,Aliquam erat volutpat.
+911,580,1.1,Pellentesque viverra pede ac diam.
+912,186,1.5,"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+913,366,1.3,Vivamus vel nulla eget eros elementum pellentesque.
+914,660,1.7,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+915,965,1.9,Nullam varius. Nulla facilisi.
+916,961,2.8,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+917,143,1.9,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui."
+918,716,4.5,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+919,444,3.7,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+920,298,3.9,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio."
+921,395,2.7,Proin eu mi. Nulla ac enim.
+922,376,4.4,Nulla ac enim.
+923,698,5.0,"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+924,931,2.2,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+925,137,4.2,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+926,610,2.4,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+927,448,1.1,Quisque ut erat.
+928,299,4.6,Aliquam erat volutpat. In congue. Etiam justo.
+929,583,2.8,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+930,780,4.5,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl."
+931,745,4.6,Duis mattis egestas metus. Aenean fermentum.
+932,611,2.2,Integer ac neque.
+933,12,3.5,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.
+934,367,2.8,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio."
+935,618,2.6,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+936,372,4.2,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+937,343,3.3,Integer non velit.
+938,295,2.0,Nullam sit amet turpis elementum ligula vehicula consequat.
+939,227,2.3,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+940,374,3.0,"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+941,867,3.6,Duis ac nibh.
+942,84,2.0,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+943,769,1.8,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+944,335,4.6,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum."
+945,304,4.5,Sed ante.
+946,619,1.5,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+947,352,4.9,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+948,15,2.7,Nullam molestie nibh in lectus.
+949,421,2.6,Nullam varius. Nulla facilisi.
+950,71,1.8,Duis bibendum. Morbi non quam nec dui luctus rutrum.
+951,208,1.6,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+952,25,1.8,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+953,696,1.6,Suspendisse accumsan tortor quis turpis. Sed ante.
+954,843,3.2,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+955,714,1.6,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+956,311,4.3,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+957,725,1.1,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+958,516,2.3,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+959,594,3.8,Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.
+960,775,3.8,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+961,128,4.0,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+962,8,4.2,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est."
+963,494,2.5,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat."
+964,210,1.2,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+965,811,4.1,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+966,596,1.7,In congue. Etiam justo. Etiam pretium iaculis justo.
+967,881,1.9,Nam dui.
+968,291,2.8,Etiam pretium iaculis justo.
+969,723,2.2,In hac habitasse platea dictumst.
+970,169,4.5,Aenean fermentum.
+971,336,3.4,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+972,12,2.0,In hac habitasse platea dictumst.
+973,461,1.0,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+974,78,3.2,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+975,192,3.0,In eleifend quam a odio. In hac habitasse platea dictumst.
+976,265,1.7,Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.
+977,810,3.0,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque."
+978,230,3.5,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+979,925,3.5,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+980,975,3.0,Pellentesque ultrices mattis odio. Donec vitae nisi.
+981,165,2.4,Etiam pretium iaculis justo.
+982,992,1.1,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.
+983,568,3.5,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla."
+984,186,2.7,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.
+985,819,4.2,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+986,788,4.1,Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.
+987,109,1.4,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam."
+988,216,4.7,Duis aliquam convallis nunc.
+989,682,4.1,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+990,497,4.5,Etiam faucibus cursus urna.
+991,943,1.4,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+992,632,5.0,Morbi ut odio.
+993,955,3.5,"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+994,812,2.7,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.
+995,823,3.3,Donec ut mauris eget massa tempor convallis.
+996,184,1.2,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl."
+997,437,2.3,Suspendisse potenti.
+998,275,2.0,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+999,845,3.3,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+1000,777,1.4,Aenean fermentum.

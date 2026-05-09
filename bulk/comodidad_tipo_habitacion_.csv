@@ -1,0 +1,977 @@
+id_tipo_habitacion,id_tipo_comodidad,detalle
+7,1,Disponible bajo petición
+8,7,Incluido en la tarifa
+6,8,Disponible bajo petición
+7,4,Mantenimiento mensual
+4,3,Incluido en la tarifa
+9,4,Mantenimiento mensual
+1,1,Incluido en la tarifa
+1,10,Disponible bajo petición
+9,10,Mantenimiento mensual
+4,8,Disponible bajo petición
+10,4,Requiere activación previa
+3,8,Incluido en la tarifa
+9,4,Disponible bajo petición
+6,8,Requiere activación previa
+8,3,Mantenimiento mensual
+6,5,Disponible bajo petición
+1,8,Requiere activación previa
+5,5,Incluido en la tarifa
+3,10,Disponible bajo petición
+9,10,Mantenimiento mensual
+5,7,Incluido en la tarifa
+3,1,Requiere activación previa
+4,1,Disponible bajo petición
+2,5,Mantenimiento mensual
+3,3,Disponible bajo petición
+6,6,Incluido en la tarifa
+9,9,Incluido en la tarifa
+2,1,Mantenimiento mensual
+3,1,Incluido en la tarifa
+4,5,Requiere activación previa
+3,7,Requiere activación previa
+5,10,Mantenimiento mensual
+9,10,Disponible bajo petición
+7,2,Mantenimiento mensual
+9,6,Disponible bajo petición
+6,3,Disponible bajo petición
+8,5,Incluido en la tarifa
+1,1,Disponible bajo petición
+4,10,Requiere activación previa
+7,5,Incluido en la tarifa
+6,7,Incluido en la tarifa
+9,1,Mantenimiento mensual
+3,10,Mantenimiento mensual
+5,10,Incluido en la tarifa
+10,1,Incluido en la tarifa
+6,8,Incluido en la tarifa
+5,1,Incluido en la tarifa
+6,9,Incluido en la tarifa
+6,5,Disponible bajo petición
+3,3,Mantenimiento mensual
+8,7,Disponible bajo petición
+5,8,Incluido en la tarifa
+4,6,Mantenimiento mensual
+3,9,Disponible bajo petición
+6,3,Incluido en la tarifa
+1,8,Mantenimiento mensual
+7,10,Requiere activación previa
+4,4,Disponible bajo petición
+8,7,Incluido en la tarifa
+5,3,Disponible bajo petición
+6,4,Incluido en la tarifa
+9,2,Requiere activación previa
+10,5,Mantenimiento mensual
+10,9,Requiere activación previa
+3,7,Incluido en la tarifa
+3,10,Incluido en la tarifa
+10,5,Requiere activación previa
+10,2,Incluido en la tarifa
+8,6,Disponible bajo petición
+6,3,Mantenimiento mensual
+5,9,Incluido en la tarifa
+6,7,Mantenimiento mensual
+2,2,Disponible bajo petición
+8,7,Disponible bajo petición
+9,10,Requiere activación previa
+7,4,Incluido en la tarifa
+5,7,Mantenimiento mensual
+8,3,Incluido en la tarifa
+4,2,Incluido en la tarifa
+7,5,Incluido en la tarifa
+8,7,Mantenimiento mensual
+5,10,Disponible bajo petición
+3,2,Disponible bajo petición
+5,10,Requiere activación previa
+4,1,Incluido en la tarifa
+1,2,Disponible bajo petición
+2,2,Mantenimiento mensual
+7,9,Requiere activación previa
+2,8,Mantenimiento mensual
+8,5,Disponible bajo petición
+1,1,Requiere activación previa
+2,3,Disponible bajo petición
+2,3,Mantenimiento mensual
+5,7,Mantenimiento mensual
+8,3,Incluido en la tarifa
+9,5,Disponible bajo petición
+3,6,Incluido en la tarifa
+5,6,Mantenimiento mensual
+8,6,Requiere activación previa
+8,10,Mantenimiento mensual
+6,10,Incluido en la tarifa
+4,1,Disponible bajo petición
+10,10,Mantenimiento mensual
+10,6,Incluido en la tarifa
+2,6,Requiere activación previa
+3,6,Requiere activación previa
+4,5,Incluido en la tarifa
+6,6,Disponible bajo petición
+1,4,Incluido en la tarifa
+7,4,Disponible bajo petición
+10,1,Mantenimiento mensual
+8,2,Requiere activación previa
+6,8,Mantenimiento mensual
+1,5,Requiere activación previa
+9,6,Incluido en la tarifa
+8,1,Disponible bajo petición
+9,10,Mantenimiento mensual
+1,2,Requiere activación previa
+4,6,Requiere activación previa
+5,3,Incluido en la tarifa
+4,3,Incluido en la tarifa
+4,1,Mantenimiento mensual
+1,10,Mantenimiento mensual
+9,10,Requiere activación previa
+2,6,Disponible bajo petición
+4,10,Disponible bajo petición
+3,1,Incluido en la tarifa
+6,7,Mantenimiento mensual
+2,10,Mantenimiento mensual
+9,10,Mantenimiento mensual
+8,7,Mantenimiento mensual
+6,5,Mantenimiento mensual
+4,3,Disponible bajo petición
+3,9,Requiere activación previa
+7,6,Disponible bajo petición
+3,10,Requiere activación previa
+6,9,Incluido en la tarifa
+7,5,Requiere activación previa
+7,3,Mantenimiento mensual
+9,7,Incluido en la tarifa
+1,5,Mantenimiento mensual
+10,1,Incluido en la tarifa
+9,1,Incluido en la tarifa
+6,3,Disponible bajo petición
+4,2,Requiere activación previa
+5,6,Requiere activación previa
+5,9,Requiere activación previa
+4,8,Requiere activación previa
+1,9,Requiere activación previa
+5,1,Disponible bajo petición
+8,2,Requiere activación previa
+7,3,Disponible bajo petición
+6,6,Requiere activación previa
+7,10,Mantenimiento mensual
+7,1,Mantenimiento mensual
+8,9,Disponible bajo petición
+2,6,Requiere activación previa
+2,7,Requiere activación previa
+8,7,Disponible bajo petición
+1,9,Incluido en la tarifa
+8,6,Disponible bajo petición
+10,7,Requiere activación previa
+6,6,Incluido en la tarifa
+9,10,Incluido en la tarifa
+10,1,Mantenimiento mensual
+6,10,Incluido en la tarifa
+7,4,Mantenimiento mensual
+6,2,Mantenimiento mensual
+6,4,Incluido en la tarifa
+4,2,Mantenimiento mensual
+10,8,Requiere activación previa
+6,8,Mantenimiento mensual
+6,5,Mantenimiento mensual
+10,2,Requiere activación previa
+5,1,Mantenimiento mensual
+9,2,Disponible bajo petición
+3,7,Mantenimiento mensual
+10,8,Mantenimiento mensual
+3,10,Incluido en la tarifa
+3,10,Requiere activación previa
+6,10,Disponible bajo petición
+2,7,Mantenimiento mensual
+3,10,Disponible bajo petición
+5,8,Incluido en la tarifa
+10,1,Incluido en la tarifa
+2,5,Incluido en la tarifa
+8,6,Disponible bajo petición
+7,1,Mantenimiento mensual
+9,4,Incluido en la tarifa
+6,6,Mantenimiento mensual
+7,8,Disponible bajo petición
+6,9,Incluido en la tarifa
+9,3,Requiere activación previa
+9,1,Incluido en la tarifa
+5,5,Incluido en la tarifa
+9,5,Mantenimiento mensual
+6,10,Disponible bajo petición
+2,8,Incluido en la tarifa
+2,8,Mantenimiento mensual
+3,4,Disponible bajo petición
+8,4,Requiere activación previa
+3,8,Requiere activación previa
+10,10,Requiere activación previa
+2,10,Mantenimiento mensual
+10,2,Mantenimiento mensual
+8,5,Mantenimiento mensual
+9,6,Mantenimiento mensual
+1,7,Mantenimiento mensual
+3,8,Disponible bajo petición
+10,5,Mantenimiento mensual
+6,1,Disponible bajo petición
+7,5,Requiere activación previa
+4,3,Incluido en la tarifa
+8,3,Disponible bajo petición
+7,7,Incluido en la tarifa
+7,5,Requiere activación previa
+1,9,Incluido en la tarifa
+5,3,Incluido en la tarifa
+9,10,Disponible bajo petición
+6,1,Incluido en la tarifa
+10,6,Mantenimiento mensual
+7,9,Mantenimiento mensual
+1,4,Incluido en la tarifa
+4,5,Disponible bajo petición
+1,4,Requiere activación previa
+5,9,Incluido en la tarifa
+1,5,Requiere activación previa
+5,2,Disponible bajo petición
+1,6,Requiere activación previa
+5,4,Incluido en la tarifa
+10,2,Disponible bajo petición
+7,7,Incluido en la tarifa
+5,2,Mantenimiento mensual
+10,10,Incluido en la tarifa
+4,1,Mantenimiento mensual
+10,7,Disponible bajo petición
+5,4,Requiere activación previa
+10,3,Disponible bajo petición
+5,2,Incluido en la tarifa
+8,5,Disponible bajo petición
+1,6,Requiere activación previa
+10,7,Incluido en la tarifa
+6,4,Mantenimiento mensual
+9,9,Mantenimiento mensual
+9,4,Incluido en la tarifa
+4,10,Disponible bajo petición
+2,1,Incluido en la tarifa
+5,5,Disponible bajo petición
+4,10,Mantenimiento mensual
+8,6,Requiere activación previa
+5,10,Requiere activación previa
+8,7,Disponible bajo petición
+3,6,Incluido en la tarifa
+7,9,Requiere activación previa
+1,4,Disponible bajo petición
+2,7,Incluido en la tarifa
+9,8,Disponible bajo petición
+6,7,Requiere activación previa
+3,10,Incluido en la tarifa
+9,8,Requiere activación previa
+10,5,Incluido en la tarifa
+2,1,Requiere activación previa
+3,1,Requiere activación previa
+10,10,Requiere activación previa
+6,9,Disponible bajo petición
+8,4,Requiere activación previa
+5,5,Disponible bajo petición
+4,4,Disponible bajo petición
+3,6,Mantenimiento mensual
+9,6,Disponible bajo petición
+4,10,Incluido en la tarifa
+4,9,Incluido en la tarifa
+7,7,Requiere activación previa
+8,9,Mantenimiento mensual
+2,4,Requiere activación previa
+10,6,Incluido en la tarifa
+10,5,Mantenimiento mensual
+4,2,Requiere activación previa
+5,10,Requiere activación previa
+10,2,Incluido en la tarifa
+10,2,Mantenimiento mensual
+1,7,Disponible bajo petición
+10,6,Incluido en la tarifa
+8,9,Requiere activación previa
+4,5,Incluido en la tarifa
+10,6,Incluido en la tarifa
+9,10,Incluido en la tarifa
+4,1,Requiere activación previa
+4,4,Incluido en la tarifa
+3,1,Disponible bajo petición
+2,6,Disponible bajo petición
+8,9,Incluido en la tarifa
+7,9,Incluido en la tarifa
+2,9,Mantenimiento mensual
+2,3,Mantenimiento mensual
+9,2,Disponible bajo petición
+6,7,Incluido en la tarifa
+1,2,Requiere activación previa
+9,8,Mantenimiento mensual
+3,3,Requiere activación previa
+1,7,Disponible bajo petición
+8,6,Requiere activación previa
+2,10,Requiere activación previa
+10,2,Incluido en la tarifa
+3,10,Incluido en la tarifa
+9,10,Incluido en la tarifa
+2,4,Requiere activación previa
+6,3,Incluido en la tarifa
+1,2,Disponible bajo petición
+4,10,Disponible bajo petición
+6,5,Mantenimiento mensual
+5,2,Disponible bajo petición
+1,5,Incluido en la tarifa
+8,7,Disponible bajo petición
+4,1,Disponible bajo petición
+3,1,Disponible bajo petición
+3,4,Disponible bajo petición
+5,6,Disponible bajo petición
+5,6,Incluido en la tarifa
+7,3,Requiere activación previa
+1,10,Requiere activación previa
+10,5,Disponible bajo petición
+2,9,Incluido en la tarifa
+5,7,Incluido en la tarifa
+5,7,Disponible bajo petición
+6,5,Requiere activación previa
+10,10,Disponible bajo petición
+2,8,Mantenimiento mensual
+9,1,Incluido en la tarifa
+2,3,Mantenimiento mensual
+10,7,Incluido en la tarifa
+9,3,Mantenimiento mensual
+8,1,Requiere activación previa
+8,8,Disponible bajo petición
+7,8,Disponible bajo petición
+10,10,Disponible bajo petición
+4,2,Mantenimiento mensual
+10,1,Incluido en la tarifa
+2,5,Disponible bajo petición
+9,10,Incluido en la tarifa
+1,8,Disponible bajo petición
+7,10,Disponible bajo petición
+6,3,Incluido en la tarifa
+10,5,Requiere activación previa
+8,9,Mantenimiento mensual
+8,8,Requiere activación previa
+3,6,Requiere activación previa
+7,8,Mantenimiento mensual
+7,1,Mantenimiento mensual
+4,7,Requiere activación previa
+9,6,Requiere activación previa
+10,4,Disponible bajo petición
+7,3,Requiere activación previa
+4,10,Mantenimiento mensual
+2,9,Requiere activación previa
+6,6,Disponible bajo petición
+5,6,Requiere activación previa
+10,4,Requiere activación previa
+5,9,Requiere activación previa
+4,10,Disponible bajo petición
+6,10,Mantenimiento mensual
+1,8,Incluido en la tarifa
+2,2,Incluido en la tarifa
+6,6,Requiere activación previa
+5,9,Incluido en la tarifa
+1,7,Requiere activación previa
+1,5,Mantenimiento mensual
+1,8,Incluido en la tarifa
+2,5,Mantenimiento mensual
+9,9,Disponible bajo petición
+1,3,Requiere activación previa
+6,6,Incluido en la tarifa
+7,8,Incluido en la tarifa
+3,1,Disponible bajo petición
+6,9,Mantenimiento mensual
+10,5,Incluido en la tarifa
+2,8,Disponible bajo petición
+4,5,Disponible bajo petición
+9,7,Mantenimiento mensual
+5,7,Requiere activación previa
+8,6,Mantenimiento mensual
+1,2,Incluido en la tarifa
+7,8,Mantenimiento mensual
+5,8,Mantenimiento mensual
+7,8,Incluido en la tarifa
+1,5,Disponible bajo petición
+1,4,Requiere activación previa
+8,5,Incluido en la tarifa
+5,10,Disponible bajo petición
+5,1,Mantenimiento mensual
+5,5,Incluido en la tarifa
+7,5,Incluido en la tarifa
+10,4,Disponible bajo petición
+3,9,Disponible bajo petición
+3,5,Incluido en la tarifa
+5,7,Incluido en la tarifa
+7,2,Disponible bajo petición
+8,3,Incluido en la tarifa
+7,1,Requiere activación previa
+5,3,Requiere activación previa
+6,5,Incluido en la tarifa
+7,3,Mantenimiento mensual
+8,1,Incluido en la tarifa
+4,5,Requiere activación previa
+10,8,Incluido en la tarifa
+2,4,Disponible bajo petición
+8,1,Requiere activación previa
+1,1,Incluido en la tarifa
+9,4,Requiere activación previa
+10,4,Disponible bajo petición
+4,9,Disponible bajo petición
+3,10,Disponible bajo petición
+6,3,Disponible bajo petición
+6,6,Disponible bajo petición
+6,4,Requiere activación previa
+5,5,Requiere activación previa
+10,10,Mantenimiento mensual
+7,9,Requiere activación previa
+8,7,Requiere activación previa
+5,5,Incluido en la tarifa
+8,5,Requiere activación previa
+1,2,Mantenimiento mensual
+6,3,Incluido en la tarifa
+6,5,Requiere activación previa
+1,2,Mantenimiento mensual
+4,1,Disponible bajo petición
+7,3,Incluido en la tarifa
+1,5,Disponible bajo petición
+10,1,Mantenimiento mensual
+6,1,Requiere activación previa
+2,8,Incluido en la tarifa
+5,8,Requiere activación previa
+4,10,Mantenimiento mensual
+9,1,Requiere activación previa
+7,8,Mantenimiento mensual
+7,3,Disponible bajo petición
+10,8,Incluido en la tarifa
+7,10,Disponible bajo petición
+7,4,Incluido en la tarifa
+1,3,Mantenimiento mensual
+4,1,Disponible bajo petición
+7,7,Disponible bajo petición
+3,2,Requiere activación previa
+3,7,Requiere activación previa
+9,4,Mantenimiento mensual
+9,2,Requiere activación previa
+9,2,Incluido en la tarifa
+5,8,Disponible bajo petición
+2,10,Mantenimiento mensual
+8,6,Requiere activación previa
+8,2,Mantenimiento mensual
+4,4,Requiere activación previa
+8,5,Requiere activación previa
+7,6,Requiere activación previa
+6,6,Requiere activación previa
+4,10,Incluido en la tarifa
+3,2,Incluido en la tarifa
+2,4,Requiere activación previa
+1,2,Mantenimiento mensual
+5,2,Incluido en la tarifa
+1,8,Requiere activación previa
+5,4,Requiere activación previa
+1,7,Requiere activación previa
+1,8,Incluido en la tarifa
+9,4,Disponible bajo petición
+5,3,Incluido en la tarifa
+7,7,Mantenimiento mensual
+6,10,Incluido en la tarifa
+4,10,Mantenimiento mensual
+5,8,Disponible bajo petición
+10,7,Disponible bajo petición
+5,3,Incluido en la tarifa
+5,1,Mantenimiento mensual
+6,8,Mantenimiento mensual
+1,9,Mantenimiento mensual
+7,3,Incluido en la tarifa
+9,6,Mantenimiento mensual
+3,5,Disponible bajo petición
+7,1,Incluido en la tarifa
+3,2,Requiere activación previa
+3,1,Incluido en la tarifa
+3,10,Mantenimiento mensual
+8,8,Requiere activación previa
+6,9,Disponible bajo petición
+8,2,Incluido en la tarifa
+3,7,Requiere activación previa
+1,1,Disponible bajo petición
+7,9,Mantenimiento mensual
+9,3,Disponible bajo petición
+9,7,Incluido en la tarifa
+7,1,Mantenimiento mensual
+1,1,Incluido en la tarifa
+9,9,Incluido en la tarifa
+7,10,Disponible bajo petición
+9,2,Disponible bajo petición
+1,10,Requiere activación previa
+9,8,Mantenimiento mensual
+3,7,Incluido en la tarifa
+4,7,Incluido en la tarifa
+8,3,Mantenimiento mensual
+10,5,Mantenimiento mensual
+10,6,Mantenimiento mensual
+5,7,Disponible bajo petición
+5,3,Disponible bajo petición
+2,2,Requiere activación previa
+1,8,Mantenimiento mensual
+1,4,Disponible bajo petición
+8,1,Incluido en la tarifa
+4,2,Disponible bajo petición
+10,8,Disponible bajo petición
+2,10,Requiere activación previa
+10,9,Disponible bajo petición
+1,8,Disponible bajo petición
+7,2,Mantenimiento mensual
+6,2,Mantenimiento mensual
+9,2,Incluido en la tarifa
+9,2,Incluido en la tarifa
+1,9,Requiere activación previa
+3,2,Disponible bajo petición
+2,5,Mantenimiento mensual
+4,9,Mantenimiento mensual
+7,5,Incluido en la tarifa
+6,10,Incluido en la tarifa
+1,3,Mantenimiento mensual
+6,8,Incluido en la tarifa
+1,8,Incluido en la tarifa
+4,7,Mantenimiento mensual
+5,3,Requiere activación previa
+10,8,Mantenimiento mensual
+9,6,Incluido en la tarifa
+2,2,Requiere activación previa
+6,3,Requiere activación previa
+1,7,Requiere activación previa
+8,2,Mantenimiento mensual
+4,10,Requiere activación previa
+10,4,Requiere activación previa
+10,2,Incluido en la tarifa
+8,8,Incluido en la tarifa
+3,6,Disponible bajo petición
+3,8,Requiere activación previa
+8,1,Requiere activación previa
+10,2,Mantenimiento mensual
+8,1,Mantenimiento mensual
+1,5,Disponible bajo petición
+4,8,Requiere activación previa
+3,6,Incluido en la tarifa
+2,3,Disponible bajo petición
+1,7,Disponible bajo petición
+1,8,Incluido en la tarifa
+10,8,Requiere activación previa
+6,3,Incluido en la tarifa
+5,3,Disponible bajo petición
+1,10,Incluido en la tarifa
+8,3,Incluido en la tarifa
+10,10,Incluido en la tarifa
+5,4,Mantenimiento mensual
+9,9,Disponible bajo petición
+4,7,Incluido en la tarifa
+4,4,Mantenimiento mensual
+4,9,Mantenimiento mensual
+1,3,Disponible bajo petición
+7,6,Disponible bajo petición
+1,7,Disponible bajo petición
+2,4,Requiere activación previa
+7,9,Disponible bajo petición
+6,9,Disponible bajo petición
+5,8,Requiere activación previa
+6,1,Incluido en la tarifa
+2,8,Requiere activación previa
+5,1,Disponible bajo petición
+9,10,Mantenimiento mensual
+8,7,Disponible bajo petición
+2,8,Disponible bajo petición
+7,6,Requiere activación previa
+6,7,Requiere activación previa
+10,6,Mantenimiento mensual
+7,9,Requiere activación previa
+2,3,Mantenimiento mensual
+2,2,Disponible bajo petición
+1,1,Mantenimiento mensual
+1,9,Mantenimiento mensual
+9,4,Requiere activación previa
+2,3,Mantenimiento mensual
+3,7,Incluido en la tarifa
+8,9,Mantenimiento mensual
+10,3,Disponible bajo petición
+3,7,Mantenimiento mensual
+1,3,Incluido en la tarifa
+6,9,Mantenimiento mensual
+2,10,Mantenimiento mensual
+10,3,Incluido en la tarifa
+9,3,Requiere activación previa
+9,5,Requiere activación previa
+2,5,Requiere activación previa
+4,10,Mantenimiento mensual
+1,10,Mantenimiento mensual
+2,6,Mantenimiento mensual
+6,3,Disponible bajo petición
+4,2,Disponible bajo petición
+6,2,Incluido en la tarifa
+5,1,Disponible bajo petición
+3,2,Disponible bajo petición
+2,1,Disponible bajo petición
+1,10,Incluido en la tarifa
+4,7,Incluido en la tarifa
+8,6,Incluido en la tarifa
+2,9,Disponible bajo petición
+2,10,Requiere activación previa
+6,2,Requiere activación previa
+8,3,Mantenimiento mensual
+3,8,Mantenimiento mensual
+4,3,Mantenimiento mensual
+10,9,Disponible bajo petición
+5,2,Mantenimiento mensual
+3,5,Requiere activación previa
+3,10,Requiere activación previa
+9,10,Incluido en la tarifa
+8,3,Mantenimiento mensual
+3,3,Mantenimiento mensual
+8,6,Mantenimiento mensual
+1,8,Requiere activación previa
+9,1,Mantenimiento mensual
+2,6,Incluido en la tarifa
+3,1,Incluido en la tarifa
+8,1,Mantenimiento mensual
+8,3,Disponible bajo petición
+6,7,Requiere activación previa
+10,7,Incluido en la tarifa
+4,9,Incluido en la tarifa
+8,6,Incluido en la tarifa
+6,10,Disponible bajo petición
+5,5,Mantenimiento mensual
+5,9,Incluido en la tarifa
+7,2,Mantenimiento mensual
+6,8,Incluido en la tarifa
+9,1,Incluido en la tarifa
+5,7,Mantenimiento mensual
+10,4,Mantenimiento mensual
+7,6,Incluido en la tarifa
+4,6,Incluido en la tarifa
+9,4,Requiere activación previa
+6,1,Incluido en la tarifa
+4,6,Requiere activación previa
+9,3,Requiere activación previa
+4,10,Mantenimiento mensual
+10,6,Mantenimiento mensual
+6,6,Disponible bajo petición
+5,5,Disponible bajo petición
+10,1,Disponible bajo petición
+8,7,Requiere activación previa
+4,10,Mantenimiento mensual
+3,2,Disponible bajo petición
+1,5,Incluido en la tarifa
+1,2,Requiere activación previa
+5,2,Requiere activación previa
+9,9,Requiere activación previa
+3,4,Mantenimiento mensual
+5,9,Mantenimiento mensual
+2,2,Mantenimiento mensual
+4,10,Disponible bajo petición
+3,2,Incluido en la tarifa
+2,1,Requiere activación previa
+10,8,Requiere activación previa
+4,9,Disponible bajo petición
+7,8,Requiere activación previa
+10,1,Incluido en la tarifa
+2,3,Incluido en la tarifa
+5,1,Disponible bajo petición
+7,10,Requiere activación previa
+4,8,Incluido en la tarifa
+8,10,Requiere activación previa
+8,6,Disponible bajo petición
+8,1,Mantenimiento mensual
+6,7,Mantenimiento mensual
+4,6,Disponible bajo petición
+5,3,Incluido en la tarifa
+7,2,Incluido en la tarifa
+1,10,Disponible bajo petición
+5,10,Requiere activación previa
+1,10,Incluido en la tarifa
+9,4,Disponible bajo petición
+8,4,Disponible bajo petición
+3,10,Incluido en la tarifa
+10,3,Requiere activación previa
+2,4,Mantenimiento mensual
+6,4,Mantenimiento mensual
+6,9,Incluido en la tarifa
+6,2,Incluido en la tarifa
+2,4,Requiere activación previa
+5,4,Incluido en la tarifa
+6,3,Mantenimiento mensual
+6,3,Incluido en la tarifa
+1,5,Mantenimiento mensual
+5,10,Incluido en la tarifa
+9,5,Mantenimiento mensual
+9,9,Requiere activación previa
+6,5,Mantenimiento mensual
+6,6,Disponible bajo petición
+6,9,Disponible bajo petición
+1,1,Disponible bajo petición
+7,6,Incluido en la tarifa
+2,1,Requiere activación previa
+5,3,Requiere activación previa
+9,10,Incluido en la tarifa
+4,1,Requiere activación previa
+10,3,Requiere activación previa
+1,6,Requiere activación previa
+6,2,Requiere activación previa
+8,1,Requiere activación previa
+7,2,Requiere activación previa
+7,3,Requiere activación previa
+6,9,Requiere activación previa
+4,8,Incluido en la tarifa
+8,7,Mantenimiento mensual
+4,7,Disponible bajo petición
+8,3,Incluido en la tarifa
+8,8,Mantenimiento mensual
+1,1,Incluido en la tarifa
+3,2,Requiere activación previa
+1,5,Incluido en la tarifa
+9,10,Requiere activación previa
+1,2,Mantenimiento mensual
+6,6,Requiere activación previa
+9,10,Requiere activación previa
+1,7,Incluido en la tarifa
+4,7,Incluido en la tarifa
+7,1,Disponible bajo petición
+2,9,Incluido en la tarifa
+7,7,Requiere activación previa
+3,10,Disponible bajo petición
+2,3,Mantenimiento mensual
+7,2,Mantenimiento mensual
+10,2,Mantenimiento mensual
+8,8,Incluido en la tarifa
+1,7,Requiere activación previa
+10,1,Disponible bajo petición
+10,9,Incluido en la tarifa
+10,7,Incluido en la tarifa
+1,5,Incluido en la tarifa
+2,1,Mantenimiento mensual
+3,1,Disponible bajo petición
+10,7,Disponible bajo petición
+10,6,Requiere activación previa
+1,7,Incluido en la tarifa
+3,1,Requiere activación previa
+8,2,Mantenimiento mensual
+8,8,Mantenimiento mensual
+2,9,Disponible bajo petición
+9,8,Requiere activación previa
+3,7,Requiere activación previa
+10,3,Incluido en la tarifa
+1,10,Requiere activación previa
+8,8,Incluido en la tarifa
+9,2,Mantenimiento mensual
+1,10,Incluido en la tarifa
+7,10,Disponible bajo petición
+9,4,Requiere activación previa
+3,5,Disponible bajo petición
+10,2,Requiere activación previa
+6,2,Requiere activación previa
+10,4,Requiere activación previa
+2,1,Requiere activación previa
+2,3,Incluido en la tarifa
+4,1,Requiere activación previa
+4,3,Incluido en la tarifa
+4,8,Mantenimiento mensual
+10,6,Mantenimiento mensual
+4,4,Requiere activación previa
+10,3,Mantenimiento mensual
+6,5,Incluido en la tarifa
+7,3,Requiere activación previa
+7,10,Requiere activación previa
+7,4,Incluido en la tarifa
+2,2,Requiere activación previa
+8,1,Incluido en la tarifa
+2,7,Requiere activación previa
+5,5,Requiere activación previa
+10,7,Mantenimiento mensual
+6,10,Requiere activación previa
+7,6,Requiere activación previa
+3,9,Requiere activación previa
+9,2,Incluido en la tarifa
+2,3,Disponible bajo petición
+1,5,Incluido en la tarifa
+9,10,Disponible bajo petición
+10,8,Mantenimiento mensual
+7,6,Requiere activación previa
+5,5,Incluido en la tarifa
+1,6,Requiere activación previa
+4,6,Disponible bajo petición
+6,5,Requiere activación previa
+2,4,Incluido en la tarifa
+8,9,Incluido en la tarifa
+6,2,Disponible bajo petición
+6,7,Disponible bajo petición
+1,4,Incluido en la tarifa
+3,10,Requiere activación previa
+9,4,Disponible bajo petición
+4,9,Requiere activación previa
+9,2,Incluido en la tarifa
+5,2,Incluido en la tarifa
+5,3,Incluido en la tarifa
+10,6,Requiere activación previa
+7,10,Requiere activación previa
+1,3,Mantenimiento mensual
+10,5,Disponible bajo petición
+1,2,Disponible bajo petición
+8,7,Disponible bajo petición
+9,1,Requiere activación previa
+10,4,Incluido en la tarifa
+4,1,Mantenimiento mensual
+5,9,Mantenimiento mensual
+10,9,Mantenimiento mensual
+2,2,Requiere activación previa
+8,9,Incluido en la tarifa
+5,2,Disponible bajo petición
+6,9,Mantenimiento mensual
+4,3,Mantenimiento mensual
+5,3,Requiere activación previa
+8,10,Requiere activación previa
+2,9,Disponible bajo petición
+9,8,Mantenimiento mensual
+1,5,Disponible bajo petición
+5,1,Incluido en la tarifa
+9,10,Mantenimiento mensual
+7,3,Requiere activación previa
+7,6,Disponible bajo petición
+4,1,Requiere activación previa
+3,2,Mantenimiento mensual
+3,10,Disponible bajo petición
+10,1,Incluido en la tarifa
+8,1,Mantenimiento mensual
+3,7,Disponible bajo petición
+8,6,Incluido en la tarifa
+3,5,Mantenimiento mensual
+3,6,Requiere activación previa
+8,2,Requiere activación previa
+3,9,Disponible bajo petición
+5,4,Requiere activación previa
+1,4,Mantenimiento mensual
+10,4,Disponible bajo petición
+2,1,Requiere activación previa
+2,7,Disponible bajo petición
+10,1,Requiere activación previa
+10,3,Requiere activación previa
+2,1,Incluido en la tarifa
+6,10,Incluido en la tarifa
+1,8,Incluido en la tarifa
+2,7,Disponible bajo petición
+10,2,Mantenimiento mensual
+8,3,Requiere activación previa
+10,1,Disponible bajo petición
+6,10,Incluido en la tarifa
+2,6,Requiere activación previa
+3,8,Incluido en la tarifa
+3,3,Incluido en la tarifa
+6,6,Mantenimiento mensual
+2,8,Mantenimiento mensual
+7,9,Disponible bajo petición
+1,10,Mantenimiento mensual
+2,3,Disponible bajo petición
+8,2,Requiere activación previa
+9,8,Incluido en la tarifa
+2,2,Disponible bajo petición
+2,10,Mantenimiento mensual
+5,3,Requiere activación previa
+10,1,Mantenimiento mensual
+2,6,Disponible bajo petición
+9,6,Incluido en la tarifa
+6,2,Mantenimiento mensual
+6,9,Incluido en la tarifa
+2,3,Mantenimiento mensual
+8,8,Disponible bajo petición
+6,3,Requiere activación previa
+5,3,Incluido en la tarifa
+1,5,Requiere activación previa
+2,3,Incluido en la tarifa
+3,7,Requiere activación previa
+7,10,Disponible bajo petición
+4,4,Mantenimiento mensual
+2,1,Disponible bajo petición
+5,2,Requiere activación previa
+10,2,Disponible bajo petición
+3,5,Mantenimiento mensual
+7,1,Disponible bajo petición
+5,4,Requiere activación previa
+2,8,Disponible bajo petición
+7,8,Disponible bajo petición
+7,2,Mantenimiento mensual
+6,10,Disponible bajo petición
+9,3,Mantenimiento mensual
+10,8,Disponible bajo petición
+1,3,Incluido en la tarifa
+4,2,Requiere activación previa
+10,5,Requiere activación previa
+4,10,Disponible bajo petición
+9,1,Requiere activación previa
+4,8,Mantenimiento mensual
+5,8,Disponible bajo petición
+10,9,Disponible bajo petición
+1,9,Incluido en la tarifa
+1,8,Mantenimiento mensual
+2,6,Mantenimiento mensual
+6,5,Requiere activación previa
+7,5,Mantenimiento mensual
+9,10,Incluido en la tarifa
+3,3,Mantenimiento mensual
+9,3,Incluido en la tarifa
+1,2,Incluido en la tarifa
+1,1,Mantenimiento mensual
+4,6,Incluido en la tarifa
+6,4,Incluido en la tarifa
+8,6,Incluido en la tarifa
+10,3,Mantenimiento mensual
+4,6,Requiere activación previa
+5,7,Requiere activación previa
+2,6,Disponible bajo petición
+5,5,Requiere activación previa
+4,7,Requiere activación previa
+4,9,Disponible bajo petición
+2,3,Requiere activación previa
+9,6,Mantenimiento mensual
+10,9,Disponible bajo petición
+6,7,Disponible bajo petición
+4,8,Mantenimiento mensual
+5,4,Requiere activación previa
+1,2,Mantenimiento mensual
+1,2,Mantenimiento mensual
+9,9,Mantenimiento mensual
+9,1,Incluido en la tarifa
+5,1,Mantenimiento mensual
+8,7,Requiere activación previa
+4,3,Requiere activación previa
+7,9,Incluido en la tarifa
+4,10,Disponible bajo petición
+3,8,Mantenimiento mensual
+6,8,Disponible bajo petición
+2,10,Incluido en la tarifa
+4,5,Incluido en la tarifa
+6,1,Mantenimiento mensual
+5,2,Disponible bajo petición
+4,5,Disponible bajo petición
+8,9,Mantenimiento mensual
+1,4,Mantenimiento mensual
+8,5,Requiere activación previa
+2,7,Incluido en la tarifa
+4,1,Mantenimiento mensual
+2,3,Incluido en la tarifa
+6,9,Mantenimiento mensual
+4,1,Incluido en la tarifa
+9,3,Requiere activación previa
+6,4,Incluido en la tarifa
+10,1,Disponible bajo petición
+3,2,Mantenimiento mensual
+1,1,Disponible bajo petición
+6,7,Disponible bajo petición
+10,2,Mantenimiento mensual
+5,9,Requiere activación previa
+6,8,Disponible bajo petición
+8,10,Disponible bajo petición
+8,2,Incluido en la tarifa
+7,5,Mantenimiento mensual
+10,4,Incluido en la tarifa
+3,8,Disponible bajo petición
+5,3,Incluido en la tarifa
+10,7,Mantenimiento mensual
+3,2,Mantenimiento mensual
+1,8,Incluido en la tarifa
+3,7,Mantenimiento mensual
+2,1,Requiere activación previa
+5,2,Disponible bajo petición
+1,5,Mantenimiento mensual
+8,4,Disponible bajo petición
+7,7,Incluido en la tarifa
+6,10,Disponible bajo petición
+8,8,Mantenimiento mensual

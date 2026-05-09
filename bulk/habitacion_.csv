@@ -1,0 +1,977 @@
+id_hotel,nivel,numero_habitacion,id_tipo_habitacion,precio,estado,capacidad_maxima,descripcion
+4,3,4301,6,79.74,MANTENIMIENTO,4,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+4,6,4602,3,537.13,OCUPADA,3,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+9,9,9903,4,690.7,OCUPADA,1,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+6,6,6604,9,371.35,MANTENIMIENTO,7,In eleifend quam a odio. In hac habitasse platea dictumst.
+8,9,8905,8,73.87,OCUPADA,10,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio."
+8,7,8706,9,649.71,MANTENIMIENTO,6,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+7,2,7207,2,600.42,MANTENIMIENTO,7,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+4,3,4308,4,378.19,OCUPADA,1,"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+1,6,1609,8,518.22,OCUPADA,6,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+4,7,4710,6,521.07,OCUPADA,3,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+9,2,9211,2,658.48,MANTENIMIENTO,5,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum."
+4,8,4812,1,246.9,MANTENIMIENTO,3,Integer non velit.
+2,10,3013,2,646.25,DISPONIBLE,7,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+6,6,6614,9,285.02,DISPONIBLE,7,Pellentesque ultrices mattis odio. Donec vitae nisi.
+6,2,6215,7,418.03,MANTENIMIENTO,4,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+6,1,6116,8,283.98,MANTENIMIENTO,4,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+6,9,6917,5,439.08,DISPONIBLE,5,Phasellus sit amet erat. Nulla tempus.
+8,8,8818,3,518.29,MANTENIMIENTO,8,Proin interdum mauris non ligula pellentesque ultrices.
+6,3,6319,10,593.18,OCUPADA,10,Vestibulum ac est lacinia nisi venenatis tristique.
+4,10,5020,4,48.91,OCUPADA,4,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+5,1,5121,10,304.71,OCUPADA,6,Vivamus vestibulum sagittis sapien.
+2,5,2522,6,39.36,OCUPADA,9,Nulla facilisi.
+8,8,8823,3,394.3,OCUPADA,4,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+6,4,6424,9,661.38,OCUPADA,4,Duis bibendum. Morbi non quam nec dui luctus rutrum.
+6,5,6525,3,389.85,OCUPADA,3,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+4,10,5026,6,661.38,OCUPADA,8,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+5,6,5627,6,320.23,DISPONIBLE,4,Duis at velit eu est congue elementum.
+5,5,5528,5,388.56,OCUPADA,3,In sagittis dui vel nisl. Duis ac nibh.
+9,6,9629,8,626.28,OCUPADA,8,Proin interdum mauris non ligula pellentesque ultrices.
+4,10,5030,9,562.56,OCUPADA,9,Nullam sit amet turpis elementum ligula vehicula consequat.
+3,9,3931,10,716.77,OCUPADA,2,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+5,10,6032,9,331.15,OCUPADA,3,Morbi non quam nec dui luctus rutrum. Nulla tellus.
+3,9,3933,8,273.74,DISPONIBLE,3,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+4,1,4134,5,437.28,MANTENIMIENTO,1,Mauris sit amet eros.
+9,7,9735,4,398.25,DISPONIBLE,1,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+8,4,8436,6,223.95,OCUPADA,10,In hac habitasse platea dictumst.
+1,7,1737,6,373.2,MANTENIMIENTO,6,Pellentesque ultrices mattis odio. Donec vitae nisi.
+2,2,2238,3,229.98,DISPONIBLE,7,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+6,6,6639,3,296.32,OCUPADA,9,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+6,1,6140,2,574.34,OCUPADA,3,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+5,2,5241,10,377.01,OCUPADA,9,Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+10,2,10242,4,266.91,OCUPADA,8,Donec posuere metus vitae ipsum.
+5,7,5743,4,340.75,DISPONIBLE,2,In quis justo.
+2,9,2944,1,461.14,DISPONIBLE,9,In congue. Etiam justo.
+6,6,6645,4,732.84,MANTENIMIENTO,4,Nullam varius.
+1,2,1246,7,745.31,DISPONIBLE,5,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+3,7,3747,9,722.58,OCUPADA,10,Phasellus in felis. Donec semper sapien a libero.
+6,7,6748,6,429.21,MANTENIMIENTO,9,Morbi quis tortor id nulla ultrices aliquet.
+8,5,8549,8,451.4,DISPONIBLE,8,Nam dui.
+4,6,4650,6,386.66,OCUPADA,8,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+2,7,2751,9,742.68,MANTENIMIENTO,6,Proin at turpis a pede posuere nonummy. Integer non velit.
+6,1,6152,2,292.11,DISPONIBLE,2,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti."
+3,8,3853,2,208.83,DISPONIBLE,1,Aliquam erat volutpat.
+6,8,6854,2,465.67,DISPONIBLE,4,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+7,2,7255,6,694.16,OCUPADA,7,Curabitur at ipsum ac tellus semper interdum.
+5,10,6056,6,423.58,OCUPADA,4,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+6,5,6557,7,683.5,DISPONIBLE,2,In eleifend quam a odio. In hac habitasse platea dictumst.
+4,6,4658,9,641.36,MANTENIMIENTO,1,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+4,10,5059,3,664.19,OCUPADA,3,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+7,5,7560,8,634.68,OCUPADA,3,In eleifend quam a odio.
+4,2,4261,3,269.4,OCUPADA,5,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+5,7,5762,2,551.42,MANTENIMIENTO,5,In quis justo. Maecenas rhoncus aliquam lacus.
+3,7,3763,10,120.95,DISPONIBLE,8,Vivamus vel nulla eget eros elementum pellentesque.
+3,8,3864,3,384.4,OCUPADA,2,Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+3,2,3265,1,569.37,MANTENIMIENTO,5,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+10,8,10866,7,86.36,MANTENIMIENTO,1,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+8,7,8767,3,410.71,DISPONIBLE,1,Nullam varius. Nulla facilisi.
+4,3,4368,8,148.87,DISPONIBLE,4,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+4,9,4969,6,372.17,MANTENIMIENTO,7,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
+6,3,6370,10,170.26,OCUPADA,9,Integer tincidunt ante vel ipsum.
+4,3,4371,1,615.09,DISPONIBLE,5,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+3,5,3572,2,394.77,MANTENIMIENTO,1,Vivamus tortor.
+4,8,4873,1,532.31,DISPONIBLE,5,Praesent blandit. Nam nulla.
+4,8,4874,8,182.0,DISPONIBLE,10,Duis bibendum.
+4,9,4975,9,420.68,DISPONIBLE,9,Duis bibendum.
+6,4,6476,9,398.68,OCUPADA,1,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+2,2,2277,1,91.67,OCUPADA,3,In hac habitasse platea dictumst.
+1,6,1678,3,176.29,DISPONIBLE,6,Nullam sit amet turpis elementum ligula vehicula consequat.
+4,7,4779,10,162.34,OCUPADA,2,Aliquam sit amet diam in magna bibendum imperdiet.
+1,10,2080,4,632.37,MANTENIMIENTO,8,Etiam pretium iaculis justo. In hac habitasse platea dictumst.
+7,10,8081,1,439.03,DISPONIBLE,3,Cras pellentesque volutpat dui.
+2,10,3082,8,305.12,DISPONIBLE,8,Aliquam non mauris.
+4,6,4683,3,211.0,OCUPADA,8,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+7,8,7884,8,415.07,DISPONIBLE,9,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+5,9,5985,2,204.31,DISPONIBLE,7,Suspendisse potenti. Nullam porttitor lacus at turpis.
+8,7,8786,10,640.47,OCUPADA,2,Praesent blandit lacinia erat.
+6,1,6187,1,530.83,OCUPADA,7,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+8,6,8688,2,402.67,MANTENIMIENTO,10,Pellentesque ultrices mattis odio.
+3,5,3589,6,352.6,OCUPADA,3,Sed accumsan felis.
+2,3,2390,9,100.68,MANTENIMIENTO,1,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+10,3,10391,7,200.65,DISPONIBLE,3,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+2,10,3092,6,211.34,DISPONIBLE,5,Duis aliquam convallis nunc.
+6,10,7093,7,717.83,MANTENIMIENTO,10,Nulla ac enim.
+7,8,7894,8,496.05,OCUPADA,10,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+2,3,2395,1,142.47,MANTENIMIENTO,8,Duis mattis egestas metus.
+7,2,7296,6,141.49,OCUPADA,8,Maecenas ut massa quis augue luctus tincidunt.
+5,4,5497,2,316.3,DISPONIBLE,1,Duis consequat dui nec nisi volutpat eleifend.
+5,9,5998,10,535.51,DISPONIBLE,1,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+4,7,4799,4,221.85,OCUPADA,1,In eleifend quam a odio. In hac habitasse platea dictumst.
+9,9,10000,5,313.6,OCUPADA,9,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+3,2,3301,2,438.55,OCUPADA,2,Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+7,2,7302,10,90.98,OCUPADA,9,Morbi non quam nec dui luctus rutrum. Nulla tellus.
+5,8,5903,8,618.46,OCUPADA,4,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+4,10,5104,9,139.19,OCUPADA,10,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.
+2,5,2605,5,569.61,OCUPADA,1,In hac habitasse platea dictumst.
+5,9,6006,7,552.66,OCUPADA,3,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+9,6,9707,9,599.5,OCUPADA,3,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+1,7,1808,8,668.35,MANTENIMIENTO,10,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+2,7,2809,10,315.82,MANTENIMIENTO,8,Nulla suscipit ligula in lacus.
+5,9,6010,9,288.54,MANTENIMIENTO,9,Proin risus. Praesent lectus.
+4,10,5111,4,234.07,MANTENIMIENTO,9,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+5,6,5712,10,210.33,DISPONIBLE,4,Curabitur convallis.
+4,10,5113,3,181.85,MANTENIMIENTO,2,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+5,9,6014,2,399.47,OCUPADA,9,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+1,3,1415,8,224.17,MANTENIMIENTO,3,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+8,3,8416,2,653.66,OCUPADA,7,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+8,3,8417,2,706.43,DISPONIBLE,2,Proin eu mi. Nulla ac enim.
+6,2,6318,2,37.08,OCUPADA,4,"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+5,2,5319,4,84.73,MANTENIMIENTO,3,Curabitur in libero ut massa volutpat convallis.
+2,8,2920,1,155.8,DISPONIBLE,10,Morbi a ipsum.
+4,6,4721,8,694.55,DISPONIBLE,4,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+5,1,5222,6,243.59,DISPONIBLE,10,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+2,5,2623,3,320.35,OCUPADA,5,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+10,10,11124,3,475.84,OCUPADA,1,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+8,7,8825,3,236.5,OCUPADA,5,Proin risus. Praesent lectus.
+5,2,5326,4,295.04,DISPONIBLE,3,Maecenas pulvinar lobortis est.
+3,1,3227,4,399.86,OCUPADA,9,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis."
+6,4,6528,9,386.61,MANTENIMIENTO,5,Duis consequat dui nec nisi volutpat eleifend.
+1,5,1629,3,450.67,OCUPADA,2,Vestibulum ac est lacinia nisi venenatis tristique.
+1,3,1430,5,309.15,MANTENIMIENTO,6,Pellentesque at nulla.
+6,6,6731,2,529.45,MANTENIMIENTO,10,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+4,4,4532,3,80.59,MANTENIMIENTO,1,Duis mattis egestas metus. Aenean fermentum.
+1,3,1433,3,40.97,MANTENIMIENTO,5,Donec quis orci eget orci vehicula condimentum.
+2,8,2934,1,445.17,OCUPADA,7,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+2,5,2635,8,591.71,OCUPADA,3,Aenean fermentum.
+1,2,1336,3,683.21,OCUPADA,6,In sagittis dui vel nisl. Duis ac nibh.
+6,5,6637,2,584.05,OCUPADA,10,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+5,8,5938,9,585.64,DISPONIBLE,7,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+9,2,9339,6,494.99,DISPONIBLE,8,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+2,9,3040,10,368.56,OCUPADA,10,Pellentesque at nulla. Suspendisse potenti.
+3,1,3241,7,721.16,MANTENIMIENTO,4,Integer a nibh.
+4,8,4942,2,254.86,OCUPADA,10,Donec vitae nisi.
+5,7,5843,10,698.7,OCUPADA,8,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+6,2,6344,4,524.45,OCUPADA,9,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+6,4,6545,3,475.37,MANTENIMIENTO,1,Proin interdum mauris non ligula pellentesque ultrices.
+1,7,1846,4,345.42,OCUPADA,5,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+10,3,10447,8,281.19,DISPONIBLE,7,Ut at dolor quis odio consequat varius. Integer ac leo.
+6,9,7048,7,496.18,DISPONIBLE,10,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+8,6,8749,4,647.78,OCUPADA,8,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+2,1,2250,7,636.72,OCUPADA,3,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+7,4,7551,6,110.54,DISPONIBLE,7,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+8,5,8652,7,245.81,OCUPADA,6,"In est risus, auctor sed, tristique in, tempus sit amet, sem."
+4,1,4253,8,278.58,OCUPADA,9,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+3,8,3954,1,178.37,MANTENIMIENTO,1,In quis justo. Maecenas rhoncus aliquam lacus.
+3,5,3655,8,325.68,MANTENIMIENTO,9,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.
+7,6,7756,10,680.09,MANTENIMIENTO,8,Proin at turpis a pede posuere nonummy.
+4,9,5057,3,734.49,MANTENIMIENTO,8,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+10,10,11158,8,349.77,OCUPADA,2,Morbi vel lectus in quam fringilla rhoncus.
+5,7,5859,9,338.27,MANTENIMIENTO,1,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+2,7,2860,5,670.9,MANTENIMIENTO,8,Suspendisse potenti. In eleifend quam a odio.
+10,6,10761,8,690.47,DISPONIBLE,5,Phasellus sit amet erat.
+6,4,6562,1,668.63,OCUPADA,8,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+3,7,3863,5,137.68,OCUPADA,5,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+1,8,1964,1,218.33,DISPONIBLE,2,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+1,9,2065,4,144.18,DISPONIBLE,8,Etiam pretium iaculis justo. In hac habitasse platea dictumst.
+6,5,6666,9,42.48,OCUPADA,9,Suspendisse potenti.
+8,4,8567,6,323.98,DISPONIBLE,7,Nunc nisl.
+4,2,4368,9,717.95,MANTENIMIENTO,3,Donec dapibus. Duis at velit eu est congue elementum.
+2,8,2969,10,501.78,OCUPADA,8,Duis mattis egestas metus. Aenean fermentum.
+4,4,4570,1,604.38,MANTENIMIENTO,7,Nunc rhoncus dui vel sem.
+5,7,5871,7,53.19,OCUPADA,4,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+1,3,1472,8,352.56,MANTENIMIENTO,5,Etiam pretium iaculis justo.
+3,5,3673,3,359.61,DISPONIBLE,4,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
+2,7,2874,4,360.77,DISPONIBLE,8,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam."
+8,6,8775,5,193.43,MANTENIMIENTO,2,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+4,7,4876,3,383.65,MANTENIMIENTO,10,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+3,4,3577,1,371.73,MANTENIMIENTO,9,In eleifend quam a odio. In hac habitasse platea dictumst.
+6,5,6678,1,353.55,OCUPADA,2,Proin risus. Praesent lectus.
+5,1,5279,2,514.9,DISPONIBLE,3,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+8,10,9180,10,580.66,DISPONIBLE,4,In quis justo. Maecenas rhoncus aliquam lacus.
+9,1,9281,4,655.55,OCUPADA,10,Pellentesque ultrices mattis odio. Donec vitae nisi.
+6,2,6382,8,500.86,OCUPADA,4,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+4,2,4383,10,135.47,DISPONIBLE,6,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio."
+5,8,5984,10,429.03,MANTENIMIENTO,5,Maecenas pulvinar lobortis est. Phasellus sit amet erat.
+6,9,7085,1,156.67,OCUPADA,4,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+2,1,2286,1,245.46,DISPONIBLE,6,Phasellus sit amet erat. Nulla tempus.
+2,9,3087,8,497.66,MANTENIMIENTO,9,Proin eu mi. Nulla ac enim.
+1,5,1688,2,716.18,MANTENIMIENTO,1,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+1,10,2189,1,132.61,MANTENIMIENTO,10,Etiam vel augue.
+4,3,4490,8,572.13,OCUPADA,2,Cras in purus eu magna vulputate luctus.
+8,7,8891,9,554.32,MANTENIMIENTO,2,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+4,8,4992,3,412.26,OCUPADA,9,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+2,2,2393,4,386.17,MANTENIMIENTO,10,Nulla tellus.
+6,9,7094,4,362.59,OCUPADA,8,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+6,6,6795,10,310.5,OCUPADA,2,Nulla mollis molestie lorem.
+6,2,6396,4,568.09,MANTENIMIENTO,9,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus."
+6,6,6797,1,215.98,DISPONIBLE,2,Vivamus in felis eu sapien cursus vestibulum.
+2,9,3098,9,473.03,DISPONIBLE,6,Vestibulum sed magna at nunc commodo placerat.
+5,8,5999,5,700.5,DISPONIBLE,4,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+2,2,2400,10,72.47,OCUPADA,5,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+5,1,5301,4,82.36,DISPONIBLE,3,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+6,7,6902,8,548.44,MANTENIMIENTO,6,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+4,3,4503,10,232.34,OCUPADA,7,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+7,9,8104,1,352.62,MANTENIMIENTO,4,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+3,7,3905,4,646.19,MANTENIMIENTO,4,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+4,10,5206,3,159.5,DISPONIBLE,6,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+8,2,8407,3,707.09,MANTENIMIENTO,5,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+3,9,4108,9,663.28,OCUPADA,2,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+8,4,8609,10,129.55,MANTENIMIENTO,4,Integer ac leo.
+3,3,3510,2,744.0,MANTENIMIENTO,2,Morbi quis tortor id nulla ultrices aliquet.
+10,10,11211,10,32.7,MANTENIMIENTO,1,Nunc purus. Phasellus in felis.
+5,8,6012,4,616.01,MANTENIMIENTO,3,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.
+6,5,6713,8,725.17,MANTENIMIENTO,9,Nam dui.
+2,7,2914,3,164.66,OCUPADA,4,Donec posuere metus vitae ipsum. Aliquam non mauris.
+9,10,10215,6,473.19,DISPONIBLE,9,Pellentesque at nulla.
+2,9,3116,6,492.07,DISPONIBLE,4,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.
+1,9,2117,1,108.07,OCUPADA,1,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus."
+9,3,9518,3,533.71,OCUPADA,9,Vestibulum sed magna at nunc commodo placerat.
+8,7,8919,6,240.86,DISPONIBLE,6,Nunc purus.
+5,1,5320,10,258.65,DISPONIBLE,3,Integer tincidunt ante vel ipsum.
+9,9,10121,5,259.69,DISPONIBLE,1,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+2,1,2322,3,365.52,OCUPADA,6,Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+7,2,7423,8,107.82,MANTENIMIENTO,10,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+8,5,8724,2,93.88,MANTENIMIENTO,6,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+5,2,5425,8,634.62,DISPONIBLE,7,Phasellus id sapien in sapien iaculis congue.
+6,3,6526,7,734.36,OCUPADA,8,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+8,6,8827,8,497.54,DISPONIBLE,3,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+8,1,8328,7,34.57,OCUPADA,6,Aliquam erat volutpat. In congue.
+9,3,9529,8,118.17,OCUPADA,6,Quisque porta volutpat erat.
+2,10,3230,10,436.79,DISPONIBLE,1,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+6,2,6431,7,732.92,MANTENIMIENTO,1,Aenean lectus. Pellentesque eget nunc.
+10,6,10832,5,277.02,MANTENIMIENTO,2,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+6,5,6733,5,686.64,OCUPADA,9,Donec posuere metus vitae ipsum.
+10,5,10734,7,271.1,OCUPADA,6,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+2,9,3135,9,520.98,DISPONIBLE,6,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien."
+4,1,4336,4,668.8,MANTENIMIENTO,4,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+10,10,11237,6,508.66,OCUPADA,5,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+6,6,6838,1,198.36,OCUPADA,8,Integer ac leo.
+6,4,6639,2,648.95,DISPONIBLE,1,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+4,5,4740,1,300.52,OCUPADA,10,Nullam sit amet turpis elementum ligula vehicula consequat.
+6,3,6541,6,218.3,MANTENIMIENTO,5,Morbi non quam nec dui luctus rutrum.
+4,10,5242,5,401.76,DISPONIBLE,5,Mauris ullamcorper purus sit amet nulla.
+8,2,8443,8,207.7,DISPONIBLE,2,In hac habitasse platea dictumst.
+5,7,5944,5,563.19,MANTENIMIENTO,7,Mauris sit amet eros.
+3,6,3845,4,340.23,OCUPADA,4,Phasellus in felis. Donec semper sapien a libero.
+3,4,3646,2,351.19,MANTENIMIENTO,9,Donec ut dolor.
+3,9,4147,2,389.36,OCUPADA,9,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+6,1,6348,9,137.99,DISPONIBLE,9,Quisque ut erat. Curabitur gravida nisi at nibh.
+6,7,6949,8,142.36,DISPONIBLE,6,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+2,1,2350,6,484.54,DISPONIBLE,5,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+8,8,9051,3,207.5,DISPONIBLE,8,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.
+3,7,3952,10,110.27,DISPONIBLE,9,Ut at dolor quis odio consequat varius. Integer ac leo.
+4,3,4553,6,517.46,MANTENIMIENTO,10,Quisque ut erat. Curabitur gravida nisi at nibh.
+10,7,10954,5,675.2,MANTENIMIENTO,10,Donec posuere metus vitae ipsum.
+2,3,2555,3,350.76,OCUPADA,5,Vivamus vestibulum sagittis sapien.
+6,1,6356,7,536.08,MANTENIMIENTO,8,Morbi non quam nec dui luctus rutrum. Nulla tellus.
+9,1,9357,3,745.32,OCUPADA,6,Ut at dolor quis odio consequat varius. Integer ac leo.
+6,10,7258,3,162.16,OCUPADA,9,Nunc rhoncus dui vel sem. Sed sagittis.
+3,7,3959,6,393.72,DISPONIBLE,9,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.
+5,2,5460,7,431.26,DISPONIBLE,5,Aliquam non mauris. Morbi non lectus.
+6,6,6861,9,99.94,DISPONIBLE,6,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+6,4,6662,6,82.47,OCUPADA,6,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis."
+7,10,8263,10,53.89,DISPONIBLE,7,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+2,8,3064,7,440.84,MANTENIMIENTO,7,Quisque ut erat.
+4,5,4765,9,110.51,OCUPADA,7,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+2,3,2566,10,104.4,DISPONIBLE,1,"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+4,4,4667,9,710.75,OCUPADA,8,Nulla facilisi.
+4,10,5268,6,692.95,MANTENIMIENTO,8,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+8,3,8569,9,621.74,OCUPADA,8,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+8,5,8770,7,664.31,MANTENIMIENTO,5,Fusce consequat.
+5,4,5671,4,714.29,MANTENIMIENTO,5,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+2,5,2772,4,114.05,DISPONIBLE,4,Mauris ullamcorper purus sit amet nulla.
+3,4,3673,8,411.81,OCUPADA,2,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+5,3,5574,8,615.79,OCUPADA,8,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+10,7,10975,10,175.95,DISPONIBLE,4,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+8,10,9276,6,271.47,MANTENIMIENTO,8,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+6,3,6577,2,733.09,MANTENIMIENTO,4,Etiam justo.
+8,5,8778,6,298.97,MANTENIMIENTO,10,Donec vitae nisi.
+8,8,9079,3,242.22,MANTENIMIENTO,6,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+4,6,4880,1,575.88,DISPONIBLE,10,In eleifend quam a odio.
+6,5,6781,9,697.75,MANTENIMIENTO,1,Aliquam quis turpis eget elit sodales scelerisque.
+6,5,6782,1,748.15,DISPONIBLE,2,Nulla nisl. Nunc nisl.
+5,1,5383,1,392.91,DISPONIBLE,10,"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+4,1,4384,2,385.17,MANTENIMIENTO,7,Mauris lacinia sapien quis libero.
+9,1,9385,10,643.36,DISPONIBLE,1,Aenean lectus.
+3,3,3586,6,121.19,MANTENIMIENTO,7,Aenean lectus.
+9,6,9887,7,595.36,MANTENIMIENTO,1,Morbi a ipsum. Integer a nibh.
+4,8,5088,9,37.65,MANTENIMIENTO,9,Maecenas pulvinar lobortis est.
+8,9,9189,10,78.46,OCUPADA,4,Nulla mollis molestie lorem. Quisque ut erat.
+6,5,6790,8,696.15,MANTENIMIENTO,6,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+2,2,2491,4,478.17,MANTENIMIENTO,9,"In est risus, auctor sed, tristique in, tempus sit amet, sem."
+5,5,5792,10,416.8,OCUPADA,6,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+5,4,5693,2,320.99,DISPONIBLE,7,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+9,1,9394,2,78.8,DISPONIBLE,2,In hac habitasse platea dictumst.
+5,9,6195,2,468.63,MANTENIMIENTO,7,In sagittis dui vel nisl.
+5,6,5896,1,209.02,DISPONIBLE,1,Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+5,10,6297,3,670.01,OCUPADA,10,Suspendisse potenti. In eleifend quam a odio.
+5,8,6098,5,64.2,OCUPADA,1,Nulla nisl. Nunc nisl.
+2,10,3299,8,723.5,OCUPADA,9,Integer ac neque.
+10,8,11100,3,247.16,DISPONIBLE,5,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+6,4,6701,10,508.72,MANTENIMIENTO,9,Suspendisse accumsan tortor quis turpis. Sed ante.
+4,4,4702,4,716.11,MANTENIMIENTO,8,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+9,10,10303,7,707.69,DISPONIBLE,6,"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+8,9,9204,10,275.92,MANTENIMIENTO,9,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.
+1,6,1905,5,84.7,DISPONIBLE,9,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.
+3,4,3706,10,195.75,DISPONIBLE,1,Curabitur in libero ut massa volutpat convallis.
+10,3,10607,10,386.39,OCUPADA,2,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+10,10,11308,3,280.62,MANTENIMIENTO,6,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+3,3,3609,5,302.02,OCUPADA,6,In hac habitasse platea dictumst.
+9,1,9410,5,54.27,OCUPADA,7,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.
+2,2,2511,8,255.02,DISPONIBLE,5,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+9,8,10112,6,719.55,MANTENIMIENTO,8,Vestibulum rutrum rutrum neque.
+1,5,1813,4,387.22,DISPONIBLE,8,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+4,6,4914,2,82.38,OCUPADA,2,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+4,6,4915,8,400.25,MANTENIMIENTO,1,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+6,9,7216,1,637.33,DISPONIBLE,5,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+9,6,9917,3,280.58,MANTENIMIENTO,5,Nulla ut erat id mauris vulputate elementum. Nullam varius.
+2,7,3018,9,498.46,OCUPADA,10,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+2,8,3119,4,643.02,DISPONIBLE,6,Nulla facilisi.
+3,7,4020,9,462.94,DISPONIBLE,2,Nullam sit amet turpis elementum ligula vehicula consequat.
+5,5,5821,9,483.72,OCUPADA,6,Maecenas tincidunt lacus at velit.
+4,5,4822,9,62.28,OCUPADA,4,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.
+5,1,5423,6,315.67,MANTENIMIENTO,3,Suspendisse potenti.
+1,7,2024,2,295.71,DISPONIBLE,4,Nulla mollis molestie lorem.
+4,9,5225,10,262.91,MANTENIMIENTO,7,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+4,3,4626,1,136.95,MANTENIMIENTO,4,Praesent blandit. Nam nulla.
+3,2,3527,8,380.4,MANTENIMIENTO,2,Fusce posuere felis sed lacus.
+6,5,6828,7,733.05,MANTENIMIENTO,3,Nullam varius. Nulla facilisi.
+5,8,6129,9,55.4,DISPONIBLE,7,Sed vel enim sit amet nunc viverra dapibus.
+3,9,4230,6,708.92,OCUPADA,6,Phasellus in felis. Donec semper sapien a libero.
+1,2,1531,3,116.86,DISPONIBLE,2,Donec dapibus.
+3,5,3832,9,470.38,DISPONIBLE,8,Nam tristique tortor eu pede.
+7,2,7533,5,589.81,MANTENIMIENTO,7,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+10,10,11334,4,403.24,DISPONIBLE,4,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus."
+2,10,3335,10,288.3,MANTENIMIENTO,3,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+5,1,5436,10,389.08,MANTENIMIENTO,1,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+5,8,6137,1,119.86,MANTENIMIENTO,3,Nulla justo.
+6,10,7338,4,516.39,DISPONIBLE,10,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+10,7,11039,3,105.87,OCUPADA,6,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+1,1,1440,7,257.22,DISPONIBLE,2,Nunc rhoncus dui vel sem.
+4,6,4941,10,554.35,OCUPADA,1,Phasellus sit amet erat. Nulla tempus.
+2,1,2442,4,740.68,DISPONIBLE,1,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+8,8,9143,4,308.06,OCUPADA,6,Duis consequat dui nec nisi volutpat eleifend.
+4,10,5344,9,699.86,MANTENIMIENTO,9,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+9,2,9545,10,597.41,OCUPADA,9,Aliquam non mauris.
+2,9,3246,7,266.96,MANTENIMIENTO,9,Etiam pretium iaculis justo.
+6,3,6647,7,730.57,DISPONIBLE,1,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+8,6,8948,9,539.69,DISPONIBLE,3,Suspendisse potenti. In eleifend quam a odio.
+10,8,11149,5,146.04,OCUPADA,9,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+3,4,3750,7,346.83,DISPONIBLE,4,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+4,6,4951,5,681.49,DISPONIBLE,8,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+6,3,6652,2,116.9,DISPONIBLE,5,Vivamus vel nulla eget eros elementum pellentesque.
+4,6,4953,1,348.6,MANTENIMIENTO,8,Nulla mollis molestie lorem.
+4,9,5254,10,521.22,DISPONIBLE,6,Vestibulum ac est lacinia nisi venenatis tristique.
+4,4,4755,9,456.27,DISPONIBLE,7,Nunc nisl.
+5,5,5856,2,73.54,OCUPADA,6,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+3,7,4057,8,380.54,OCUPADA,6,Etiam faucibus cursus urna.
+6,8,7158,2,96.3,DISPONIBLE,8,Proin interdum mauris non ligula pellentesque ultrices.
+4,1,4459,1,453.89,OCUPADA,4,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+8,9,9260,9,211.6,DISPONIBLE,3,Nulla tellus.
+2,8,3161,10,487.63,DISPONIBLE,2,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+2,6,2962,6,237.34,OCUPADA,2,Quisque id justo sit amet sapien dignissim vestibulum.
+5,1,5463,1,661.68,DISPONIBLE,1,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+8,10,9364,4,632.07,DISPONIBLE,1,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio."
+2,7,3065,3,303.41,DISPONIBLE,6,Nullam porttitor lacus at turpis.
+2,8,3166,3,692.51,MANTENIMIENTO,8,In blandit ultrices enim.
+8,9,9267,6,476.2,OCUPADA,5,Nulla tellus. In sagittis dui vel nisl.
+4,7,5068,3,682.15,OCUPADA,7,Aenean sit amet justo. Morbi ut odio.
+6,7,7069,6,724.91,MANTENIMIENTO,8,Donec quis orci eget orci vehicula condimentum.
+2,8,3170,4,296.44,DISPONIBLE,4,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+6,2,6571,1,499.2,OCUPADA,1,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+2,6,2972,8,629.8,DISPONIBLE,3,Aliquam erat volutpat. In congue.
+6,5,6873,2,291.63,OCUPADA,9,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.
+5,4,5774,3,598.06,MANTENIMIENTO,4,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+7,5,7875,8,443.17,MANTENIMIENTO,9,Etiam vel augue. Vestibulum rutrum rutrum neque.
+4,6,4976,10,224.35,MANTENIMIENTO,5,Suspendisse potenti.
+5,5,5877,2,544.32,MANTENIMIENTO,3,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique."
+9,1,9478,6,571.83,MANTENIMIENTO,4,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+3,8,4179,8,566.82,OCUPADA,7,Donec ut mauris eget massa tempor convallis.
+7,9,8280,2,190.39,DISPONIBLE,8,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+2,10,3381,1,722.46,OCUPADA,4,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus."
+6,10,7382,4,259.27,OCUPADA,8,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+5,6,5983,9,170.44,OCUPADA,9,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+1,8,2184,5,90.72,MANTENIMIENTO,6,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.
+1,2,1585,9,727.6,DISPONIBLE,4,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+2,3,2686,2,130.32,DISPONIBLE,2,In sagittis dui vel nisl.
+7,6,7987,8,460.83,OCUPADA,8,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.
+10,7,11088,3,309.25,MANTENIMIENTO,8,Maecenas pulvinar lobortis est.
+6,4,6789,3,259.64,DISPONIBLE,9,Aliquam erat volutpat.
+4,7,5090,6,398.74,OCUPADA,10,Nulla ut erat id mauris vulputate elementum.
+4,9,5291,7,33.09,MANTENIMIENTO,1,Integer ac leo.
+4,8,5192,1,228.05,OCUPADA,8,Vivamus tortor.
+8,4,8793,9,608.13,MANTENIMIENTO,2,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+2,5,2894,1,246.59,OCUPADA,2,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+5,8,6195,7,318.54,MANTENIMIENTO,2,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+7,6,7996,4,560.39,MANTENIMIENTO,10,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+10,3,10697,3,116.01,MANTENIMIENTO,3,Nullam varius.
+2,9,3298,3,331.64,OCUPADA,7,In congue.
+2,1,2499,10,470.14,OCUPADA,9,Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+6,9,7300,1,391.37,MANTENIMIENTO,5,Pellentesque eget nunc.
+2,5,2901,6,448.34,MANTENIMIENTO,7,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+9,5,9902,6,621.0,MANTENIMIENTO,2,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+7,9,8303,5,200.86,DISPONIBLE,9,Aenean fermentum. Donec ut mauris eget massa tempor convallis.
+6,2,6604,5,86.12,MANTENIMIENTO,9,Phasellus sit amet erat. Nulla tempus.
+6,2,6605,5,578.35,OCUPADA,7,Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.
+1,6,2006,3,611.37,DISPONIBLE,9,Nulla nisl. Nunc nisl.
+1,6,2007,6,119.2,MANTENIMIENTO,9,Vestibulum rutrum rutrum neque.
+4,7,5108,5,625.12,MANTENIMIENTO,9,Donec posuere metus vitae ipsum.
+5,4,5809,1,655.47,DISPONIBLE,5,Proin risus.
+2,6,3010,1,642.9,OCUPADA,6,Aenean sit amet justo.
+1,4,1811,10,32.52,DISPONIBLE,1,Pellentesque ultrices mattis odio.
+8,5,8912,3,430.19,OCUPADA,2,Morbi a ipsum. Integer a nibh.
+5,4,5813,6,737.2,MANTENIMIENTO,7,Quisque porta volutpat erat.
+6,7,7114,3,172.92,DISPONIBLE,10,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+2,2,2615,8,90.44,DISPONIBLE,10,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+8,2,8616,7,105.94,DISPONIBLE,8,Quisque ut erat. Curabitur gravida nisi at nibh.
+2,6,3017,5,722.55,MANTENIMIENTO,4,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.
+2,10,3418,1,700.87,MANTENIMIENTO,8,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+8,5,8919,1,366.54,OCUPADA,6,Cras pellentesque volutpat dui.
+4,3,4720,7,373.97,MANTENIMIENTO,10,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+7,2,7621,2,641.4,OCUPADA,1,Aenean fermentum.
+4,9,5322,2,280.6,DISPONIBLE,1,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+6,4,6823,7,55.93,MANTENIMIENTO,1,Nulla ut erat id mauris vulputate elementum.
+8,5,8924,5,528.46,MANTENIMIENTO,3,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+5,3,5725,2,563.27,DISPONIBLE,3,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+7,4,7826,9,271.44,MANTENIMIENTO,4,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+7,10,8427,1,473.23,DISPONIBLE,1,Integer a nibh. In quis justo.
+4,7,5128,2,530.51,OCUPADA,9,Proin at turpis a pede posuere nonummy.
+6,10,7429,4,575.66,MANTENIMIENTO,2,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+3,10,4430,5,504.08,MANTENIMIENTO,10,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+1,7,2131,2,505.81,DISPONIBLE,5,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+5,4,5832,1,240.52,OCUPADA,9,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+10,4,10833,3,355.54,MANTENIMIENTO,9,Morbi quis tortor id nulla ultrices aliquet.
+5,7,6134,6,533.15,MANTENIMIENTO,6,Praesent blandit. Nam nulla.
+8,9,9335,6,120.67,DISPONIBLE,8,Vestibulum sed magna at nunc commodo placerat.
+2,7,3136,7,345.5,MANTENIMIENTO,4,Proin at turpis a pede posuere nonummy.
+4,10,5437,6,147.59,DISPONIBLE,5,Integer non velit.
+6,3,6738,9,684.96,MANTENIMIENTO,2,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+4,10,5439,1,489.17,OCUPADA,9,Etiam justo. Etiam pretium iaculis justo.
+4,1,4540,3,136.66,DISPONIBLE,8,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+4,5,4941,8,372.95,MANTENIMIENTO,3,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices."
+6,1,6542,8,226.58,DISPONIBLE,6,Nulla justo.
+2,6,3043,10,422.58,OCUPADA,10,Suspendisse potenti.
+6,2,6644,8,724.64,OCUPADA,10,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+6,1,6545,2,53.02,DISPONIBLE,3,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+4,6,5046,8,644.51,OCUPADA,6,Quisque ut erat.
+1,2,1647,5,615.61,DISPONIBLE,4,Nullam porttitor lacus at turpis.
+6,6,7048,7,654.84,OCUPADA,2,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+3,8,4249,1,591.31,MANTENIMIENTO,3,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices."
+5,6,6050,4,405.0,MANTENIMIENTO,7,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+2,5,2951,5,319.04,OCUPADA,9,Praesent blandit.
+5,8,6252,10,447.73,DISPONIBLE,4,In eleifend quam a odio. In hac habitasse platea dictumst.
+1,7,2153,8,609.89,MANTENIMIENTO,8,Aenean lectus. Pellentesque eget nunc.
+5,7,6154,10,663.76,MANTENIMIENTO,1,Nulla facilisi.
+7,7,8155,4,601.81,MANTENIMIENTO,8,Maecenas pulvinar lobortis est.
+6,6,7056,3,744.84,DISPONIBLE,4,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+4,6,5057,8,253.03,DISPONIBLE,1,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+2,5,2958,6,190.91,MANTENIMIENTO,4,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+6,4,6859,1,182.99,MANTENIMIENTO,5,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+8,3,8760,4,506.55,DISPONIBLE,1,Suspendisse potenti.
+4,7,5161,10,603.16,OCUPADA,6,Morbi non quam nec dui luctus rutrum. Nulla tellus.
+6,8,7262,6,569.62,DISPONIBLE,3,Nulla tempus.
+8,6,9063,8,665.51,MANTENIMIENTO,9,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+6,7,7164,10,600.28,DISPONIBLE,6,Donec quis orci eget orci vehicula condimentum.
+3,9,4365,4,436.9,MANTENIMIENTO,3,Suspendisse accumsan tortor quis turpis.
+9,10,10466,7,250.56,MANTENIMIENTO,7,Nullam porttitor lacus at turpis.
+6,6,7067,1,322.79,DISPONIBLE,1,Etiam pretium iaculis justo. In hac habitasse platea dictumst.
+5,7,6168,5,194.03,OCUPADA,1,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+1,6,2069,8,516.27,MANTENIMIENTO,5,Aliquam non mauris. Morbi non lectus.
+10,2,10670,5,212.57,OCUPADA,9,Suspendisse potenti. In eleifend quam a odio.
+7,1,7571,3,27.58,MANTENIMIENTO,9,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+6,3,6772,4,484.28,DISPONIBLE,1,Quisque ut erat. Curabitur gravida nisi at nibh.
+4,2,4673,4,41.98,MANTENIMIENTO,7,Nam dui.
+1,5,1974,5,307.04,OCUPADA,3,Integer ac neque. Duis bibendum.
+4,7,5175,4,354.13,OCUPADA,9,Proin at turpis a pede posuere nonummy. Integer non velit.
+2,7,3176,10,50.94,OCUPADA,5,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+3,5,3977,1,324.65,OCUPADA,10,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+3,9,4378,6,621.08,MANTENIMIENTO,7,Nullam molestie nibh in lectus. Pellentesque at nulla.
+8,1,8579,8,370.53,DISPONIBLE,7,Nullam porttitor lacus at turpis.
+1,7,2180,4,514.6,OCUPADA,6,Aliquam non mauris. Morbi non lectus.
+5,8,6281,2,203.99,OCUPADA,4,Pellentesque ultrices mattis odio.
+4,1,4582,2,357.28,DISPONIBLE,4,Etiam faucibus cursus urna.
+7,10,8483,5,720.26,DISPONIBLE,10,Sed ante.
+6,4,6884,2,199.35,DISPONIBLE,1,Nulla suscipit ligula in lacus.
+9,1,9585,1,88.73,MANTENIMIENTO,1,Duis mattis egestas metus. Aenean fermentum.
+5,8,6286,10,402.88,MANTENIMIENTO,2,Nulla nisl. Nunc nisl.
+4,3,4787,9,658.47,OCUPADA,3,Proin eu mi. Nulla ac enim.
+3,1,3588,8,532.94,MANTENIMIENTO,3,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis."
+4,7,5189,5,49.14,MANTENIMIENTO,7,Nam dui.
+4,2,4690,9,246.47,OCUPADA,3,Proin interdum mauris non ligula pellentesque ultrices.
+8,1,8591,1,353.26,OCUPADA,4,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+2,9,3392,2,625.07,DISPONIBLE,8,Nulla tellus.
+5,1,5593,4,346.28,MANTENIMIENTO,4,Praesent blandit. Nam nulla.
+3,2,3694,1,739.72,DISPONIBLE,8,Donec vitae nisi.
+1,1,1595,2,697.61,OCUPADA,6,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+8,2,8696,7,25.99,DISPONIBLE,4,Cras non velit nec nisi vulputate nonummy.
+6,3,6797,10,736.62,MANTENIMIENTO,10,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+4,3,4798,10,199.6,OCUPADA,5,Etiam justo.
+4,3,4799,8,507.31,MANTENIMIENTO,9,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+3,10,4500,4,406.33,OCUPADA,8,Fusce consequat.
+3,4,3901,5,450.62,MANTENIMIENTO,5,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+2,8,3302,4,424.58,MANTENIMIENTO,1,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+4,8,5303,8,455.37,DISPONIBLE,7,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+2,8,3304,8,605.78,DISPONIBLE,2,Proin risus.
+9,8,10305,10,697.66,DISPONIBLE,3,Aenean lectus. Pellentesque eget nunc.
+6,6,7106,7,613.97,OCUPADA,6,Duis bibendum.
+6,9,7407,2,101.26,OCUPADA,7,Pellentesque ultrices mattis odio. Donec vitae nisi.
+1,4,1908,8,135.57,OCUPADA,3,Morbi a ipsum.
+10,7,11209,1,700.37,DISPONIBLE,6,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+8,3,8810,7,579.54,MANTENIMIENTO,10,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+7,9,8411,2,97.92,MANTENIMIENTO,10,Nullam molestie nibh in lectus.
+9,5,10012,3,463.6,MANTENIMIENTO,1,Nulla tellus.
+6,5,7013,1,387.68,DISPONIBLE,2,Praesent id massa id nisl venenatis lacinia.
+4,6,5114,1,485.18,DISPONIBLE,6,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+6,6,7115,10,379.31,DISPONIBLE,6,Morbi non lectus.
+4,1,4616,7,176.78,DISPONIBLE,4,Sed ante.
+6,10,7517,7,178.71,MANTENIMIENTO,3,Donec semper sapien a libero. Nam dui.
+6,7,7218,9,400.95,DISPONIBLE,1,Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.
+3,5,4019,6,268.87,DISPONIBLE,9,Integer ac leo.
+4,6,5120,9,169.63,MANTENIMIENTO,9,Aliquam erat volutpat.
+6,4,6921,7,489.48,DISPONIBLE,1,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+5,5,6022,4,460.36,MANTENIMIENTO,3,Vestibulum rutrum rutrum neque.
+3,4,3923,6,38.29,MANTENIMIENTO,6,Donec vitae nisi.
+5,2,5724,2,636.09,OCUPADA,7,Nulla tempus.
+6,1,6625,5,79.45,OCUPADA,6,Donec ut dolor.
+5,7,6226,2,495.95,DISPONIBLE,5,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+2,5,3027,2,89.36,MANTENIMIENTO,3,Sed ante.
+7,10,8528,10,721.11,OCUPADA,8,Maecenas pulvinar lobortis est.
+9,7,10229,4,281.63,MANTENIMIENTO,8,Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+6,4,6930,2,448.45,MANTENIMIENTO,6,Maecenas rhoncus aliquam lacus.
+6,1,6631,2,396.51,OCUPADA,10,Donec dapibus.
+3,1,3632,6,67.0,MANTENIMIENTO,9,Vivamus tortor.
+8,4,8933,8,362.25,MANTENIMIENTO,3,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+8,8,9334,1,495.41,OCUPADA,9,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+5,2,5735,2,734.51,DISPONIBLE,6,Ut tellus.
+3,3,3836,1,676.69,OCUPADA,2,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+5,9,6437,3,700.03,DISPONIBLE,5,"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+4,8,5338,1,411.57,OCUPADA,2,Suspendisse potenti.
+6,1,6639,10,637.82,OCUPADA,5,Aenean lectus.
+9,6,10140,7,53.95,MANTENIMIENTO,9,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+1,6,2141,2,724.27,DISPONIBLE,8,Nullam molestie nibh in lectus. Pellentesque at nulla.
+7,4,7942,10,701.96,MANTENIMIENTO,10,Etiam justo. Etiam pretium iaculis justo.
+7,4,7943,6,156.62,DISPONIBLE,10,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+10,3,10844,6,529.17,OCUPADA,4,Suspendisse ornare consequat lectus.
+1,9,2445,3,300.83,MANTENIMIENTO,9,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum."
+4,1,4646,9,540.54,MANTENIMIENTO,3,Donec dapibus. Duis at velit eu est congue elementum.
+3,9,4447,6,612.81,DISPONIBLE,3,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+1,2,1748,6,558.73,OCUPADA,1,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+9,3,9849,9,586.43,MANTENIMIENTO,6,Praesent blandit. Nam nulla.
+5,1,5650,5,473.43,DISPONIBLE,3,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
+3,2,3751,1,629.52,OCUPADA,10,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+6,2,6752,9,57.78,MANTENIMIENTO,5,"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+6,2,6753,6,538.07,OCUPADA,6,Donec posuere metus vitae ipsum.
+3,3,3854,5,635.52,MANTENIMIENTO,7,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+5,5,6055,6,42.75,DISPONIBLE,7,Duis bibendum.
+6,8,7356,8,124.83,OCUPADA,9,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam."
+3,2,3757,7,459.07,DISPONIBLE,5,Nulla mollis molestie lorem. Quisque ut erat.
+8,7,9258,8,109.75,DISPONIBLE,7,Integer ac leo. Pellentesque ultrices mattis odio.
+8,3,8859,3,252.82,MANTENIMIENTO,3,Etiam faucibus cursus urna.
+3,8,4360,10,709.17,MANTENIMIENTO,2,Curabitur convallis.
+5,5,6061,2,473.37,MANTENIMIENTO,8,Fusce consequat. Nulla nisl.
+6,7,7262,2,560.13,MANTENIMIENTO,1,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi."
+10,8,11363,4,27.57,DISPONIBLE,3,Vestibulum rutrum rutrum neque.
+8,1,8664,4,442.47,MANTENIMIENTO,8,Aenean fermentum. Donec ut mauris eget massa tempor convallis.
+3,10,4565,4,502.15,MANTENIMIENTO,10,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+3,6,4166,2,438.51,DISPONIBLE,4,Pellentesque at nulla.
+5,7,6267,2,322.28,DISPONIBLE,5,Curabitur at ipsum ac tellus semper interdum.
+3,6,4168,3,439.64,DISPONIBLE,9,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+10,5,11069,6,184.3,MANTENIMIENTO,9,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+4,3,4870,5,224.96,MANTENIMIENTO,8,Suspendisse ornare consequat lectus.
+9,7,10271,8,711.65,OCUPADA,3,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+6,9,7472,8,421.9,MANTENIMIENTO,3,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+2,6,3173,8,516.5,MANTENIMIENTO,4,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede."
+6,4,6974,8,603.3,OCUPADA,2,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+3,2,3775,6,656.5,DISPONIBLE,10,Nulla ut erat id mauris vulputate elementum.
+6,2,6776,5,723.0,MANTENIMIENTO,10,Morbi non quam nec dui luctus rutrum.
+7,10,8577,5,471.99,MANTENIMIENTO,7,Curabitur gravida nisi at nibh.
+8,7,9278,7,515.72,MANTENIMIENTO,7,Mauris sit amet eros.
+2,5,3079,4,280.17,OCUPADA,6,Vestibulum sed magna at nunc commodo placerat.
+4,1,4680,9,653.53,OCUPADA,7,Integer a nibh.
+4,3,4881,10,701.52,DISPONIBLE,1,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+1,6,2182,9,437.06,DISPONIBLE,2,Nunc purus. Phasellus in felis.
+6,6,7183,5,636.49,OCUPADA,4,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+8,9,9484,8,388.5,DISPONIBLE,7,Fusce consequat.
+4,1,4685,5,308.92,MANTENIMIENTO,9,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+2,4,2986,6,682.91,MANTENIMIENTO,1,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+10,2,10787,10,641.44,DISPONIBLE,6,Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+4,2,4788,7,195.52,MANTENIMIENTO,6,Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+9,9,10489,4,728.69,MANTENIMIENTO,10,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+5,5,6090,6,559.88,DISPONIBLE,5,Quisque id justo sit amet sapien dignissim vestibulum.
+6,7,7291,4,158.29,MANTENIMIENTO,3,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+5,6,6192,9,304.24,MANTENIMIENTO,3,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+5,3,5893,8,746.86,MANTENIMIENTO,9,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+6,2,6794,4,634.89,MANTENIMIENTO,1,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam."
+6,2,6795,3,609.16,MANTENIMIENTO,8,"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+5,9,6496,3,454.42,MANTENIMIENTO,1,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+2,9,3497,2,594.17,DISPONIBLE,2,Maecenas pulvinar lobortis est. Phasellus sit amet erat.
+8,6,9198,8,91.68,MANTENIMIENTO,9,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+9,3,9899,2,551.66,MANTENIMIENTO,6,Nulla suscipit ligula in lacus.
+4,8,5400,3,118.1,OCUPADA,6,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+4,7,5301,3,592.44,DISPONIBLE,10,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+7,7,8302,2,413.76,MANTENIMIENTO,4,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+6,2,6803,5,615.68,MANTENIMIENTO,1,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+8,10,9604,4,87.54,DISPONIBLE,4,Vivamus vel nulla eget eros elementum pellentesque.
+6,9,7505,1,585.47,MANTENIMIENTO,1,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+4,4,5006,3,595.74,DISPONIBLE,7,Suspendisse accumsan tortor quis turpis.
+9,7,10307,5,470.08,DISPONIBLE,7,Suspendisse ornare consequat lectus.
+3,6,4208,5,392.54,DISPONIBLE,9,Phasellus in felis. Donec semper sapien a libero.
+4,5,5109,10,185.15,DISPONIBLE,1,Quisque porta volutpat erat.
+4,3,4910,9,208.48,OCUPADA,6,Curabitur in libero ut massa volutpat convallis.
+5,2,5811,7,459.27,MANTENIMIENTO,10,"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo."
+7,6,8212,8,509.07,OCUPADA,5,Morbi non lectus.
+4,5,5113,7,554.5,MANTENIMIENTO,7,In hac habitasse platea dictumst. Etiam faucibus cursus urna.
+5,7,6314,5,657.79,MANTENIMIENTO,4,Quisque ut erat.
+6,1,6715,2,128.83,DISPONIBLE,9,Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+3,7,4316,4,236.43,DISPONIBLE,5,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+8,3,8917,10,104.89,MANTENIMIENTO,2,Maecenas rhoncus aliquam lacus.
+2,1,2718,7,569.88,DISPONIBLE,2,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+10,4,11019,2,600.33,MANTENIMIENTO,7,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+9,10,10620,6,197.3,OCUPADA,8,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+6,9,7521,10,237.63,DISPONIBLE,5,Suspendisse potenti. Nullam porttitor lacus at turpis.
+10,6,11222,6,371.07,OCUPADA,3,Donec posuere metus vitae ipsum.
+4,4,5023,2,358.75,DISPONIBLE,6,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+6,1,6724,5,123.0,MANTENIMIENTO,4,Cras pellentesque volutpat dui.
+7,10,8625,9,642.15,MANTENIMIENTO,9,Maecenas rhoncus aliquam lacus.
+7,6,8226,2,746.09,DISPONIBLE,6,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+6,2,6827,10,137.38,DISPONIBLE,6,Proin risus.
+8,10,9628,9,75.26,DISPONIBLE,2,Quisque id justo sit amet sapien dignissim vestibulum.
+7,8,8429,9,326.98,DISPONIBLE,6,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+2,2,2830,3,53.32,DISPONIBLE,9,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+3,10,4631,1,120.53,OCUPADA,7,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+3,2,3832,5,636.85,DISPONIBLE,5,Integer tincidunt ante vel ipsum.
+5,10,6633,8,736.71,OCUPADA,7,Nam dui.
+6,1,6734,4,112.76,DISPONIBLE,8,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+8,10,9635,4,234.37,OCUPADA,5,Nulla tellus. In sagittis dui vel nisl.
+3,8,4436,1,264.12,OCUPADA,3,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+6,3,6937,9,168.17,MANTENIMIENTO,8,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+6,6,7238,2,146.56,DISPONIBLE,9,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+8,1,8739,10,327.57,MANTENIMIENTO,7,Phasellus in felis.
+1,5,2140,8,714.98,MANTENIMIENTO,5,In sagittis dui vel nisl. Duis ac nibh.
+4,2,4841,10,111.25,DISPONIBLE,7,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+6,10,7642,5,88.33,DISPONIBLE,7,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+8,7,9343,4,673.31,MANTENIMIENTO,1,"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+8,7,9344,3,543.64,OCUPADA,6,Sed accumsan felis.
+3,5,4145,6,705.98,OCUPADA,1,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+6,10,7646,7,441.45,OCUPADA,1,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+10,10,11647,8,403.25,OCUPADA,6,Nulla ac enim.
+8,7,9348,7,746.18,MANTENIMIENTO,7,"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+2,9,3549,9,588.24,OCUPADA,7,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+6,8,7450,7,462.43,DISPONIBLE,3,Nulla ut erat id mauris vulputate elementum.
+4,8,5451,8,452.97,DISPONIBLE,1,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+8,1,8752,2,138.34,DISPONIBLE,6,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+5,10,6653,7,404.93,OCUPADA,10,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+6,5,7154,1,263.04,OCUPADA,7,Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.
+3,1,3755,5,566.78,OCUPADA,4,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+6,1,6756,8,207.29,DISPONIBLE,2,Nam tristique tortor eu pede.
+7,2,7857,9,703.2,DISPONIBLE,4,Nullam varius. Nulla facilisi.
+6,4,7058,6,252.34,DISPONIBLE,4,Donec posuere metus vitae ipsum.
+8,8,9459,7,284.01,DISPONIBLE,5,Curabitur in libero ut massa volutpat convallis.
+7,3,7960,3,440.45,DISPONIBLE,7,Phasellus id sapien in sapien iaculis congue.
+5,1,5761,3,525.56,MANTENIMIENTO,5,Nulla suscipit ligula in lacus.
+6,7,7362,10,135.83,OCUPADA,3,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum."
+6,2,6863,2,106.27,DISPONIBLE,5,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+2,4,3064,4,639.25,OCUPADA,10,Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+6,2,6865,9,731.87,DISPONIBLE,9,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+5,7,6366,4,548.5,OCUPADA,8,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+4,4,5067,2,446.58,MANTENIMIENTO,10,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+1,10,2668,8,674.04,DISPONIBLE,2,Aenean sit amet justo.
+2,8,3469,3,683.27,MANTENIMIENTO,4,In quis justo.
+8,3,8970,7,143.71,OCUPADA,7,Duis at velit eu est congue elementum. In hac habitasse platea dictumst.
+7,3,7971,5,717.09,MANTENIMIENTO,4,Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.
+5,1,5772,9,700.99,MANTENIMIENTO,8,Nulla ut erat id mauris vulputate elementum.
+2,9,3573,3,254.28,MANTENIMIENTO,4,Proin at turpis a pede posuere nonummy. Integer non velit.
+4,8,5474,1,602.12,DISPONIBLE,5,Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.
+10,3,10975,2,721.64,MANTENIMIENTO,10,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+3,10,4676,1,450.93,MANTENIMIENTO,1,Donec posuere metus vitae ipsum.
+8,8,9477,2,358.35,DISPONIBLE,1,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+1,5,2178,4,441.29,MANTENIMIENTO,4,Proin risus. Praesent lectus.
+4,4,5079,7,662.47,DISPONIBLE,5,Duis at velit eu est congue elementum.
+3,3,3980,7,515.27,DISPONIBLE,1,Nunc purus. Phasellus in felis.
+3,3,3981,6,145.9,DISPONIBLE,9,Praesent lectus.
+4,8,5482,4,77.12,MANTENIMIENTO,4,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+2,4,3083,4,185.06,DISPONIBLE,8,Fusce posuere felis sed lacus.
+8,5,9184,8,25.26,DISPONIBLE,5,Vivamus tortor. Duis mattis egestas metus.
+2,5,3185,3,415.64,DISPONIBLE,9,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+10,5,11186,1,351.57,MANTENIMIENTO,9,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+2,10,3687,1,495.09,DISPONIBLE,4,Pellentesque viverra pede ac diam.
+5,10,6688,8,520.26,MANTENIMIENTO,1,In hac habitasse platea dictumst.
+4,6,5289,2,140.74,OCUPADA,7,Duis at velit eu est congue elementum.
+9,5,10190,7,435.21,MANTENIMIENTO,10,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis."
+5,10,6691,3,224.16,OCUPADA,3,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+7,2,7892,6,365.41,DISPONIBLE,10,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+6,3,6993,2,241.16,OCUPADA,9,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+4,6,5294,4,172.26,MANTENIMIENTO,1,Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.
+2,3,2995,5,587.28,OCUPADA,5,Suspendisse potenti.
+6,8,7496,6,320.87,MANTENIMIENTO,6,Duis mattis egestas metus.
+3,8,4497,2,93.81,DISPONIBLE,1,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci."
+3,8,4498,10,32.06,DISPONIBLE,9,Pellentesque eget nunc.
+2,2,2899,8,351.55,OCUPADA,8,Proin eu mi. Nulla ac enim.
+6,8,7500,7,327.73,OCUPADA,6,Donec dapibus. Duis at velit eu est congue elementum.
+8,9,9601,8,545.86,MANTENIMIENTO,3,Vestibulum sed magna at nunc commodo placerat.
+6,1,6802,2,413.15,DISPONIBLE,5,Pellentesque ultrices mattis odio.
+2,2,2903,4,181.91,DISPONIBLE,4,Suspendisse accumsan tortor quis turpis.
+6,4,7104,8,645.08,DISPONIBLE,7,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+3,1,3805,4,265.84,OCUPADA,2,In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.
+5,8,6506,2,478.55,MANTENIMIENTO,9,Donec semper sapien a libero. Nam dui.
+6,5,7207,7,655.01,OCUPADA,4,In hac habitasse platea dictumst.
+8,1,8808,10,173.68,OCUPADA,9,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+1,6,2309,2,328.67,OCUPADA,6,Proin at turpis a pede posuere nonummy.
+6,9,7610,10,692.35,DISPONIBLE,9,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+6,4,7111,3,80.54,OCUPADA,10,Vivamus in felis eu sapien cursus vestibulum.
+6,9,7612,2,411.04,DISPONIBLE,6,In hac habitasse platea dictumst.
+2,5,3213,7,503.31,DISPONIBLE,9,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.
+6,3,7014,5,398.23,DISPONIBLE,9,Vestibulum sed magna at nunc commodo placerat.
+6,3,7015,9,424.08,MANTENIMIENTO,5,Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+4,4,5116,6,456.03,OCUPADA,8,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+6,6,7317,2,595.6,MANTENIMIENTO,3,Aliquam non mauris.
+6,3,7018,4,323.44,OCUPADA,7,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+10,5,11219,3,52.72,OCUPADA,4,Fusce consequat. Nulla nisl.
+4,2,4920,8,174.33,OCUPADA,3,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+3,3,4021,7,249.06,MANTENIMIENTO,7,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+3,5,4222,2,55.34,MANTENIMIENTO,7,Nullam porttitor lacus at turpis.
+4,3,5023,1,315.66,DISPONIBLE,4,Maecenas tincidunt lacus at velit.
+4,4,5124,9,552.42,OCUPADA,6,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+4,1,4825,2,331.79,OCUPADA,7,Suspendisse potenti.
+2,9,3626,1,713.22,DISPONIBLE,5,Pellentesque ultrices mattis odio.
+6,7,7427,3,198.62,MANTENIMIENTO,4,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+10,8,11528,1,518.03,MANTENIMIENTO,1,Nulla facilisi.
+2,1,2829,10,696.78,MANTENIMIENTO,4,Praesent id massa id nisl venenatis lacinia.
+3,2,3930,7,135.86,OCUPADA,8,Praesent id massa id nisl venenatis lacinia.
+6,9,7631,7,82.49,OCUPADA,3,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+3,8,4532,2,604.33,OCUPADA,6,"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo."
+6,6,7333,8,101.42,DISPONIBLE,5,Ut at dolor quis odio consequat varius. Integer ac leo.
+10,3,11034,10,574.51,DISPONIBLE,7,Quisque ut erat.
+7,8,8535,8,37.77,DISPONIBLE,8,Donec dapibus.
+6,3,7036,3,747.6,MANTENIMIENTO,9,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque."
+2,2,2937,6,502.21,OCUPADA,4,Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+5,6,6338,2,129.0,MANTENIMIENTO,5,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+2,7,3439,2,376.8,DISPONIBLE,5,Donec vitae nisi.
+5,5,6240,10,543.16,MANTENIMIENTO,7,In hac habitasse platea dictumst.
+6,2,6941,8,529.31,DISPONIBLE,6,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+5,5,6242,10,541.55,DISPONIBLE,4,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem."
+10,6,11343,1,719.59,MANTENIMIENTO,7,Sed sagittis.
+2,4,3144,1,374.12,DISPONIBLE,1,Suspendisse potenti.
+6,10,7745,6,79.37,OCUPADA,6,"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum."
+2,4,3146,8,74.56,DISPONIBLE,7,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+3,6,4347,8,432.53,MANTENIMIENTO,9,Ut at dolor quis odio consequat varius. Integer ac leo.
+3,7,4448,9,285.68,DISPONIBLE,3,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+4,5,5249,4,101.82,OCUPADA,3,Nulla suscipit ligula in lacus.
+5,9,6650,9,549.66,DISPONIBLE,5,In hac habitasse platea dictumst.
+7,5,8251,3,394.43,DISPONIBLE,8,"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+2,2,2952,7,201.36,DISPONIBLE,5,Praesent blandit lacinia erat.
+6,6,7353,4,215.89,OCUPADA,4,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+1,6,2354,10,277.72,MANTENIMIENTO,9,Fusce consequat. Nulla nisl.
+8,3,9055,7,486.1,MANTENIMIENTO,9,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus."
+4,5,5256,8,292.9,OCUPADA,4,Nulla suscipit ligula in lacus.
+3,4,4157,6,746.48,DISPONIBLE,8,"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat."
+2,1,2858,5,124.29,DISPONIBLE,1,Duis aliquam convallis nunc.
+2,4,3159,5,596.67,MANTENIMIENTO,9,Morbi quis tortor id nulla ultrices aliquet.
+9,1,9860,7,619.12,OCUPADA,6,Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.
+6,9,7661,5,495.23,OCUPADA,4,In eleifend quam a odio.
+8,6,9362,5,207.61,DISPONIBLE,7,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+1,9,2663,8,677.27,DISPONIBLE,8,Etiam justo.
+3,5,4264,6,360.52,MANTENIMIENTO,5,Proin interdum mauris non ligula pellentesque ultrices.
+2,5,3265,1,518.33,OCUPADA,9,Integer ac neque. Duis bibendum.
+3,10,4766,5,29.68,MANTENIMIENTO,7,"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante."
+4,9,5667,8,170.93,MANTENIMIENTO,9,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+4,1,4868,5,217.63,MANTENIMIENTO,7,Suspendisse accumsan tortor quis turpis. Sed ante.
+2,10,3769,3,493.83,MANTENIMIENTO,7,Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+3,1,3870,5,427.18,MANTENIMIENTO,9,Vivamus vel nulla eget eros elementum pellentesque.
+6,2,6971,4,692.69,DISPONIBLE,7,Nam tristique tortor eu pede.
+5,9,6672,10,524.33,MANTENIMIENTO,4,Maecenas rhoncus aliquam lacus.
+6,6,7373,1,397.23,MANTENIMIENTO,9,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+2,3,3074,6,573.87,OCUPADA,10,Aenean lectus.
+6,3,7075,4,78.45,OCUPADA,1,Nulla tellus. In sagittis dui vel nisl.
+5,1,5876,10,299.88,MANTENIMIENTO,8,Phasellus id sapien in sapien iaculis congue.
+8,7,9477,6,445.13,OCUPADA,1,Mauris sit amet eros.
+5,9,6678,4,163.16,MANTENIMIENTO,6,Curabitur in libero ut massa volutpat convallis.
+5,6,6379,8,539.11,MANTENIMIENTO,6,Nulla mollis molestie lorem.
+1,7,2480,7,620.02,DISPONIBLE,7,Sed ante. Vivamus tortor.
+5,6,6381,10,567.5,MANTENIMIENTO,8,Nam dui.
+4,8,5582,10,324.31,DISPONIBLE,7,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+7,2,7983,9,707.31,OCUPADA,4,"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci."
+1,9,2684,10,472.57,MANTENIMIENTO,5,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus."
+3,2,3985,6,339.08,OCUPADA,10,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo."
+10,1,10886,5,324.61,MANTENIMIENTO,3,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+2,5,3287,9,318.3,MANTENIMIENTO,4,Donec semper sapien a libero. Nam dui.
+4,8,5588,5,334.41,OCUPADA,5,"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis."
+6,8,7589,1,31.24,OCUPADA,5,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+3,5,4290,8,591.6,DISPONIBLE,10,Proin interdum mauris non ligula pellentesque ultrices.
+6,5,7291,7,117.0,MANTENIMIENTO,6,Nullam varius.
+9,7,10492,1,627.61,MANTENIMIENTO,5,Curabitur convallis.
+5,4,6193,5,439.4,DISPONIBLE,5,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+4,5,5294,7,350.36,DISPONIBLE,8,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+8,8,9595,3,532.91,DISPONIBLE,7,"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc."
+1,4,2196,1,612.61,DISPONIBLE,1,"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl."
+6,1,6897,6,32.2,DISPONIBLE,7,Integer a nibh. In quis justo.
+10,8,11598,4,555.16,OCUPADA,2,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+2,9,3699,9,536.0,MANTENIMIENTO,10,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+6,10,7800,9,462.47,MANTENIMIENTO,1,In hac habitasse platea dictumst.
+2,6,3401,10,370.76,MANTENIMIENTO,6,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem."
+2,5,3302,3,685.03,OCUPADA,2,Sed vel enim sit amet nunc viverra dapibus.
+2,6,3403,4,623.92,DISPONIBLE,1,Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.
+6,3,7104,8,125.99,OCUPADA,2,Integer ac leo.
+4,5,5305,8,633.65,DISPONIBLE,3,Cras pellentesque volutpat dui.
+4,4,5206,10,117.18,OCUPADA,10,Sed accumsan felis. Ut at dolor quis odio consequat varius.
+8,7,9507,7,291.43,OCUPADA,6,Ut tellus. Nulla ut erat id mauris vulputate elementum.
+7,9,8708,7,437.8,OCUPADA,10,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
+3,9,4709,10,377.14,MANTENIMIENTO,1,Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+9,5,10310,3,573.31,MANTENIMIENTO,2,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+4,5,5311,10,401.37,MANTENIMIENTO,4,Aliquam erat volutpat. In congue.
+5,5,6312,3,476.02,OCUPADA,4,Morbi a ipsum.
+6,1,6913,8,650.21,MANTENIMIENTO,6,In sagittis dui vel nisl.
+7,6,8414,9,583.1,OCUPADA,1,Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.
+8,1,8915,7,274.15,OCUPADA,3,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+4,10,5816,10,237.26,DISPONIBLE,7,"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula."
+7,2,8017,4,36.03,MANTENIMIENTO,5,"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim."
+6,6,7418,5,215.28,DISPONIBLE,5,Pellentesque ultrices mattis odio. Donec vitae nisi.
+9,7,10519,3,520.55,OCUPADA,10,Donec vitae nisi.
+3,7,4520,4,148.49,DISPONIBLE,1,Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.
+1,1,1921,9,145.94,DISPONIBLE,9,Integer ac neque.
+6,4,7222,10,662.54,MANTENIMIENTO,6,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+3,2,4023,1,736.11,DISPONIBLE,2,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+2,9,3724,3,109.37,MANTENIMIENTO,2,"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus."
+4,7,5525,6,64.19,DISPONIBLE,8,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+4,7,5526,7,210.03,DISPONIBLE,9,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+5,2,6027,4,342.43,OCUPADA,6,Nam tristique tortor eu pede.
+3,7,4528,8,221.35,MANTENIMIENTO,9,Vestibulum rutrum rutrum neque.
+5,10,6829,7,457.85,MANTENIMIENTO,1,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+4,8,5630,1,309.94,MANTENIMIENTO,5,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+2,7,3531,6,749.82,MANTENIMIENTO,4,Etiam pretium iaculis justo.
+8,8,9632,2,329.02,DISPONIBLE,3,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+8,5,9333,4,366.57,DISPONIBLE,4,Quisque porta volutpat erat.
+3,4,4234,4,494.96,MANTENIMIENTO,3,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus."
+4,9,5735,9,466.9,MANTENIMIENTO,10,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.
+5,3,6136,2,529.56,OCUPADA,2,Morbi vel lectus in quam fringilla rhoncus.
+4,2,5037,8,543.9,DISPONIBLE,10,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+3,4,4238,5,151.76,MANTENIMIENTO,4,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+3,5,4339,3,382.78,DISPONIBLE,8,Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.
+8,9,9740,7,149.59,MANTENIMIENTO,6,Etiam justo. Etiam pretium iaculis justo.
+2,5,3341,4,733.6,DISPONIBLE,3,Praesent id massa id nisl venenatis lacinia.
+6,3,7142,1,631.65,OCUPADA,2,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+6,5,7343,4,280.06,MANTENIMIENTO,1,"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+3,3,4144,6,533.38,DISPONIBLE,2,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+4,3,5145,6,310.27,DISPONIBLE,1,Nunc purus.
+9,9,10746,4,569.98,OCUPADA,4,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+5,9,6747,1,259.88,MANTENIMIENTO,4,"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+10,5,11348,3,131.86,MANTENIMIENTO,4,Pellentesque ultrices mattis odio. Donec vitae nisi.
+10,2,11049,8,117.3,OCUPADA,1,Integer ac neque. Duis bibendum.
+1,2,2050,7,685.74,MANTENIMIENTO,1,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+2,5,3351,9,732.58,MANTENIMIENTO,3,Integer ac leo.
+5,3,6152,7,408.84,DISPONIBLE,9,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+2,6,3453,6,261.76,DISPONIBLE,10,Morbi porttitor lorem id ligula.
+4,8,5654,9,85.11,MANTENIMIENTO,3,Aenean sit amet justo. Morbi ut odio.
+3,4,4255,6,662.34,MANTENIMIENTO,9,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+6,5,7356,3,277.32,MANTENIMIENTO,7,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+9,9,10757,7,162.45,MANTENIMIENTO,4,Integer ac leo. Pellentesque ultrices mattis odio.
+6,10,7858,9,469.66,OCUPADA,8,Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+5,5,6359,6,567.12,OCUPADA,5,Proin at turpis a pede posuere nonummy. Integer non velit.
+5,3,6160,9,522.26,MANTENIMIENTO,6,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit."
+7,7,8561,4,700.55,MANTENIMIENTO,7,"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+2,7,3562,1,169.52,OCUPADA,8,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+8,10,9863,3,439.11,DISPONIBLE,5,Praesent lectus.
+6,4,7264,7,583.95,DISPONIBLE,9,"In est risus, auctor sed, tristique in, tempus sit amet, sem."
+4,2,5065,5,128.21,DISPONIBLE,9,Praesent blandit.
+2,2,3066,9,721.16,OCUPADA,9,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+3,3,4167,3,505.3,OCUPADA,10,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.
+9,6,10468,5,171.08,MANTENIMIENTO,1,"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam."
+4,6,5469,8,529.84,DISPONIBLE,4,Phasellus in felis.
+4,10,5870,3,730.05,DISPONIBLE,5,Cras pellentesque volutpat dui.
+3,7,4571,2,247.31,OCUPADA,8,Praesent blandit.
+3,3,4172,8,592.91,MANTENIMIENTO,10,Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+4,8,5673,8,419.41,OCUPADA,3,"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa."
+3,3,4174,1,691.42,OCUPADA,1,Integer ac neque. Duis bibendum.
+3,3,4175,9,503.29,MANTENIMIENTO,5,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante."
+7,2,8076,5,44.25,MANTENIMIENTO,2,"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede."
+10,7,11577,7,250.72,OCUPADA,7,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+4,5,5378,10,398.95,MANTENIMIENTO,7,"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+3,5,4379,8,212.29,DISPONIBLE,8,In congue.
+9,4,10280,4,686.54,MANTENIMIENTO,6,Quisque porta volutpat erat.
+5,9,6781,6,352.84,OCUPADA,7,Vestibulum ac est lacinia nisi venenatis tristique.
+2,4,3282,1,100.91,DISPONIBLE,3,"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero."
+9,1,9983,3,704.93,OCUPADA,8,Morbi vel lectus in quam fringilla rhoncus.
+8,8,9684,2,317.37,OCUPADA,6,Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.
+3,8,4685,5,188.47,OCUPADA,1,Nullam molestie nibh in lectus. Pellentesque at nulla.
+1,9,2786,8,117.19,DISPONIBLE,5,"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc."
+6,8,7687,2,404.73,MANTENIMIENTO,6,Aliquam non mauris. Morbi non lectus.
+5,10,6888,2,689.38,DISPONIBLE,1,Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.
+10,2,11089,8,522.59,MANTENIMIENTO,1,Aenean auctor gravida sem.
+9,8,10690,10,594.03,DISPONIBLE,1,Nullam varius. Nulla facilisi.
+2,7,3591,8,93.75,MANTENIMIENTO,4,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+7,5,8392,3,616.69,MANTENIMIENTO,10,Fusce posuere felis sed lacus.
+6,5,7393,7,374.24,DISPONIBLE,5,Nullam varius. Nulla facilisi.
+3,10,4894,3,727.98,MANTENIMIENTO,3,"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+4,5,5395,6,111.72,DISPONIBLE,2,"Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam."
+6,3,7196,1,699.26,DISPONIBLE,8,Nulla mollis molestie lorem. Quisque ut erat.
+7,5,8397,8,518.77,OCUPADA,5,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+4,2,5098,10,314.31,MANTENIMIENTO,7,Integer tincidunt ante vel ipsum.
+9,4,10299,2,187.51,OCUPADA,10,Curabitur convallis.
+6,10,7900,6,164.99,DISPONIBLE,4,Curabitur at ipsum ac tellus semper interdum.
+9,7,10601,2,640.77,MANTENIMIENTO,8,Etiam pretium iaculis justo. In hac habitasse platea dictumst.
+4,6,5502,6,253.15,OCUPADA,2,Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+2,7,3603,6,588.47,MANTENIMIENTO,3,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla."
+10,3,11204,7,87.75,DISPONIBLE,10,Etiam faucibus cursus urna.
+6,2,7105,8,680.92,OCUPADA,3,Nunc nisl.
+5,1,6006,7,39.49,OCUPADA,6,In quis justo.
+10,7,11607,6,146.83,MANTENIMIENTO,3,"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo."
+6,5,7408,2,433.14,DISPONIBLE,6,"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+8,8,9709,10,638.92,MANTENIMIENTO,9,Morbi vel lectus in quam fringilla rhoncus.
+4,1,5010,1,34.92,DISPONIBLE,1,Vivamus tortor. Duis mattis egestas metus.
+2,1,3011,9,331.18,OCUPADA,4,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+2,3,3212,10,416.87,DISPONIBLE,5,Etiam pretium iaculis justo. In hac habitasse platea dictumst.
+6,2,7113,4,599.43,DISPONIBLE,10,"In est risus, auctor sed, tristique in, tempus sit amet, sem."
+7,3,8214,2,164.5,DISPONIBLE,4,Integer non velit.
+3,4,4315,2,628.76,MANTENIMIENTO,6,"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros."
+6,1,7016,9,145.35,OCUPADA,9,"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem."
+7,1,8017,6,278.43,DISPONIBLE,8,Nullam varius.
+7,10,8918,10,57.73,OCUPADA,6,Mauris sit amet eros.
+6,3,7219,7,244.27,MANTENIMIENTO,6,Aliquam erat volutpat.
+8,5,9420,6,635.95,DISPONIBLE,10,Ut at dolor quis odio consequat varius. Integer ac leo.
+4,5,5421,7,171.26,DISPONIBLE,8,In eleifend quam a odio.
+4,8,5722,7,162.7,DISPONIBLE,3,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.
+4,6,5523,2,234.57,DISPONIBLE,8,Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.
+3,6,4524,3,674.4,DISPONIBLE,6,"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh."
+3,8,4725,6,196.19,OCUPADA,2,"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+2,9,3826,1,91.8,MANTENIMIENTO,7,Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.
+6,1,7027,6,588.63,DISPONIBLE,7,Pellentesque at nulla.
+2,8,3728,1,685.35,OCUPADA,4,Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.
+6,8,7729,9,636.46,DISPONIBLE,5,Nullam sit amet turpis elementum ligula vehicula consequat.
+4,3,5230,1,676.82,OCUPADA,1,Sed vel enim sit amet nunc viverra dapibus.
+6,4,7331,4,397.78,DISPONIBLE,4,In quis justo. Maecenas rhoncus aliquam lacus.
+8,1,9032,8,725.56,MANTENIMIENTO,2,Etiam pretium iaculis justo.
+9,8,10733,8,485.18,OCUPADA,1,"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl."
+7,8,8734,7,311.78,MANTENIMIENTO,2,"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue."
+10,3,11235,5,740.62,OCUPADA,7,Aliquam quis turpis eget elit sodales scelerisque.
+2,1,3036,7,496.0,MANTENIMIENTO,10,Duis bibendum. Morbi non quam nec dui luctus rutrum.
+3,6,4537,7,162.18,MANTENIMIENTO,2,"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla."
+6,2,7138,6,291.02,DISPONIBLE,7,Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.
+8,9,9839,8,256.09,OCUPADA,6,Donec ut mauris eget massa tempor convallis.
+7,9,8840,9,298.33,DISPONIBLE,7,Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.
+4,4,5341,9,684.32,DISPONIBLE,7,"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est."
+3,7,4642,2,111.9,OCUPADA,2,"In est risus, auctor sed, tristique in, tempus sit amet, sem."
+5,9,6843,9,162.35,MANTENIMIENTO,8,In eleifend quam a odio.
+9,3,10244,10,357.06,MANTENIMIENTO,3,Proin interdum mauris non ligula pellentesque ultrices.
+1,6,2545,2,633.28,OCUPADA,6,Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.
+6,7,7646,7,730.24,MANTENIMIENTO,2,Ut tellus.
+1,5,2447,3,92.74,DISPONIBLE,3,Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.
+8,2,9148,10,536.22,DISPONIBLE,6,Proin interdum mauris non ligula pellentesque ultrices.
+3,10,4949,9,260.92,DISPONIBLE,7,Aliquam quis turpis eget elit sodales scelerisque.
+6,1,7050,2,626.44,DISPONIBLE,2,Morbi a ipsum.
+4,10,5951,5,721.9,OCUPADA,1,Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.
+5,4,6352,2,465.32,OCUPADA,10,"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat."
+7,1,8053,4,449.77,MANTENIMIENTO,10,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+8,8,9754,1,616.98,DISPONIBLE,10,"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+10,5,11455,10,298.35,OCUPADA,6,Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.
+4,1,5056,3,472.96,DISPONIBLE,5,Suspendisse ornare consequat lectus.
+6,6,7557,7,331.65,DISPONIBLE,10,"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue."
+8,2,9158,4,656.89,DISPONIBLE,6,Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+8,9,9859,5,120.73,OCUPADA,1,Duis mattis egestas metus.
+4,3,5260,5,616.71,MANTENIMIENTO,9,Nulla facilisi. Cras non velit nec nisi vulputate nonummy.
+4,3,5261,9,60.05,MANTENIMIENTO,1,"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla."
+3,7,4662,3,86.1,MANTENIMIENTO,1,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+9,9,10863,10,665.52,DISPONIBLE,5,Nulla justo.
+3,9,4864,10,530.92,OCUPADA,10,Cras in purus eu magna vulputate luctus.
+7,10,8965,10,507.39,MANTENIMIENTO,10,Curabitur in libero ut massa volutpat convallis.
+4,2,5166,3,396.83,MANTENIMIENTO,3,"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis."
+2,5,3467,4,359.01,OCUPADA,3,In congue.
+5,6,6568,7,270.93,DISPONIBLE,3,"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus."
+5,3,6269,1,550.03,OCUPADA,7,Morbi non quam nec dui luctus rutrum. Nulla tellus.
+4,8,5770,6,126.46,DISPONIBLE,9,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue."
+8,10,9971,4,637.19,MANTENIMIENTO,2,Proin at turpis a pede posuere nonummy.
+4,4,5372,3,505.02,DISPONIBLE,4,In eleifend quam a odio.
+5,6,6573,9,111.26,DISPONIBLE,9,"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem."
+8,4,9374,7,67.44,DISPONIBLE,9,Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.
+4,5,5475,8,223.42,OCUPADA,6,"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus."
+7,4,8376,8,192.66,MANTENIMIENTO,8,Nulla mollis molestie lorem.
