@@ -6,7 +6,7 @@ porcentaje_descuento numeric(5,2) not null,
 cant_dia_hospedado int,
 
 constraint pk_descuento primary key(id_descuento),
-constraint ck_porcentaje check(porcentaje_descuento >= 0),
+constraint ck_porcentaje check(porcentaje_descuento >= 0 AND porcentaje_descuento <= 100),
 constraint ck_cant_dia check(cant_dia_hospedado > 0)
 );
 
@@ -20,7 +20,8 @@ activado boolean default(true),
 
 constraint pk_aumento_costo primary key(id_aumento_costo),
 constraint ck_fecha_inicio check((fecha_inicio < fecha_fin)),
-constraint uq_nombre_temp unique(nombre_temporada)
+constraint uq_nombre_temp unique(nombre_temporada),
+constraint ck_porcentaje_aumento check(porcentaje_aumento >= 0)
 );
 /*------------------------------------------------------*/
 
@@ -53,7 +54,8 @@ constraint pk_huesped primary key(id_huesped),
 constraint uq_correo unique(correo),
 constraint ck_correo check(correo like '%@%.%'),
 constraint uq_documento unique(documento),
-constraint ck_tipo_documento check(tipo_documento in ('DUI','PASAPORTE', 'CONSTANCIA DE RESIDENCIA'))
+constraint ck_tipo_documento check(tipo_documento in ('DUI','PASAPORTE', 'CONSTANCIA DE RESIDENCIA')),
+constraint ck_telefono_huesped check (telefono ~ '^\+?[0-9\s\-]{7,20}$')
 );
 
 create table servicio(
@@ -166,17 +168,15 @@ references empleado(id_empleado) on delete restrict on update cascade,
 constraint fk_huesped foreign key(id_huesped)
 references huesped(id_huesped) on delete restrict on update cascade,
 
-
-constraint ck_cant_huepedes check(cant_huespedes_totales >= 0),
+constraint ck_cant_huepedes check(cant_huespedes_totales > 0),
 constraint ck_estado check(estado in ('PENDIENTE', 'CONFIRMADA', 'CANCELADA', 'RECHAZADA'))
-
 );
 
 create table detalle_reservacion(
 id_detalle_reservacion bigint generated always as identity not null,
 id_reservacion bigint not null,
 id_habitacion bigint not null,
-cant_huespedes int,
+cant_huespedes int NOT NULL,
 fecha_entrada date not null,
 fecha_salida date not null,
 
@@ -186,7 +186,8 @@ references reservacion(id_reservacion) on delete restrict on update cascade,
 constraint fk_habitacion foreign key(id_habitacion)
 references habitacion (id_habitacion) on delete restrict on update cascade,
 
-constraint ck_fecha_entrada check(fecha_entrada < fecha_salida )
+constraint ck_fecha_entrada check(fecha_entrada < fecha_salida ),
+constraint ck_cant_huespedes_detalle check(cant_huespedes > 0)
 );
 
 create table estadia(
@@ -215,7 +216,8 @@ references estadia(id_estadia) on delete restrict on update cascade,
 constraint fk_huesped foreign key(id_huesped)
 references huesped(id_huesped) on delete restrict on update cascade,
 
-constraint ck_calificacion check(calificacion between 1 and 5)
+constraint ck_calificacion check(calificacion between 1 and 5),
+constraint uq_resenia_huesped unique(id_estadia, id_huesped)
 );
 
 create table consumo_servicio(
@@ -229,7 +231,9 @@ constraint pk_consumo_servicio primary key(id_consumo_servicio),
 constraint fk_servicio foreign key(id_servicio)
 references servicio (id_servicio) on delete restrict on update cascade,
 constraint fk_habitacion foreign key(id_habitacion)
-references habitacion(id_habitacion) on delete restrict on update cascade
+references habitacion(id_habitacion) on delete restrict on update cascade,
+constraint fk_estadia_consumo foreign key(id_estadia)
+references estadia(id_estadia) on delete restrict on update cascade
 );
 
 create table factura(
@@ -299,6 +303,11 @@ create table detalle_factura(
     constraint ck_origen_cobro check (
         (id_servicio IS NOT NULL AND id_habitacion IS NULL) OR 
         (id_servicio IS NULL AND id_habitacion IS NOT NULL)
-    )
+    ),
+    
+    constraint ck_precio_unitario check(precio_unitario >= 0),
+    constraint ck_subtotal check(subtotal >= 0),
+    constraint ck_monto_descuento check(monto_descuento >= 0),
+    constraint ck_monto_aumento check(monto_aumento >= 0) 
 );
 /*------------------------------------------------------*/
