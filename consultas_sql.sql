@@ -35,8 +35,8 @@ where not exists (
 
 ---------------Huespedes con mayor gasto historico ------------------
 
-select * from huesped
-select * from factura 
+select * from huesped;
+select * from factura;
 
 CREATE OR REPLACE view vista_gasto_historica AS
 select
@@ -61,10 +61,10 @@ order by gasto_total desc;
 select * from vista_gasto_historica;
 
 ---------------Servicios mas consumidos por tipo habitacion ------------------
-select * from tipo_habitacion 
-select  * from servicio
-select * from consumo_servicio
-select * from detalle_factura
+select * from tipo_habitacion;
+select  * from servicio;
+select * from consumo_servicio;
+select * from detalle_factura;
 
 CREATE OR REPLACE view servicios_mas_consumidos_tipo_habitacion AS
 select 
@@ -186,9 +186,9 @@ hot.nombre
 order by nombre_hotel desc, veces_hospedado desc;
 
 --VISTA CALIFICACION Y GANANCIA DE HOTEL
-drop view if exists vista_calificacion_y_ganancias_prom;
+drop view if exists datos_generales_hoteles;
 
-create or replace view vista_calificacion_y_ganancias_prom as
+create or replace view datos_generales_hoteles as
 -- calcular la ganancia total por año para cada hotel
 with ganancia_por_anio as (
     select 
@@ -230,27 +230,34 @@ promedio_mensual as (
     from ganancia_por_mes
     group by id_hotel
 ),
--- calcular la calificación promedio general de cada hotel
-promedio_calificacion as (
-    select 
-        hab.id_hotel,
-        round(avg(r.calificacion), 2) as calificacion_promedio_hotel
-    from resenia r
-    inner join estadia est on r.id_estadia = est.id_estadia
-    inner join detalle_reservacion det on est.id_reservacion = det.id_reservacion
-    inner join habitacion hab on det.id_habitacion = hab.id_habitacion
-    group by hab.id_hotel
+habitaciones_hotel as(
+select 
+    id_hotel,
+    count(*) as habitaciones_totales,
+    sum((estado = 'DISPONIBLE')::int) as habitaciones_disponibles,
+    sum((estado = 'OCUPADA')::int) as habitaciones_ocupadas,
+    sum((estado = 'MANTENIMIENTO')::int) as habitaciones_mantenimiento
+from habitacion
+group by id_hotel
 )
 -- consolidar los promedios métricos finales por cada hotel existente
 select 
     hot.id_hotel,
     hot.nombre as nombre_hotel,
-    coalesce(pc.calificacion_promedio_hotel, 0.00) as calificacion_promedio_hotel,
+    hot.calificacion,
+    hot.direccion,
+    hot.niveles_edificios,
+    hot.descripcion,
+    h.habitaciones_totales,
+    h.habitaciones_disponibles,
+    h.habitaciones_ocupadas,
+    h.habitaciones_mantenimiento,
     coalesce(pa.ganancia_promedio_anual, 0.00) as ganancia_promedio_anual,
     coalesce(pm.ganancia_promedio_mensual, 0.00) as ganancia_promedio_mensual
 from hotel hot
 left join promedio_anual pa on hot.id_hotel = pa.id_hotel
 left join promedio_mensual pm on hot.id_hotel = pm.id_hotel
-left join promedio_calificacion pc on hot.id_hotel = pc.id_hotel;
+inner join habitaciones_hotel h on hot.id_hotel = h.id_hotel
+order by calificacion desc;
 
-select*from vista_calificacion_y_ganancias_prom;
+select*from datos_generales_hoteles;
