@@ -12,7 +12,7 @@ BEGIN
           -- Esta es la lógica matemática para detectar si dos rangos de fecha se cruzan
           AND fecha_entrada < NEW.fecha_salida 
           AND fecha_salida > NEW.fecha_entrada
-          -- Esto evita que marque error si estamos actualizando (UPDATE) la misma reserva
+          -- Esto evita que marque error si estamos actualizando la misma reserva
           AND id_detalle_reservacion IS DISTINCT FROM NEW.id_detalle_reservacion
     ) THEN
         -- Si encuentra un choque, aborta la operación y lanza este mensaje

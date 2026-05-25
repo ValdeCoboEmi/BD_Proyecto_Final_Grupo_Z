@@ -169,7 +169,7 @@ constraint fk_huesped foreign key(id_huesped)
 references huesped(id_huesped) on delete restrict on update cascade,
 
 constraint ck_cant_huepedes check(cant_huespedes_totales > 0),
-constraint ck_estado check(estado in ('PENDIENTE', 'CONFIRMADA', 'CANCELADA', 'RECHAZADA'))
+constraint ck_estado check(estado in ('PENDIENTE', 'CONFIRMADA', 'CANCELADA', 'RECHAZADA', 'COMPLETADA'))
 );
 
 create table detalle_reservacion(

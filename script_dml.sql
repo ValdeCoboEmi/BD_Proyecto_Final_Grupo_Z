@@ -24,7 +24,6 @@ FROM '/csv_data/huesped_constancia_.csv' WITH (FORMAT csv, HEADER true, DELIMITE
 COPY huesped (nombre, correo, telefono, documento, tipo_documento) 
 FROM '/csv_data/huesped_pasaporte_.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');
 
-
 COPY servicio (tipo_servicio, precio) 
 FROM '/csv_data/servicio_.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');
 
