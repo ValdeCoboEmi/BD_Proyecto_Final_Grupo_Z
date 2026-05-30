@@ -1,0 +1,11 @@
+"id_hotel","nombre","direccion","niveles_edificios","calificacion","descripcion"
+1,Hotel Costa Azul,"Playa El Tunco, La Libertad",4,4.5,Resort frente a la playa con piscina infinita
+2,Mirador San Salvador,"Colonia Escalón, San Salvador",10,4.8,Hotel de lujo con vista panorámica a la ciudad
+3,Posada del Volcán,Parque Nacional El Boquerón,2,4.2,Cabañas rústicas inmersas en la naturaleza
+4,Boutique Santa Ana,"Centro Histórico, Santa Ana",3,4.0,Hotel colonial con encanto a pocos pasos de la Catedral
+5,Eco-Lodge Coatepeque,Lago de Coatepeque,2,4.9,Habitaciones sostenibles con muelle privado
+6,Business Center Hotel,Antiguo Cuscatlán,15,4.6,"Ideal para viajeros de negocios, con salas de reuniones"
+7,Surf Camp El Zonte,"Playa El Zonte, La Libertad",1,4.3,Alojamiento relajado diseñado para surfistas
+8,Hostal Ruta de las Flores,"Juayúa, Sonsonate",2,3.8,Ambiente familiar y acogedor con desayuno incluido
+9,Grand Hotel San Miguel,"Avenida Roosevelt, San Miguel",8,4.1,Confort y elegancia en el oriente del país
+10,Montaña de Paz Resort,Cerro Verde,3,4.7,"Retiro de bienestar, spa y senderismo guiado"
