@@ -250,3 +250,74 @@ inner join habitaciones_hotel h on hot.id_hotel = h.id_hotel
 order by calificacion desc;
 
 select*from datos_generales_hoteles;
+-----------------vista facturas ---------------
+DROP VIEW IF EXISTS vista_factura_completa;
+
+CREATE OR REPLACE VIEW vista_factura_completa AS
+SELECT 
+    -- 1. Información principal de la Factura
+    f.id_factura,
+    f.fecha,
+    f.metodo_pago,
+    f.total_a_pagar,
+    f.id_estadia,
+
+    -- 2. Datos del Empleado
+    e.nombre AS nombre_empleado,
+
+    -- 3. Datos del Huésped
+    h.nombre AS nombre_huesped,
+    h.correo AS correo_huesped,
+
+    -- 4. COLUMNA COMPUESTA: Arreglo JSON con todo el detalle desglosado
+    COALESCE(
+        (
+            SELECT jsonb_agg(
+                jsonb_build_object(
+                    'id_detalle_factura', df.id_detalle_factura,
+                    'concepto', df.concepto,
+                    'precio_unitario', df.precio_unitario,
+                    'cantidad', df.cantidad,
+                    'subtotal', df.subtotal,
+                    'monto_descuento', df.monto_descuento,
+                    'monto_aumento', df.monto_aumento,
+                    'precio_total', df.precio_total,
+                    
+                    'servicio', CASE 
+                        WHEN df.id_servicio IS NOT NULL THEN 
+                            jsonb_build_object('id_servicio', s.id_servicio, 'tipo_servicio', s.tipo_servicio)
+                        ELSE NULL 
+                    END,
+                    
+                    'habitacion', CASE 
+                        WHEN df.id_habitacion IS NOT NULL THEN 
+                            jsonb_build_object('id_habitacion', hab.id_habitacion, 'numero', hab.numero_habitacion, 'nivel', hab.nivel)
+                        ELSE NULL 
+                    END,
+                    
+                    'descuento', CASE 
+                        WHEN df.id_descuento IS NOT NULL THEN 
+                            jsonb_build_object('id_descuento', d.id_descuento, 'porcentaje', d.porcentaje_descuento)
+                        ELSE NULL 
+                    END,
+                    
+                    'aumento_costo', CASE 
+                        WHEN df.id_aumento_costo IS NOT NULL THEN 
+                            jsonb_build_object('id_aumento_costo', ac.id_aumento_costo, 'temporada', ac.nombre_temporada, 'porcentaje', ac.porcentaje_aumento)
+                        ELSE NULL 
+                    END
+                )
+            )
+            FROM detalle_factura df
+            LEFT JOIN servicio s ON df.id_servicio = s.id_servicio
+            LEFT JOIN habitacion hab ON df.id_habitacion = hab.id_habitacion
+            LEFT JOIN descuento d ON df.id_descuento = d.id_descuento
+            LEFT JOIN aumento_costos ac ON df.id_aumento_costo = ac.id_aumento_costo
+            WHERE df.id_factura = f.id_factura
+        ),
+        '[]'::jsonb 
+    ) AS detalle_factura
+   
+    
+select * from vista_factura_completa; 
+
