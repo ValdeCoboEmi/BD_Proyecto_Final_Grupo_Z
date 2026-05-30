@@ -1,4 +1,3 @@
-
 ---------------Habitaciones disponibles en un rango de fechas ------------------
 CREATE OR REPLACE view vista_habitaciones_disponibles AS
 select
@@ -41,7 +40,7 @@ select
     h.documento,
     h.tipo_documento,
     SUM(f.total_a_pagar) as gasto_total,
-    count(f.id_factura) as cantidad_facturas
+    count(distinct f.id_factura) as total_veces_hospedado
 from huesped h
 inner join factura f 
     on h.id_huesped = f.id_huesped
@@ -153,27 +152,33 @@ order by oa.mes_anio desc, porcentaje_ocupacion desc;
 select * from vista_tasa_ocupacion_mensual;
 
 -----------------Visualizar huespuedes---------------
-drop view if exists vistas_huespuedes;
+DROP VIEW IF EXISTS vista_huespedes_por_hotel;
 
-create or replace view vistas_huespuedes as
-select
-h.id_huesped, h.nombre as huesped, h.correo,
-h.documento, h.tipo_documento, hot.nombre as nombre_hotel,
-COUNT(distinct f.id_factura) as veces_hospedado
-from huesped h
-	inner join factura f on h.id_huesped = f.id_huesped
-	inner join estadia e on f.id_estadia = e.id_estadia
-	inner join detalle_reservacion dr on e.id_reservacion = dr.id_reservacion
-	inner join habitacion hab on dr.id_habitacion = hab.id_habitacion
-	inner join hotel hot on hab.id_hotel = hot.id_hotel
+create or replace view vista_huespedes_por_hotel as
+select  
+    h.id_huesped, 
+    h.nombre huesped, 
+    h.correo,
+    h.documento, 
+    h.tipo_documento, 
+    hot.nombre nombre_hotel,
+    COUNT(distinct f.id_factura) veces_hospedado
+FROM public.huesped h
+inner join public.factura f on h.id_huesped = f.id_huesped
+inner join public.estadia e on f.id_estadia = e.id_estadia
+inner join public.detalle_reservacion dr on e.id_reservacion = dr.id_reservacion
+inner join public.habitacion hab on dr.id_habitacion = hab.id_habitacion
+inner join public.hotel hot on hab.id_hotel = hot.id_hotel
 group by
-h.id_huesped,
-h.nombre,
-h.correo,
-h.documento,
-h.tipo_documento,
-hot.nombre
-order by nombre_hotel desc, veces_hospedado desc;
+    h.id_huesped,
+    h.nombre,
+    h.correo,
+    h.documento,
+    h.tipo_documento,
+    hot.nombre;
+
+select*from vista_huespedes_por_hotel 
+order by nombre_hotel desc,veces_hospedado desc;
 
 -----------------vista general de hotel---------------
 drop view if exists datos_generales_hoteles;
@@ -317,7 +322,11 @@ SELECT
         ),
         '[]'::jsonb 
     ) AS detalle_factura
+    FROM factura f
+inner JOIN estadia es ON es.id_estadia = f.id_estadia
+inner JOIN reservacion r oN r.id_reservacion = es.id_reservacion
+inner JOIN empleado e ON e.id_empleado = r.id_empleado
+JOIN huesped h ON h.id_huesped = r.id_huesped;
    
-    
 select * from vista_factura_completa; 
 
