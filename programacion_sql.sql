@@ -1,31 +1,31 @@
 -- Al intentar insertar una reservación, verificar que la habitación no esté 
 -- ocupada en ese período; si hay conflicto, lanzar un error
 --Funcion
-CREATE OR REPLACE FUNCTION validar_disponibilidad_habitacion()
-RETURNS TRIGGER AS $$
+create or replace function validar_disponibilidad_habitacion()
+returns trigger as $$
 BEGIN
     -- Buscamos si ya existe una reserva que choque con las fechas nuevas
-    IF EXISTS (
-        SELECT 1 
-        FROM detalle_reservacion 
-        WHERE id_habitacion = NEW.id_habitacion 
+    if exists    (
+        select 1 
+        from detalle_reservacion 
+        where id_habitacion = new.id_habitacion 
           -- Esta es la lógica matemática para detectar si dos rangos de fecha se cruzan
-          AND fecha_entrada < NEW.fecha_salida 
-          AND fecha_salida > NEW.fecha_entrada
+          and fecha_entrada < new.fecha_salida 
+          and fecha_salida > new.fecha_entrada
           -- Esto evita que marque error si estamos actualizando la misma reserva
-          AND id_detalle_reservacion IS DISTINCT FROM NEW.id_detalle_reservacion
-    ) THEN
-        -- Si encuentra un choque, aborta la operación y lanza este mensaje
-        RAISE EXCEPTION 'La habitación % ya está reservada en esas fechas.', NEW.id_habitacion;
-    END IF;
+          and id_detalle_reservacion is distinct from new.id_detalle_reservacion
+    ) then
+        -- Si encuentra un choque, aborta la operación
+        raise exception 'La habitación % ya está reservada en esas fechas.', NEW.id_habitacion;
+    end if;
 
-    -- Si no hay choques, deja pasar los datos (retorna NEW)
-    RETURN NEW;
-END;
-$$ LANGUAGE plpgsql; 
+    -- Si no hay choques, deja pasar los datos 
+    return new;
+end;
+$$ language plpgsql; 
 
 --Trigger
-CREATE TRIGGER trg_verificar_reserva
-BEFORE INSERT OR UPDATE ON detalle_reservacion
-FOR EACH ROW
-EXECUTE FUNCTION validar_disponibilidad_habitacion();
+create trigger trg_verificar_reserva
+before insert or update on detalle_reservacion
+for each row
+execute function validar_disponibilidad_habitacion();

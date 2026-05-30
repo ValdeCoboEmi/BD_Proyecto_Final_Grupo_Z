@@ -18,7 +18,6 @@ inner join tipo_habitacion th
     on h.id_tipo_habitacion = th.id_tipo_habitacion
 where h.estado = 'DISPONIBLE';
 
-
 select * from vista_habitaciones_disponibles vh
 where not exists (
     select 1
@@ -34,10 +33,6 @@ where not exists (
 );
 
 ---------------Huespedes con mayor gasto historico ------------------
-
-select * from huesped;
-select * from factura;
-
 CREATE OR REPLACE view vista_gasto_historica AS
 select
     h.id_huesped,
@@ -61,11 +56,6 @@ order by gasto_total desc;
 select * from vista_gasto_historica;
 
 ---------------Servicios mas consumidos por tipo habitacion ------------------
-select * from tipo_habitacion;
-select  * from servicio;
-select * from consumo_servicio;
-select * from detalle_factura;
-
 CREATE OR REPLACE view servicios_mas_consumidos_tipo_habitacion AS
 select 
     th.id_tipo_habitacion,
@@ -97,7 +87,7 @@ order by
 
 select * from servicios_mas_consumidos_tipo_habitacion;
 
--- Tasa de ocupación mensual por tipo de habitación
+--------------- Tasa de ocupación mensual por tipo de habitación---------------
 drop view if exists vista_tasa_ocupacion_mensual;
 
 create or replace view vista_tasa_ocupacion_mensual as
@@ -162,7 +152,7 @@ order by oa.mes_anio desc, porcentaje_ocupacion desc;
 
 select * from vista_tasa_ocupacion_mensual;
 
---Visualizar huespuedes
+-----------------Visualizar huespuedes---------------
 drop view if exists vistas_huespuedes;
 
 create or replace view vistas_huespuedes as
@@ -185,7 +175,7 @@ h.tipo_documento,
 hot.nombre
 order by nombre_hotel desc, veces_hospedado desc;
 
---VISTA CALIFICACION Y GANANCIA DE HOTEL
+-----------------vista general de hotel---------------
 drop view if exists datos_generales_hoteles;
 
 create or replace view datos_generales_hoteles as
@@ -240,7 +230,6 @@ select
 from habitacion
 group by id_hotel
 )
--- consolidar los promedios métricos finales por cada hotel existente
 select 
     hot.id_hotel,
     hot.nombre as nombre_hotel,

@@ -1,4 +1,4 @@
-/* ----- TABLAS FLOTANTES -----*/
+/* ----- TABLAS QUE NO TIENEN DEPENDENCIAS -----*/
 
 create table descuento(
 id_descuento bigint generated always as identity not null,
@@ -23,10 +23,8 @@ constraint ck_fecha_inicio check((fecha_inicio < fecha_fin)),
 constraint uq_nombre_temp unique(nombre_temporada),
 constraint ck_porcentaje_aumento check(porcentaje_aumento >= 0)
 );
-/*------------------------------------------------------*/
 
 
-/* ----- TABLAS QUE NO TIENEN DEPENDENCIAS -----*/
 create table hotel(
 id_hotel bigint generated always as identity not null,
 nombre varchar(255) not null,
