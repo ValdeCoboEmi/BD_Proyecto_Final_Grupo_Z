@@ -185,7 +185,7 @@ BEGIN
     )
     VALUES (
         p_id_empleado,
-        p_id_huesped,
+        V_id_huesped,
         p_id_estadia,
         p_metodo_pago,
         0
@@ -371,13 +371,6 @@ BEGIN
     UPDATE factura
     SET total_a_pagar = v_total_a_pagar
     WHERE id_factura = v_id_factura;
-
-    COMMIT;
-
-EXCEPTION
-    WHEN OTHERS THEN
-        ROLLBACK;
-        RAISE NOTICE 'Ocurrió un error: %', SQLERRM;
 END;
 $$;
 
