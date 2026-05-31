@@ -403,3 +403,42 @@ CREATE TRIGGER trg_checkout_factura
 AFTER UPDATE OF checkout ON estadia
 FOR EACH ROW
 EXECUTE FUNCTION fn_generar_factura_checkout();
+
+------Funcion para buscar habitaciones libres por rango de fecha--------
+create or replace function buscar_habitaciones_disponibles(
+    p_fecha_entrada date, 
+    p_fecha_salida date, 
+    p_id_tipo_habitacion bigint
+)
+returns table(
+    id_habitacion_libre bigint,
+    nombre_hotel_pertenece varchar(100),
+    numero_habitacion_libre int,
+    tipo_habitacion_libre varchar(100),
+    precio_habitacion numeric(10,2)
+) as $$
+begin
+    return query
+    select 
+        h.id_habitacion, 
+        ho.nombre,
+        h.numero_habitacion, 
+        th.tipo_habitacion,
+        h.precio
+    from habitacion h
+    inner join hotel ho on h.id_hotel = ho.id_hotel 
+    inner join tipo_habitacion th on h.id_tipo_habitacion = th.id_tipo_habitacion 
+    where h.id_tipo_habitacion = p_id_tipo_habitacion
+      and h.estado = 'DISPONIBLE'
+      and h.id_habitacion not in (
+          select dr.id_habitacion 
+          from detalle_reservacion dr
+          join reservacion r on dr.id_reservacion = r.id_reservacion
+          where r.estado in ('PENDIENTE', 'CONFIRMADA')
+            and not (p_fecha_salida <= dr.fecha_entrada or p_fecha_entrada >= dr.fecha_salida)
+      );
+end;
+$$ language plpgsql;
+
+select * from buscar_habitaciones_disponibles('2026-04-05', '2026-06-05', 10);
+
