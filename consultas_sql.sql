@@ -330,3 +330,42 @@ JOIN huesped h ON h.id_huesped = r.id_huesped;
    
 select * from vista_factura_completa; 
 
+
+-- Vista que obtiene el total de ingresos por mes correspondientes al año en curso
+CREATE OR REPLACE VIEW ingresos_mes AS (
+    SELECT
+        EXTRACT('year' FROM CURRENT_DATE) AS año_en_curso,
+        EXTRACT('month' FROM f.fecha) AS num_mes,
+        TO_CHAR(f.fecha, 'Month') AS mes,
+        SUM(f.total_a_pagar) AS ingresos
+    FROM factura f
+    WHERE
+        -- Filtra las facturas para incluir únicamente las generadas en el año actual
+        EXTRACT(YEAR FROM CURRENT_DATE) = EXTRACT('year' FROM f.fecha)
+    GROUP BY año_en_curso, num_mes, mes
+    ORDER BY num_mes ASC
+);
+
+select * from ingresos_mes;
+
+-- Vista que resume la información general de los hoteles (calificación, capacidad y ganancias)
+CREATE OR REPLACE VIEW info_general_hoteles AS (
+    SELECT
+        h.nombre AS hotel,
+        h.calificacion,
+        -- Cuenta las habitaciones de forma única para evitar multiplicaciones por el JOIN
+        COUNT(DISTINCT h2.id_habitacion) AS cant_habitaciones,
+        -- Suma el subtotal por detalle para evitar ingresos duplicados en facturas con múltiples líneas
+        SUM(df.precio_total) AS ganancias
+    FROM hotel h
+    JOIN habitacion h2
+        ON h.id_hotel = h2.id_hotel
+    JOIN detalle_factura df
+        ON h2.id_habitacion = df.id_habitacion
+    JOIN factura f
+        ON df.id_factura = f.id_factura
+    GROUP BY h.id_hotel
+);
+
+SELECT * FROM info_general_hoteles;
+
