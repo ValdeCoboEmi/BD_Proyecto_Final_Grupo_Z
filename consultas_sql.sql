@@ -369,3 +369,165 @@ CREATE OR REPLACE VIEW info_general_hoteles AS (
 
 SELECT * FROM info_general_hoteles;
 
+
+---------------Habitaciones disponibles en un rango de fechas ------------------
+
+create view vista_habitaciones_disponibles AS
+select
+    h.id_habitacion,
+    ho.nombre AS hotel,
+    ho.direccion,
+    h.nivel,
+    h.numero_habitacion,
+    th.tipo_habitacion,
+    h.precio,
+    h.estado,
+    h.capacidad_maxima
+from habitacion h
+inner join hotel ho 
+    on h.id_hotel = ho.id_hotel
+inner join tipo_habitacion th 
+    on h.id_tipo_habitacion = th.id_tipo_habitacion
+where h.estado = 'DISPONIBLE';
+
+
+select * from vista_habitaciones_disponibles vh
+where not exists (
+    select 1
+    from detalle_reservacion dr
+    where dr.id_habitacion = vh.id_habitacion
+      and dr.id_reservacion in (
+          select r.id_reservacion
+          from reservacion r
+          where r.estado in ('PENDIENTE', 'CONFIRMADA')
+            and dr.fecha_entrada < '2020-05-06'
+            and dr.fecha_salida > '2026-05-01'
+      )
+);
+
+---------------Huespedes con mayor gasto historico ------------------
+
+create view vista_gasto_historica AS
+select
+    h.id_huesped,
+    h.nombre AS huesped,
+    h.correo,
+    h.documento,
+    h.tipo_documento,
+    SUM(f.total_a_pagar) as gasto_total,
+    count(f.id_factura) as cantidad_facturas
+from huesped h
+inner join factura f 
+    on h.id_huesped = f.id_huesped
+group by
+h.id_huesped,
+h.nombre,
+h.correo,
+h.documento,
+h.tipo_documento
+order by gasto_total desc;
+
+select * from vista_gasto_historica;
+
+
+---------------Servicios mas consumidos por tipo habitacion ------------------
+
+create view servicios_mas_consumidos_tipo_habitacion AS
+select 
+    th.id_tipo_habitacion,
+    th.tipo_habitacion,
+    s.id_servicio,
+    s.tipo_servicio,
+    SUM(df_serv.cantidad) AS total_consumos
+from detalle_factura df_serv
+inner join servicio s 
+on df_serv.id_servicio = s.id_servicio
+inner join  factura f 
+on df_serv.id_factura = f.id_factura
+inner join  estadia e 
+on f.id_estadia = e.id_estadia
+inner join  detalle_reservacion dr
+on e.id_reservacion = dr.id_reservacion
+inner join  habitacion h
+on dr.id_habitacion = h.id_habitacion
+inner join tipo_habitacion th 
+on h.id_tipo_habitacion = th.id_tipo_habitacion
+group by
+    th.id_tipo_habitacion,
+    th.tipo_habitacion,
+    s.id_servicio,
+    s.tipo_servicio
+order by
+    th.tipo_habitacion,
+    total_consumos DESC;
+
+select * from servicios_mas_consumidos_tipo_habitacion;
+
+---dias_restantes_reservacion--
+create view dias_restantes_reservacion as
+select
+    r.id_reservacion, h.nombre as nombre_huesped, h.documento as documento_huesped,
+    h.telefono as telefono_huesped, e.nombre as nombre_empleado, r.cant_huespedes_totales,
+    r.estado as estado_reservacion, MIN(dr.fecha_entrada) as fecha_entrada_proxima,
+    MIN(dr.fecha_salida) as fecha_salida_proxima,
+    (MIN(dr.fecha_entrada) - CURRENT_DATE) AS dias_para_iniciar
+from reservacion r
+inner join huesped h on r.id_huesped = h.id_huesped
+inner join empleado e on r.id_empleado = e.id_empleado
+inner join detalle_reservacion dr on r.id_reservacion = dr.id_reservacion
+where r.estado in ('PENDIENTE', 'CONFIRMADA') 
+  and dr.fecha_entrada >= CURRENT_DATE
+group by 
+    r.id_reservacion, h.nombre, h.documento, h.telefono,
+    e.nombre, r.cant_huespedes_totales, r.estado
+order by
+    dias_para_iniciar asc;
+
+select * from dias_restantes_reservacion;
+
+---detalle_habitacion_comodidas---
+
+drop view detalle_habitaciones_y_comodidades
+
+create view detalle_habitaciones_y_comodidades as
+select 
+    h.id_habitacion, h.numero_habitacion, h.precio,
+    h.estado, h.capacidad_maxima, th.tipo_habitacion,
+    (select count(*) 
+     from habitacion h2 
+     where h2.id_tipo_habitacion = th.id_tipo_habitacion
+    ) as total_habitaciones_este_tipo,
+    string_agg(tc.tipo_comodidad, ', ') as comodidades,
+    count(tc.id_tipo_comodidad) as total_comodidades
+from habitacion h
+inner join tipo_habitacion th 
+    on h.id_tipo_habitacion = th.id_tipo_habitacion
+left join comodidad_tipo_habitacion cth 
+    on th.id_tipo_habitacion = cth.id_tipo_habitacion
+left join tipo_comodidad tc 
+    on cth.id_tipo_comodidad = tc.id_tipo_comodidad
+group by 
+    h.id_habitacion, h.numero_habitacion, h.nivel, h.precio,
+    h.estado, h.capacidad_maxima, th.id_tipo_habitacion, th.tipo_habitacion
+order by 
+    th.tipo_habitacion, h.numero_habitacion;
+
+select * from detalle_habitaciones_y_comodidades;
+
+---Vista total habitaciones por tipo---
+
+create view total_habitaciones_por_tipo as
+select 
+    th.tipo_habitacion,
+    count(h.id_habitacion) as total_habitaciones
+from tipo_habitacion th
+left join habitacion h on th.id_tipo_habitacion = h.id_tipo_habitacion
+group by 
+    th.id_tipo_habitacion, 
+    th.tipo_habitacion
+order by 
+    total_habitaciones desc;
+
+select * from total_habitaciones_por_tipo;
+
+
