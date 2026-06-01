@@ -530,4 +530,46 @@ order by
 
 select * from total_habitaciones_por_tipo;
 
+--- Visualizar el consumo de una estadia de los huespedes ---
+create view vista_consumo_estadia as
+select
+    -- Arreglo JSON
+    json_build_object(
+        'huesped', h.nombre,
+        'documento', h.documento,
+        'consumos', (
+            -- Aquí agrupamos todos los servicios en un arreglo JSON
+            select json_agg(
+                json_build_object(
+                    'servicio', s.tipo_servicio,
+                    'precio', s.precio
+                )
+            )
+           
+            from consumo_servicio cs
+            inner join servicio s on cs.id_servicio = s.id_servicio
+            where cs.id_estadia = e.id_estadia
+        ),
+        -- Gasto total por estadia de un huesped
+         'Gasto_Total', f.total_a_pagar
+    ) as reporte_json
+from estadia e
+inner join reservacion r on e.id_reservacion = r.id_reservacion
+inner join huesped h on r.id_huesped = h.id_huesped
+left join factura f on e.id_estadia = f.id_estadia;
 
+select * from vista_consumo_estadia;
+
+-- Visualizar los empleados y sus roles(Tipo_empleado) --
+create view vista_tipo_de_empleados as
+select
+e.nombre as Empleado, 
+e.dui as Documento_de_identidad, 
+e.telefono as Teléfono,
+e.correo as Email, 
+te.tipo_empleado as Rol_de_trabajo, 
+e.salario as Salario
+from empleado e
+inner join tipo_empleado te on e.id_tipo_empleado = te.id_tipo_empleado;
+
+select * from vista_tipo_de_empleados;
