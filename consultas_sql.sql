@@ -533,25 +533,39 @@ select * from total_habitaciones_por_tipo;
 --- Visualizar el consumo de una estadia de los huespedes ---
 create view vista_consumo_estadia as
 select
-    -- Arreglo JSON
+    e.id_estadia,
+    h.nombre,
+    h.documento,
     json_build_object(
-        'huesped', h.nombre,
-        'documento', h.documento,
-        'consumos', (
-            -- Aquí agrupamos todos los servicios en un arreglo JSON
+        'habitaciones', (
+            -- Habitaciones de la reservación
             select json_agg(
                 json_build_object(
-                    'servicio', s.tipo_servicio,
-                    'precio', s.precio
+                    'numero_habitacion', h2.numero_habitacion,
+                    
+                    -- Consumos específicos de ESTA habitación
+                    'consumos', (
+                        select coalesce(json_agg(
+                            json_build_object(
+                                'servicio', s.tipo_servicio,
+                                'precio', s.precio
+                            )
+                        ), '[]'::json) -- Si no hay consumos, devuelve un arreglo vacío []
+                        from consumo_servicio cs
+                        inner join servicio s on cs.id_servicio = s.id_servicio
+                        where cs.id_estadia = e.id_estadia 
+                          and cs.id_habitacion = h2.id_habitacion
+                    )
                 )
             )
-           
-            from consumo_servicio cs
-            inner join servicio s on cs.id_servicio = s.id_servicio
-            where cs.id_estadia = e.id_estadia
+            from detalle_reservacion dr
+            inner join habitacion h2 on dr.id_habitacion = h2.id_habitacion
+            where dr.id_reservacion = r.id_reservacion
         ),
-        -- Gasto total por estadia de un huesped
-         'Gasto_Total', f.total_a_pagar
+        
+        -- Total general de la factura
+        'gasto_total', f.total_a_pagar
+        
     ) as reporte_json
 from estadia e
 inner join reservacion r on e.id_reservacion = r.id_reservacion
