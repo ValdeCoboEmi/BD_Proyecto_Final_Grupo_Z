@@ -442,3 +442,28 @@ $$ language plpgsql;
 
 select * from buscar_habitaciones_disponibles('2026-04-05', '2026-06-05', 10);
 
+
+-- TRIGGER PARA VALIDAR NIVEL DE HABITACION
+-- creacion de la funcion disparadora
+create or replace function validar_nivel_habitacion()
+returns trigger as $$
+declare nivel_hotel int;
+begin 
+	-- se guarda el nivel del hotel de la habitacion en una variable
+	select niveles_edificios into nivel_hotel
+	from hotel where id_hotel = NEW.id_hotel;
+	-- se valida si el nivel ingresado es mayor al del hotel
+	if NEW.nivel > nivel_hotel then
+		raise exception 'Operación cancelada: el nivel ingresado (%) es mayor al del hotel (%).', NEW.nivel, nivel_hotel;
+	end if;
+	
+	return new;
+end;
+$$ language plpgsql;
+
+-- creacion del trigger en la tabla de habitacion cuando se inserte o modifique
+create trigger tg_check_nivel_habitacion
+before insert or update on habitacion
+for each row 
+execute function validar_nivel_habitacion();
+
