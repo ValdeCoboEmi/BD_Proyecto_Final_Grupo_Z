@@ -1,7 +1,7 @@
 -- Al intentar insertar una reservación, verificar que la habitación no esté 
 -- ocupada en ese período; si hay conflicto, lanzar un error
 --Funcion
-create or replace function validar_disponibilidad_habitacion()
+create or replace function fn_validar_disponibilidad_habitacion()
 returns trigger as $$
 begin
     -- buscamos si ya existe una reserva activa que choque con las fechas nuevas
@@ -25,14 +25,14 @@ end;
 $$ language plpgsql; 
 
 -- trigger 
-create trigger trg_verificar_reserva
+create OR REPLACE trigger trg_verificar_reserva
 before insert or update on public.detalle_reservacion
 for each row
-execute function validar_disponibilidad_habitacion();
+execute function fn_validar_disponibilidad_habitacion();
 
 --------Trigger para actualizar calificaciones------------
 --FUNCION
-CREATE OR REPLACE FUNCTION actualizar_calificacion_hotel()
+CREATE OR REPLACE FUNCTION fn_actualizar_calificacion_hotel()
 RETURNS trigger AS $$
 DECLARE
     v_id_hotel bigint;
@@ -81,10 +81,10 @@ $$ LANGUAGE plpgsql;
 -- Nos aseguramos de eliminarlo si ya existía para evitar duplicados
 DROP TRIGGER IF EXISTS trg_actualizar_calificacion ON resenia;
 
-CREATE TRIGGER trg_actualizar_calificacion
+CREATE OR REPLACE TRIGGER trg_actualizar_calificacion
 AFTER INSERT OR UPDATE ON resenia
 FOR EACH ROW
-EXECUTE FUNCTION actualizar_calificacion_hotel();
+EXECUTE FUNCTION fn_actualizar_calificacion_hotel();
 
 
 
@@ -96,7 +96,7 @@ EXECUTE FUNCTION actualizar_calificacion_hotel();
 -- id_empleado (bigint, el id del empleado que cobra la factura)
 -- metodo_pago (varchar, el metodo de pago de la factura)
 
-CREATE OR REPLACE PROCEDURE calcular_total_factura(
+CREATE OR REPLACE PROCEDURE sp_calcular_total_factura(
     p_id_estadia BIGINT,
     p_id_empleado BIGINT,
     p_metodo_pago VARCHAR
@@ -399,13 +399,13 @@ END;
 $$;
 
 -- se añade el trigger a la tabla de estadia para cada actualizacion del campo "checkout"
-CREATE TRIGGER trg_checkout_factura
+CREATE OR REPLACE TRIGGER trg_checkout_factura
 AFTER UPDATE OF checkout ON estadia
 FOR EACH ROW
 EXECUTE FUNCTION fn_generar_factura_checkout();
 
 ------Funcion para buscar habitaciones libres por rango de fecha--------
-create or replace function buscar_habitaciones_disponibles(
+create or replace function fn_buscar_habitaciones_disponibles(
     p_fecha_entrada date, 
     p_fecha_salida date, 
     p_id_tipo_habitacion bigint
@@ -440,12 +440,12 @@ begin
 end;
 $$ language plpgsql;
 
-select * from buscar_habitaciones_disponibles('2026-04-05', '2026-06-05', 10);
+select * from fn_buscar_habitaciones_disponibles('2026-04-05', '2026-06-05', 10);
 
 
 -- TRIGGER PARA VALIDAR NIVEL DE HABITACION
 -- creacion de la funcion disparadora
-create or replace function validar_nivel_habitacion()
+create or replace function fn_validar_nivel_habitacion()
 returns trigger as $$
 declare nivel_hotel int;
 begin 
@@ -462,8 +462,8 @@ end;
 $$ language plpgsql;
 
 -- creacion del trigger en la tabla de habitacion cuando se inserte o modifique
-create trigger tg_check_nivel_habitacion
+create OR REPLACE trigger tg_check_nivel_habitacion
 before insert or update on habitacion
 for each row 
-execute function validar_nivel_habitacion();
+execute function fn_validar_nivel_habitacion();
 

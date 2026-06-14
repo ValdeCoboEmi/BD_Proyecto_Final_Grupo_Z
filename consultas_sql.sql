@@ -1,95 +1,5 @@
----------------Habitaciones disponibles en un rango de fechas ------------------
-CREATE OR REPLACE view vista_habitaciones_disponibles AS
-select
-    h.id_habitacion,
-    ho.nombre AS hotel,
-    ho.direccion,
-    h.nivel,
-    h.numero_habitacion,
-    th.tipo_habitacion,
-    h.precio,
-    h.estado,
-    h.capacidad_maxima
-from habitacion h
-inner join hotel ho 
-    on h.id_hotel = ho.id_hotel
-inner join tipo_habitacion th 
-    on h.id_tipo_habitacion = th.id_tipo_habitacion
-where h.estado = 'DISPONIBLE';
-
-select * from vista_habitaciones_disponibles vh
-where not exists (
-    select 1
-    from detalle_reservacion dr
-    where dr.id_habitacion = vh.id_habitacion
-      and dr.id_reservacion in (
-          select r.id_reservacion
-          from reservacion r
-          where r.estado in ('PENDIENTE', 'CONFIRMADA')
-            and dr.fecha_entrada < '2020-05-06'
-            and dr.fecha_salida > '2026-05-01'
-      )
-);
-
----------------Huespedes con mayor gasto historico ------------------
-CREATE OR REPLACE view vista_gasto_historica AS
-select
-    h.id_huesped,
-    h.nombre AS huesped,
-    h.correo,
-    h.documento,
-    h.tipo_documento,
-    SUM(f.total_a_pagar) as gasto_total,
-    count(distinct f.id_factura) as total_veces_hospedado
-from huesped h
-inner join factura f 
-    on h.id_huesped = f.id_huesped
-group by
-h.id_huesped,
-h.nombre,
-h.correo,
-h.documento,
-h.tipo_documento
-order by gasto_total desc;
-
-select * from vista_gasto_historica;
-
----------------Servicios mas consumidos por tipo habitacion ------------------
-CREATE OR REPLACE view servicios_mas_consumidos_tipo_habitacion AS
-select 
-    th.id_tipo_habitacion,
-    th.tipo_habitacion,
-    s.id_servicio,
-    s.tipo_servicio,
-    SUM(df_serv.cantidad) AS total_consumos
-from detalle_factura df_serv
-	inner join servicio s 
-		on df_serv.id_servicio = s.id_servicio
-	inner join  factura f 
-		on df_serv.id_factura = f.id_factura
-	inner join  estadia e 
-		on f.id_estadia = e.id_estadia
-	inner join  detalle_reservacion dr
-		on e.id_reservacion = dr.id_reservacion
-	inner join  habitacion h
-		on dr.id_habitacion = h.id_habitacion
-	inner join tipo_habitacion th 
-		on h.id_tipo_habitacion = th.id_tipo_habitacion
-group by
-    th.id_tipo_habitacion,
-    th.tipo_habitacion,
-    s.id_servicio,
-    s.tipo_servicio
-order by
-    th.tipo_habitacion,
-    total_consumos DESC;
-
-select * from servicios_mas_consumidos_tipo_habitacion;
-
 --------------- Tasa de ocupación mensual por tipo de habitación---------------
-drop view if exists vista_tasa_ocupacion_mensual;
-
-create or replace view vista_tasa_ocupacion_mensual as
+create or replace view v_tasa_ocupacion_mensual as
 ---- Desglosamos cada dia de la estadia/reserva
 with dias_ocupados as (
     select 
@@ -149,12 +59,10 @@ from ocupacion_agrupada oa
 join capacidad_habitaciones ch on oa.id_tipo_habitacion = ch.id_tipo_habitacion
 order by oa.mes_anio desc, porcentaje_ocupacion desc;
 
-select * from vista_tasa_ocupacion_mensual;
+select * from v_tasa_ocupacion_mensual;
 
 -----------------Visualizar huespuedes---------------
-DROP VIEW IF EXISTS vista_huespedes_por_hotel;
-
-create or replace view vista_huespedes_por_hotel as
+create or replace view v_huespedes_por_hotel as
 select  
     h.id_huesped, 
     h.nombre huesped, 
@@ -177,13 +85,11 @@ group by
     h.tipo_documento,
     hot.nombre;
 
-select*from vista_huespedes_por_hotel 
+select*from v_huespedes_por_hotel 
 order by nombre_hotel desc,veces_hospedado desc;
 
 -----------------vista general de hotel---------------
-drop view if exists datos_generales_hoteles;
-
-create or replace view datos_generales_hoteles as
+create or replace view v_datos_generales_hoteles as
 -- calcular la ganancia total por año para cada hotel
 with ganancia_por_anio as (
     select 
@@ -254,11 +160,10 @@ left join promedio_mensual pm on hot.id_hotel = pm.id_hotel
 inner join habitaciones_hotel h on hot.id_hotel = h.id_hotel
 order by calificacion desc;
 
-select*from datos_generales_hoteles;
------------------vista facturas ---------------
-DROP VIEW IF EXISTS vista_factura_completa;
+select*from v_datos_generales_hoteles;
 
-CREATE OR REPLACE VIEW vista_factura_completa AS
+-----------------vista facturas ---------------
+CREATE OR REPLACE VIEW v_factura_completa AS
 SELECT 
     -- 1. Información principal de la Factura
     f.id_factura,
@@ -328,28 +233,29 @@ inner JOIN reservacion r oN r.id_reservacion = es.id_reservacion
 inner JOIN empleado e ON e.id_empleado = r.id_empleado
 JOIN huesped h ON h.id_huesped = r.id_huesped;
    
-select * from vista_factura_completa; 
+select * from v_factura_completa; 
 
-
--- Vista que obtiene el total de ingresos por mes correspondientes al año en curso
-CREATE OR REPLACE VIEW ingresos_mes AS (
+------------------ Vista que obtiene el total de ingresos por mes correspondientes al año en curso
+CREATE OR REPLACE VIEW v_ingresos_mes AS (
     SELECT
-        EXTRACT('year' FROM CURRENT_DATE) AS año_en_curso,
-        EXTRACT('month' FROM f.fecha) AS num_mes,
+        EXTRACT(YEAR FROM f.fecha) AS anio,
+        EXTRACT(MONTH FROM f.fecha) AS num_mes,
         TO_CHAR(f.fecha, 'Month') AS mes,
         SUM(f.total_a_pagar) AS ingresos
     FROM factura f
-    WHERE
-        -- Filtra las facturas para incluir únicamente las generadas en el año actual
-        EXTRACT(YEAR FROM CURRENT_DATE) = EXTRACT('year' FROM f.fecha)
-    GROUP BY año_en_curso, num_mes, mes
-    ORDER BY num_mes ASC
+    GROUP BY 
+        EXTRACT(YEAR FROM f.fecha), 
+        EXTRACT(MONTH FROM f.fecha), 
+        TO_CHAR(f.fecha, 'Month')
+    ORDER BY 
+        anio DESC, 
+        num_mes ASC
 );
 
-select * from ingresos_mes;
-
--- Vista que resume la información general de los hoteles (calificación, capacidad y ganancias)
-CREATE OR REPLACE VIEW info_general_hoteles AS (
+select *from v_ingresos_mes;
+ 	
+----------- Vista que resume la información general de los hoteles (calificación, capacidad y ganancias)
+CREATE OR REPLACE VIEW v_info_general_hoteles AS (
     SELECT
         h.nombre AS hotel,
         h.calificacion,
@@ -367,12 +273,11 @@ CREATE OR REPLACE VIEW info_general_hoteles AS (
     GROUP BY h.id_hotel
 );
 
-SELECT * FROM info_general_hoteles;
+SELECT * FROM v_info_general_hoteles;
 
 
 ---------------Habitaciones disponibles en un rango de fechas ------------------
-
-create view vista_habitaciones_disponibles AS
+create OR REPLACE view v_habitaciones_disponibles AS
 select
     h.id_habitacion,
     ho.nombre AS hotel,
@@ -391,7 +296,7 @@ inner join tipo_habitacion th
 where h.estado = 'DISPONIBLE';
 
 
-select * from vista_habitaciones_disponibles vh
+select * from v_habitaciones_disponibles vh
 where not exists (
     select 1
     from detalle_reservacion dr
@@ -405,9 +310,8 @@ where not exists (
       )
 );
 
----------------Huespedes con mayor gasto historico ------------------
-
-create view vista_gasto_historica AS
+---------------VISTA de Huespedes con mayor gasto historico ------------------
+create OR REPLACE view v_gasto_historica AS
 select
     h.id_huesped,
     h.nombre AS huesped,
@@ -427,12 +331,11 @@ h.documento,
 h.tipo_documento
 order by gasto_total desc;
 
-select * from vista_gasto_historica;
+select * from v_gasto_historica;
 
 
----------------Servicios mas consumidos por tipo habitacion ------------------
-
-create view servicios_mas_consumidos_tipo_habitacion AS
+---------------vista Servicios mas consumidos por tipo habitacion ------------------
+create OR REPLACE view v_servicios_mas_consumidos_tipo_habitacion AS
 select 
     th.id_tipo_habitacion,
     th.tipo_habitacion,
@@ -461,10 +364,10 @@ order by
     th.tipo_habitacion,
     total_consumos DESC;
 
-select * from servicios_mas_consumidos_tipo_habitacion;
+select * from v_servicios_mas_consumidos_tipo_habitacion;
 
----dias_restantes_reservacion--
-create view dias_restantes_reservacion as
+---------------------------- VISTA dias_restantes_reservacion -----------------
+create OR REPLACE view v_dias_restantes_reservacion as
 select
     r.id_reservacion, h.nombre as nombre_huesped, h.documento as documento_huesped,
     h.telefono as telefono_huesped, e.nombre as nombre_empleado, r.cant_huespedes_totales,
@@ -483,13 +386,10 @@ group by
 order by
     dias_para_iniciar asc;
 
-select * from dias_restantes_reservacion;
+select * from v_dias_restantes_reservacion;
 
----detalle_habitacion_comodidas---
-
-drop view detalle_habitaciones_y_comodidades
-
-create view detalle_habitaciones_y_comodidades as
+------------------ VISTA DE detalle_habitacion_comodidas----------------------------
+create OR REPLACE view v_detalle_habitaciones_y_comodidades as
 select 
     h.id_habitacion, h.numero_habitacion, h.precio,
     h.estado, h.capacidad_maxima, th.tipo_habitacion,
@@ -512,11 +412,10 @@ group by
 order by 
     th.tipo_habitacion, h.numero_habitacion;
 
-select * from detalle_habitaciones_y_comodidades;
+select * from v_detalle_habitaciones_y_comodidades;
 
----Vista total habitaciones por tipo---
-
-create view total_habitaciones_por_tipo as
+---------------------------Vista total habitaciones por tipo---------------------
+create OR REPLACE view v_total_habitaciones_por_tipo as
 select 
     th.tipo_habitacion,
     count(h.id_habitacion) as total_habitaciones
@@ -528,10 +427,10 @@ group by
 order by 
     total_habitaciones desc;
 
-select * from total_habitaciones_por_tipo;
+select * from v_total_habitaciones_por_tipo;
 
 --- Visualizar el consumo de una estadia de los huespedes ---
-create view vista_consumo_estadia as
+create OR REPLACE view v_consumo_estadia as
 select
     e.id_estadia,
     h.nombre,
@@ -572,10 +471,10 @@ inner join reservacion r on e.id_reservacion = r.id_reservacion
 inner join huesped h on r.id_huesped = h.id_huesped
 left join factura f on e.id_estadia = f.id_estadia;
 
-select * from vista_consumo_estadia;
+select * from v_consumo_estadia;
 
--- Visualizar los empleados y sus roles(Tipo_empleado) --
-create view vista_tipo_de_empleados as
+------------------ Visualizar los empleados y sus roles(Tipo_empleado) --------------------------
+create view v_tipo_de_empleados as
 select
 e.nombre as Empleado, 
 e.dui as Documento_de_identidad, 
@@ -586,4 +485,4 @@ e.salario as Salario
 from empleado e
 inner join tipo_empleado te on e.id_tipo_empleado = te.id_tipo_empleado;
 
-select * from vista_tipo_de_empleados;
+select * from v_tipo_de_empleados;
