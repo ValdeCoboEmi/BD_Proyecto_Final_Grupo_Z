@@ -178,6 +178,7 @@ SELECT
     -- 3. Datos del Huésped
     h.nombre AS nombre_huesped,
     h.correo AS correo_huesped,
+    h.id_huesped,
 
     -- 4. COLUMNA COMPUESTA: Arreglo JSON con todo el detalle desglosado
     COALESCE(

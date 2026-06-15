@@ -95,7 +95,6 @@ EXECUTE FUNCTION fn_actualizar_calificacion_hotel();
 -- id_estadia (bigint, es el id de la estadia a procesar)
 -- id_empleado (bigint, el id del empleado que cobra la factura)
 -- metodo_pago (varchar, el metodo de pago de la factura)
-
 CREATE OR REPLACE PROCEDURE sp_calcular_total_factura(
     p_id_estadia BIGINT,
     p_id_empleado BIGINT,
