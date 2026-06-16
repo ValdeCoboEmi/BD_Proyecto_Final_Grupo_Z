@@ -1,0 +1,20 @@
+-- Creacion del trigger 
+CREATE or replace TRIGGER trg_actualizar_calificacion
+AFTER INSERT OR UPDATE ON resenia
+FOR EACH ROW
+EXECUTE FUNCTION fn_actualizar_calificacion_hotel();
+
+--- INSERT QUE EJECUTA CORRECTAMENTE ---
+--Para esto, primero debemos hacer un par de insert previos para poder añadir una reseña
+INSERT INTO estadia (id_reservacion,checkin) VALUES (1,NOW());
+
+INSERT INTO resenia (id_estadia,id_huesped,calificacion,comentario)
+VALUES (1001,887,5.0,'Excelente servicio');
+
+--en caso de que el id estadia no sea igual. se puede ejecutar la siguiente consulta y cambiar el id
+SELECT MAX(id_estadia)
+FROM estadia;
+
+--- INSERT QUE EJECUTA UN ERROR ---
+INSERT INTO resenia (id_estadia,id_huesped,calificacion,comentario)
+VALUES (45,841,4.9,'Excelente servicio');
