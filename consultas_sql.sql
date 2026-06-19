@@ -398,8 +398,8 @@ select
      from habitacion h2 
      where h2.id_tipo_habitacion = th.id_tipo_habitacion
     ) as total_habitaciones_este_tipo,
-    string_agg(tc.tipo_comodidad, ', ') as comodidades,
-    count(tc.id_tipo_comodidad) as total_comodidades
+    string_agg( distinct tc.tipo_comodidad, ', ') as comodidades,
+    count(distinct tc.id_tipo_comodidad) as total_comodidades
 from habitacion h
 inner join tipo_habitacion th 
     on h.id_tipo_habitacion = th.id_tipo_habitacion
@@ -475,7 +475,7 @@ left join factura f on e.id_estadia = f.id_estadia;
 select * from v_consumo_estadia;
 
 ------------------ Visualizar los empleados y sus roles(Tipo_empleado) --------------------------
-create view v_tipo_de_empleados as
+create view vista_empleados as
 select
 e.nombre as Empleado, 
 e.dui as Documento_de_identidad, 
@@ -486,4 +486,4 @@ e.salario as Salario
 from empleado e
 inner join tipo_empleado te on e.id_tipo_empleado = te.id_tipo_empleado;
 
-select * from v_tipo_de_empleados;
+select * from vista_empleados;
